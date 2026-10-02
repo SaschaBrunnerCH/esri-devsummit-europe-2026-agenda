@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, rm, stat, writeFile } from 'node:fs/promises';
+import { mkdtemp, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
-import { generateAgenda } from '../scripts/generate-agenda.mjs';
+import { generateAgenda, siteFiles } from '../scripts/generate-agenda.mjs';
 import { buildAgenda, publicAgenda, renderMarkdown } from '../scripts/lib/agenda.mjs';
 import { saveSnapshot } from '../scripts/scrape-agenda.mjs';
 import { validateData } from '../scripts/validate-data.mjs';
@@ -22,7 +22,17 @@ test('generates complete valid exports and leaves unchanged files untouched', as
   const options = await workspace(t);
   const original = await readFile(options.input, 'utf8');
   const result = await generateAgenda(options);
-  assert.deepEqual(result, { changed: ['agenda.json', 'agenda.md', 'agenda.schema.json', 'index.html'], sessions: 2, speakers: 1, occurrences: 2 });
+  const siteDirectory = new URL('../site/', import.meta.url);
+  const sourceFiles = [];
+  for (const name of await readdir(siteDirectory, { recursive: true })) {
+    if (name !== 'README.md' && (await stat(new URL(name, siteDirectory))).isFile()) sourceFiles.push(name);
+  }
+  assert.deepEqual([...siteFiles].sort(), sourceFiles.sort(), 'every site asset must be included in the manifest');
+  assert.deepEqual(result, { changed: ['agenda.json', 'agenda.md', 'agenda.schema.json', ...siteFiles], sessions: 2, speakers: 1, occurrences: 2 });
+  for (const name of siteFiles) {
+    assert.deepEqual(await readFile(join(options.outputDir, name)),
+      await readFile(new URL(`../site/${name}`, import.meta.url)), `${name} must be copied byte for byte`);
+  }
   assert.equal(await readFile(options.input, 'utf8'), original);
   const jsonPath = join(options.outputDir, 'agenda.json');
   const mdPath = join(options.outputDir, 'agenda.md');
@@ -40,9 +50,10 @@ test('generates complete valid exports and leaves unchanged files untouched', as
   assert.ok(md.includes('Example Speaker'));
   assert.ok(md.includes('## Speaker profiles'));
   assert.ok(md.includes(fixture.contentSha256));
-  const timestamps = [(await stat(jsonPath)).mtimeMs, (await stat(mdPath)).mtimeMs];
+  const paths = [jsonPath, mdPath, ...siteFiles.map(name => join(options.outputDir, name))];
+  const timestamps = await Promise.all(paths.map(async path => (await stat(path)).mtimeMs));
   assert.deepEqual((await generateAgenda(options)).changed, []);
-  assert.deepEqual([(await stat(jsonPath)).mtimeMs, (await stat(mdPath)).mtimeMs], timestamps);
+  assert.deepEqual(await Promise.all(paths.map(async path => (await stat(path)).mtimeMs)), timestamps);
 });
 
 test('JSON omits planning metadata while Markdown retains it and restores speaker profiles', async t => {

@@ -8,6 +8,7 @@
   "scripts": {
     "scrape": "node scripts/scrape-agenda.mjs",
     "generate": "node scripts/generate-agenda.mjs",
+    "preview": "node scripts/preview-site.mjs",
     "publish:agenda": "node scripts/publish-agenda.mjs",
     "test": "node --test test/*.test.mjs",
     "discover": "node scripts/discover-data.mjs",

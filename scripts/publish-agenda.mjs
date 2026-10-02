@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 import { spawnSync } from 'node:child_process';
-import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
-import { basename, join, resolve } from 'node:path';
+import { basename, dirname, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { isDeepStrictEqual, parseArgs } from 'node:util';
 import { buildAgenda, publicAgenda, renderJson, renderMarkdown } from './lib/agenda.mjs';
 import { validateData } from './validate-data.mjs';
+import { siteFiles } from './generate-agenda.mjs';
 
-const files = ['agenda.json', 'agenda.md', 'agenda.schema.json', 'index.html'];
+const files = ['agenda.json', 'agenda.md', 'agenda.schema.json', ...siteFiles];
 
 function git(cwd, args, allowed = [0]) {
   const result = spawnSync('git', args, { cwd, encoding: 'utf8' });
@@ -20,8 +21,8 @@ function git(cwd, args, allowed = [0]) {
 export async function publishAgenda({ directory = 'public', repository = process.cwd(), remote = 'origin', input = 'data/raw/agenda.json' } = {}) {
   directory = resolve(directory);
   repository = resolve(repository);
-  const content = new Map(await Promise.all(files.map(async name => [name, await readFile(join(directory, name), 'utf8')])));
-  const agenda = JSON.parse(content.get('agenda.json'));
+  const content = new Map(await Promise.all(files.map(async name => [name, await readFile(join(directory, name))])));
+  const agenda = JSON.parse(content.get('agenda.json').toString('utf8'));
   const errors = validateData(agenda);
   if (errors.length) throw new Error(`Invalid public agenda:\n${errors.join('\n')}`);
   const snapshot = JSON.parse(await readFile(input, 'utf8'));
@@ -30,7 +31,7 @@ export async function publishAgenda({ directory = 'public', repository = process
   const details = buildAgenda(snapshot);
   details.source.scrapedAt = agenda.source.scrapedAt;
   if (!isDeepStrictEqual(agenda, publicAgenda(details))) throw new Error('JSON does not match the raw capture');
-  if (content.get('agenda.md') !== renderMarkdown(details)) throw new Error('Markdown does not match the raw capture');
+  if (content.get('agenda.md').toString('utf8') !== renderMarkdown(details)) throw new Error('Markdown does not match the raw capture');
   const sourceCommit = git(repository, ['rev-parse', 'HEAD']).output;
   const exists = git(repository, ['ls-remote', '--exit-code', '--heads', remote, 'refs/heads/gh-pages'], [0, 2]).status === 0;
   let base = 'HEAD';
@@ -63,6 +64,7 @@ export async function publishAgenda({ directory = 'public', repository = process
     }
     git(worktree, ['rm', '-r', '--ignore-unmatch', '.']);
     for (const [name, value] of content) {
+      await mkdir(dirname(join(worktree, name)), { recursive: true });
       await writeFile(join(worktree, name), value);
       // The Pages artifact and history branch must contain the same files.
       await writeFile(join(directory, name), value);

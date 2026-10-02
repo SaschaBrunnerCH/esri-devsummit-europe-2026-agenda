@@ -4,7 +4,7 @@ import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
-import { generateAgenda } from '../scripts/generate-agenda.mjs';
+import { generateAgenda, siteFiles } from '../scripts/generate-agenda.mjs';
 import { publishAgenda } from '../scripts/publish-agenda.mjs';
 import { saveSnapshot } from '../scripts/scrape-agenda.mjs';
 
@@ -42,9 +42,12 @@ test('publication creates a separate history containing only public files and no
   const first = await publishAgenda(options);
   assert.equal(first.changed, true);
   assert.equal(git(remote, 'rev-list', '--count', 'gh-pages'), '1');
-  assert.equal(git(remote, 'ls-tree', '-r', '--name-only', 'gh-pages'), 'agenda.json\nagenda.md\nagenda.schema.json\nindex.html');
-  for (const name of ['agenda.json', 'agenda.md', 'agenda.schema.json', 'index.html']) {
-    assert.equal(git(remote, 'show', `gh-pages:${name}`), (await readFile(join(outputDir, name), 'utf8')).trim());
+  const files = ['agenda.json', 'agenda.md', 'agenda.schema.json', ...siteFiles].sort();
+  assert.equal(git(remote, 'ls-tree', '-r', '--name-only', 'gh-pages'), files.join('\n'));
+  for (const name of files) {
+    const result = spawnSync('git', ['show', `gh-pages:${name}`], { cwd: remote });
+    assert.equal(result.status, 0, result.stderr.toString());
+    assert.deepEqual(result.stdout, await readFile(join(outputDir, name)), `${name} must retain its exact bytes`);
   }
   const later = { ...structuredClone(fixture), scrapedAt: '2026-10-03T06:57:19.559Z' };
   await writeFile(input, JSON.stringify(later));

@@ -1,17 +1,21 @@
 #!/usr/bin/env node
 import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
-import { join, resolve } from 'node:path';
+import { dirname, join, resolve } from 'node:path';
 import { parseArgs } from 'node:util';
 import { pathToFileURL } from 'node:url';
 import { buildAgenda, publicAgenda, renderJson, renderMarkdown } from './lib/agenda.mjs';
 import { validateData } from './validate-data.mjs';
 
+export const siteFiles = ['index.html', 'styles.css', 'main.mjs', 'examples.mjs', 'assets/event-banner.webp'];
+
 async function writeChanged(path, content) {
-  try { if (await readFile(path, 'utf8') === content) return false; }
+  const bytes = Buffer.isBuffer(content) ? content : Buffer.from(content);
+  try { if ((await readFile(path)).equals(bytes)) return false; }
   catch (error) { if (error.code !== 'ENOENT') throw error; }
+  await mkdir(dirname(path), { recursive: true });
   const temporary = `${path}.${process.pid}.tmp`;
   try {
-    await writeFile(temporary, content, { flag: 'wx' });
+    await writeFile(temporary, bytes, { flag: 'wx' });
     await rename(temporary, path);
   } finally { await rm(temporary, { force: true }); }
   return true;
@@ -29,7 +33,8 @@ export async function generateAgenda({ input = 'data/raw/agenda.json', outputDir
     ['agenda.json', renderJson(agenda)],
     ['agenda.md', renderMarkdown(details)],
     ['agenda.schema.json', await readFile(new URL('../schemas/agenda.schema.json', import.meta.url), 'utf8')],
-    ['index.html', await readFile(new URL('../site/index.html', import.meta.url), 'utf8')],
+    ...await Promise.all(siteFiles
+      .map(async name => [name, await readFile(new URL(`../site/${name}`, import.meta.url))])),
   ];
   await mkdir(outputDir, { recursive: true });
   const changed = [];

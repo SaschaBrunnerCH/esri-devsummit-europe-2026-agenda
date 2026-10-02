@@ -1,19 +1,83 @@
 <!doctype html>
 <html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Esri European Developer &amp; Technology Summit 2026 agenda</title>
-<style>
-  body { font: 1rem/1.6 system-ui, sans-serif; max-width: 48rem; margin: 3rem auto; padding: 0 1rem; }
-  a { color: #005e95; }
-</style>
-<h1>Esri European Developer &amp; Technology Summit 2026</h1>
-<p>Unofficial agenda exports, refreshed daily from <a href="https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda">Esri's official agenda</a>.</p>
-<ul>
-  <li><a href="agenda.json">JSON agenda</a> for agents and applications</li>
-  <li><a href="agenda.md">Markdown agenda</a> for reading and sharing</li>
-  <li><a href="agenda.schema.json">JSON schema</a> describing the data</li>
-</ul>
-<p>To build your schedule, give your agent the JSON link, your interests, available days, and preferred session types. Ask it to explain its choices, avoid overlapping sessions, and use the event timezone.</p>
-<p>The catalogue includes activities shared with the Partner Conference. Use each session's catalogue membership when filtering.</p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Esri European Developer &amp; Technology Summit 2026 — Agenda data</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23333186'/%3E%3Cpath d='M11 12h18M11 20h18M11 28h12' stroke='%230ac6b1' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="main.mjs"></script>
+</head>
+<body>
+  <header class="event-banner">
+    <h1>Esri European Developer &amp;<br>Technology Summit</h1>
+    <p>20–22 October 2026 · Frankfurt, Germany</p>
+    <a class="event-link" href="https://www.esri.com/en-us/about/events/euro-devtech/overview" target="_blank" rel="noopener">Event details</a>
+  </header>
+  <main class="container">
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="eyebrow">Agent-readable agenda</p>
+      <h2 id="intro-title">Let your agent build your personal agenda.</h2>
+      <p>Give GitHub Copilot, Codex, Claude, or another agent the session data and your preferences. Let it find relevant sessions and resolve overlaps for you.</p>
+    </section>
+
+    <section class="files" aria-label="Agenda files">
+      <article>
+        <div><h3>JSON <span>.json</span></h3><p>Share the link with your agent, or attach the file.</p></div>
+        <div class="file-actions"><button type="button" class="button" data-copy="json">Copy JSON link</button><a href="agenda.json" download>Download ↓</a></div>
+      </article>
+      <article>
+        <div><h3>Markdown <span>.md</span></h3><p>Download and attach it to your chat.</p></div>
+        <div class="file-actions"><a class="button" href="agenda.md" download>Download Markdown ↓</a><a href="agenda.md">Open file ↗</a></div>
+      </article>
+    </section>
+
+    <p class="prompt-tip">If your agent cannot read the full agenda, <a href="agenda.json" download>download the JSON</a> and attach it to the same chat, then ask it to continue.</p>
+
+    <ol class="steps" aria-label="How to use the agenda">
+      <li><span>1</span> Attach a file or share the JSON link.</li>
+      <li><span>2</span> Add your interests and available days.</li>
+      <li><span>3</span> Ask your agent for a schedule.</li>
+    </ol>
+
+    <section class="prompt" aria-labelledby="prompt-title">
+      <div class="prompt-heading"><div><h2 id="prompt-title">Start with this prompt</h2><p>Edit the bracketed details; delete levels or formats you don’t want.</p></div><button type="button" class="button" data-copy="prompt">Copy prompt</button></div>
+      <label class="sr-only" for="prompt-text">Editable scheduling prompt</label>
+      <textarea id="prompt-text" spellcheck="false">Build my personal agenda for the Esri European Developer &amp; Technology Summit, 20–22 October 2026.
+Use this JSON:
+https://saschabrunnerch.github.io/esri-devsummit-europe-2026-agenda/agenda.json
+
+Read and parse the entire JSON; use an attached agenda.json if available. Verify all my available days and the closing session are present. If access is blocked, the response is truncated, or you cannot confirm completeness, stop and ask me to download agenda.json from the link above and attach it to this chat. Resume only after reading the complete file.
+
+Interests: [JavaScript mapping apps, web components, 3D, and AI development]
+Experience: [Beginner, Intermediate, Advanced, All Attendees]
+Available days: [20, 21, and 22 October]
+Preferred formats: [Technical Session, User Presentation, Plenary, SpeedGeeking, Partner Presentation, Closing Session, Conference Activity, Social Activity]
+
+If you already know my work, projects, or goals, use that context to refine my interests and judge which sessions fit me best. Explain your assumptions.
+Choose Developer Summit sessions, including the shared plenary and closing session. Exclude partner-only activities.
+
+Start with a 2–3 sentence summary of the main themes and what I can expect to learn.
+Then return two tables:
+- My agenda: date, start/end, title linked to the official session page, room, and why it fits.
+- Good alternatives: the same columns, plus which selected session each replaces or which free slot it fills.
+
+Use Europe/Berlin times and omit IDs. Keep the agenda free of overlaps and repeats, including after any swaps.
+Use only the supplied session data; flag gaps and ask for missing preferences. State the source capture date and remind me to check the official agenda.</textarea>
+      <p class="prompt-tip">Unsure what to list? Ask: “Use what you already know about my work and goals to choose sessions for me, including topics I might overlook.”</p>
+      <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="examples" aria-labelledby="examples-title">
+      <h2 id="examples-title">Example output</h2>
+      <p class="examples-intro">Illustrative agendas for all three days, including the shared plenary and closing session. Times: Europe/Berlin.</p>
+      <div id="role-tabs" class="role-tabs" role="tablist" aria-label="Example roles"></div>
+      <div id="example-output" role="tabpanel"><p>Loading examples…</p></div>
+    </section>
+  </main>
+  <footer class="container">
+    <p>Unofficial data companion · Last update: <time id="last-update">Loading…</time> · <a href="https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda" target="_blank" rel="noopener">Esri’s official agenda</a>.</p>
+    <p><a href="agenda.schema.json">JSON schema</a> · Event artwork © 2026 <a href="https://www.esri.com/en-us/about/events/euro-devtech/overview" target="_blank" rel="noopener">Esri</a></p>
+  </footer>
+</body>
 </html>
