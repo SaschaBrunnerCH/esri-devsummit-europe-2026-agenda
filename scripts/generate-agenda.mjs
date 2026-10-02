@@ -3,7 +3,7 @@ import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { parseArgs } from 'node:util';
 import { pathToFileURL } from 'node:url';
-import { buildAgenda, renderJson, renderMarkdown } from './lib/agenda.mjs';
+import { buildAgenda, publicAgenda, renderJson, renderMarkdown } from './lib/agenda.mjs';
 import { validateData } from './validate-data.mjs';
 
 async function writeChanged(path, content) {
@@ -21,12 +21,13 @@ export async function generateAgenda({ input = 'data/raw/agenda.json', outputDir
   const snapshot = JSON.parse(await readFile(input, 'utf8'));
   const rawErrors = validateData(snapshot, { raw: true });
   if (rawErrors.length) throw new Error(`Invalid raw capture:\n${rawErrors.join('\n')}`);
-  const agenda = buildAgenda(snapshot);
+  const details = buildAgenda(snapshot);
+  const agenda = publicAgenda(details);
   const errors = validateData(agenda);
   if (errors.length) throw new Error(`Invalid public agenda:\n${errors.join('\n')}`);
   const exports = [
     ['agenda.json', renderJson(agenda)],
-    ['agenda.md', renderMarkdown(agenda)],
+    ['agenda.md', renderMarkdown(details)],
     ['agenda.schema.json', await readFile(new URL('../schemas/agenda.schema.json', import.meta.url), 'utf8')],
     ['index.html', await readFile(new URL('../site/index.html', import.meta.url), 'utf8')],
   ];
@@ -34,7 +35,7 @@ export async function generateAgenda({ input = 'data/raw/agenda.json', outputDir
   const changed = [];
   for (const [name, content] of exports) if (await writeChanged(join(outputDir, name), content)) changed.push(name);
   return { changed, sessions: agenda.sessions.length,
-    speakers: new Set(agenda.sessions.flatMap(session => session.speakers.map(speaker => speaker.speakerId))).size,
+    speakers: details.speakers.length,
     occurrences: agenda.sessions.reduce((total, session) => total + session.occurrences.length, 0) };
 }
 

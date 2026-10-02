@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
 import { generateAgenda } from '../scripts/generate-agenda.mjs';
-import { buildAgenda, renderMarkdown } from '../scripts/lib/agenda.mjs';
+import { buildAgenda, publicAgenda, renderMarkdown } from '../scripts/lib/agenda.mjs';
 import { saveSnapshot } from '../scripts/scrape-agenda.mjs';
 import { validateData } from '../scripts/validate-data.mjs';
 
@@ -31,18 +31,47 @@ test('generates complete valid exports and leaves unchanged files untouched', as
   const sessionLines = jsonText.split('\n').filter(line => line.startsWith('    {"id":'));
   assert.deepEqual(sessionLines.map(line => JSON.parse(line.trim().replace(/,$/, ''))), json.sessions,
     'each session must occupy one complete line for readable diffs');
-  assert.deepEqual(json, buildAgenda(fixture), 'formatting must preserve the public data');
+  assert.deepEqual(json, publicAgenda(buildAgenda(fixture)), 'formatting must preserve the public data');
   assert.deepEqual(validateData(json), []);
   assert.equal(json.source.contentSha256, fixture.contentSha256);
   assert.deepEqual(json.sessions.map(session => session.id), fixture.sessions.map(session => session.sessionID));
   const md = await readFile(mdPath, 'utf8');
   for (const session of fixture.sessions) assert.ok(md.includes(session.title));
   assert.ok(md.includes('Example Speaker'));
-  assert.equal(md.includes('## Speaker profiles'), false);
+  assert.ok(md.includes('## Speaker profiles'));
   assert.ok(md.includes(fixture.contentSha256));
   const timestamps = [(await stat(jsonPath)).mtimeMs, (await stat(mdPath)).mtimeMs];
   assert.deepEqual((await generateAgenda(options)).changed, []);
   assert.deepEqual([(await stat(jsonPath)).mtimeMs, (await stat(mdPath)).mtimeMs], timestamps);
+});
+
+test('JSON omits planning metadata while Markdown retains it and restores speaker profiles', async t => {
+  const options = await workspace(t);
+  const snapshot = structuredClone(fixture);
+  const session = snapshot.sessions[0];
+  Object.assign(session, { code: 'TEST-CODE', language: 'de', modified: '2026-10-02T00:00:00Z' });
+  Object.assign(session.times[0], { room: 'Example Room', roomId: 'test-room', inPersonTime: true, virtualTime: false });
+  Object.assign(session.participants[0], { displayorder: 2, session: [{ sessionID: session.sessionID, speakerRole: 'Presenter' }] });
+  Object.assign(snapshot.speakers[0], { firstName: 'Example', lastName: 'Speaker',
+    bio: '<p>Event biography.</p>', globalBio: '<p>Global biography.</p>',
+    jobTitle: 'Event job', globalJobtitle: 'Global job', photoURL: 'https://example.com/speaker.png' });
+  const { scrapedAt, contentSha256, ...payload } = snapshot;
+  await saveSnapshot(options.input, payload, { now: () => scrapedAt });
+  await generateAgenda(options);
+  const json = JSON.parse(await readFile(join(options.outputDir, 'agenda.json'), 'utf8'));
+  const entry = json.sessions.find(entry => entry.id === session.sessionID);
+  assert.deepEqual(entry.speakers, ['Example Speaker']);
+  assert.equal(Object.hasOwn(json, 'speakers'), false);
+  for (const key of ['code', 'language', 'sourceModifiedAt']) assert.equal(Object.hasOwn(entry, key), false);
+  for (const key of ['durationMinutes', 'inPerson', 'virtual']) assert.equal(Object.hasOwn(entry.occurrences[0], key), false);
+  assert.deepEqual(entry.occurrences[0].room, { name: 'Example Room' });
+  const md = await readFile(join(options.outputDir, 'agenda.md'), 'utf8');
+  for (const text of ['Code: TEST-CODE', '- Language: de', '- Source modified: 2026-10-02T00:00:00Z',
+    '60 minutes', 'In person: yes; Virtual: no', '- Room ID: test-room', 'Example company; Presenter; ID: fixture-speaker; Order: 2',
+    '## Speaker profiles', '- First name: Example', '- Last name: Speaker', '- Job title: Event job',
+    'Event biography.', '[Photo](<https://example.com/speaker.png>)']) assert.ok(md.includes(text), text);
+  assert.equal(md.includes('Global biography.'), false);
+  assert.equal(md.includes('Global job'), false);
 });
 
 test('invalid captures and parsing failures preserve both previous exports', async t => {
@@ -75,7 +104,7 @@ test('Markdown orders sessions chronologically, retains repeats, and includes un
       localStart: { date: '2026-10-21', time: '11:00' }, localEnd: { date: '2026-10-21', time: '12:00' } },
   ];
   agenda.sessions.push({ ...structuredClone(agenda.sessions[0]), id: 'unscheduled', title: 'Unscheduled entry', occurrences: [] });
-  assert.deepEqual(validateData(agenda), []);
+  assert.deepEqual(validateData(publicAgenda(agenda)), []);
   const md = renderMarkdown(agenda);
   assert.ok(md.indexOf('Fixture session fixture-two') < md.indexOf('Later session'));
   assert.ok(md.indexOf('Later session') < md.indexOf('## Unscheduled'));
@@ -117,7 +146,7 @@ test('JSON and Markdown share date, time, title, and ID ordering regardless of s
   ];
   const original = structuredClone(snapshot);
   const agenda = buildAgenda(snapshot);
-  assert.deepEqual(validateData(agenda), []);
+  assert.deepEqual(validateData(publicAgenda(agenda)), []);
   const ids = ['first-date', 'b-alpha', 'z-alpha', 'a-zulu', 'later-time', 'next-date', 'z-unscheduled', 'a-unscheduled'];
   assert.deepEqual(agenda.sessions.map(entry => entry.id), ids);
   assert.deepEqual(agenda.sessions[1].occurrences.map(entry => entry.id), ['b-alpha-time-a', 'b-alpha-time-z']);

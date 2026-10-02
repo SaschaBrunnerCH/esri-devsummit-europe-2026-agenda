@@ -4,8 +4,8 @@ import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { basename, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { parseArgs } from 'node:util';
-import { renderJson, renderMarkdown } from './lib/agenda.mjs';
+import { isDeepStrictEqual, parseArgs } from 'node:util';
+import { buildAgenda, publicAgenda, renderJson, renderMarkdown } from './lib/agenda.mjs';
 import { validateData } from './validate-data.mjs';
 
 const files = ['agenda.json', 'agenda.md', 'agenda.schema.json', 'index.html'];
@@ -17,14 +17,20 @@ function git(cwd, args, allowed = [0]) {
   return { status: result.status, output: result.stdout.trim() };
 }
 
-export async function publishAgenda({ directory = 'public', repository = process.cwd(), remote = 'origin' } = {}) {
+export async function publishAgenda({ directory = 'public', repository = process.cwd(), remote = 'origin', input = 'data/raw/agenda.json' } = {}) {
   directory = resolve(directory);
   repository = resolve(repository);
   const content = new Map(await Promise.all(files.map(async name => [name, await readFile(join(directory, name), 'utf8')])));
   const agenda = JSON.parse(content.get('agenda.json'));
   const errors = validateData(agenda);
   if (errors.length) throw new Error(`Invalid public agenda:\n${errors.join('\n')}`);
-  if (content.get('agenda.md') !== renderMarkdown(agenda)) throw new Error('Markdown does not match the JSON agenda');
+  const snapshot = JSON.parse(await readFile(input, 'utf8'));
+  const rawErrors = validateData(snapshot, { raw: true });
+  if (rawErrors.length) throw new Error(`Invalid raw capture:\n${rawErrors.join('\n')}`);
+  const details = buildAgenda(snapshot);
+  details.source.scrapedAt = agenda.source.scrapedAt;
+  if (!isDeepStrictEqual(agenda, publicAgenda(details))) throw new Error('JSON does not match the raw capture');
+  if (content.get('agenda.md') !== renderMarkdown(details)) throw new Error('Markdown does not match the raw capture');
   const sourceCommit = git(repository, ['rev-parse', 'HEAD']).output;
   const exists = git(repository, ['ls-remote', '--exit-code', '--heads', remote, 'refs/heads/gh-pages'], [0, 2]).status === 0;
   let base = 'HEAD';
@@ -48,10 +54,11 @@ export async function publishAgenda({ directory = 'public', repository = process
       // Keep the first capture time for unchanged source content; raw artifacts retain each run's capture time.
       if (previous.source.contentSha256 === agenda.source.contentSha256) {
         agenda.source.scrapedAt = previous.source.scrapedAt;
+        details.source.scrapedAt = previous.source.scrapedAt;
         const errors = validateData(agenda);
         if (errors.length) throw new Error(`Invalid publication timestamp:\n${errors.join('\n')}`);
         content.set('agenda.json', renderJson(agenda));
-        content.set('agenda.md', renderMarkdown(agenda));
+        content.set('agenda.md', renderMarkdown(details));
       }
     }
     git(worktree, ['rm', '-r', '--ignore-unmatch', '.']);
@@ -78,12 +85,12 @@ export async function publishAgenda({ directory = 'public', repository = process
 }
 
 async function main() {
-  const { values } = parseArgs({ options: { directory: { type: 'string', default: 'public' }, help: { type: 'boolean', short: 'h' } } });
+  const { values } = parseArgs({ options: { directory: { type: 'string', default: 'public' }, input: { type: 'string', default: 'data/raw/agenda.json' }, help: { type: 'boolean', short: 'h' } } });
   if (values.help) {
-    console.log('Usage: node scripts/publish-agenda.mjs [--directory public]\n\nPushes validated site exports to origin/gh-pages with normal history commits.');
+    console.log('Usage: node scripts/publish-agenda.mjs [--directory public] [--input data/raw/agenda.json]\n\nChecks JSON and Markdown against the raw capture, then pushes exports to origin/gh-pages.');
     return;
   }
-  const result = await publishAgenda({ directory: values.directory });
+  const result = await publishAgenda({ directory: values.directory, input: values.input });
   console.log(`${result.changed ? 'Updated' : 'Unchanged'} gh-pages: ${result.commit}`);
 }
 

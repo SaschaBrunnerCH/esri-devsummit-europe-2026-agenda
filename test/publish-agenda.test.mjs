@@ -33,7 +33,7 @@ async function workspace(t) {
   const outputDir = join(directory, 'public');
   await writeFile(input, JSON.stringify(fixture));
   await generateAgenda({ input, outputDir });
-  return { repository, remote, input, outputDir, options: { repository, directory: outputDir } };
+  return { repository, remote, input, outputDir, options: { repository, directory: outputDir, input } };
 }
 
 test('publication creates a separate history containing only public files and no clock-only changes', async t => {
@@ -57,6 +57,7 @@ test('publication creates a separate history containing only public files and no
     'timestamp preservation must retain one session per line');
   assert.equal(published.source.scrapedAt, fixture.scrapedAt);
   assert.ok((await readFile(join(outputDir, 'agenda.md'), 'utf8')).includes(fixture.scrapedAt));
+  assert.ok((await readFile(join(outputDir, 'agenda.md'), 'utf8')).includes('## Speaker profiles'));
   const { scrapedAt, contentSha256, ...payload } = later;
   payload.sessions[0].title = 'A changed source session';
   await saveSnapshot(input, payload, { now: () => scrapedAt });
@@ -77,9 +78,25 @@ test('invalid JSON or mismatched Markdown leaves the publication branch unchange
   await writeFile(join(outputDir, 'agenda.md'), 'Stale Markdown');
   await assert.rejects(publishAgenda(options), /Markdown does not match/);
   const agenda = JSON.parse(await readFile(join(outputDir, 'agenda.json'), 'utf8'));
-  agenda.sessions[0].speakers.push(structuredClone(agenda.sessions[0].speakers[0]));
+  agenda.sessions[0].speakers.push('');
   await writeFile(join(outputDir, 'agenda.json'), JSON.stringify(agenda));
-  await assert.rejects(publishAgenda(options), /Duplicate speaker assignment/);
+  await assert.rejects(publishAgenda(options), /Invalid public agenda/);
+  assert.equal(git(remote, 'rev-parse', 'gh-pages'), first.commit);
+});
+
+test('publication rejects a valid JSON bundle or speaker appendix from a different capture', async t => {
+  const { remote, outputDir, options } = await workspace(t);
+  const first = await publishAgenda(options);
+  const path = join(outputDir, 'agenda.json');
+  const original = await readFile(path, 'utf8');
+  const agenda = JSON.parse(original);
+  agenda.sessions[0].description = 'Content from another capture';
+  await writeFile(path, JSON.stringify(agenda));
+  await assert.rejects(publishAgenda(options), /JSON does not match the raw capture/);
+  await writeFile(path, original);
+  const mdPath = join(outputDir, 'agenda.md');
+  await writeFile(mdPath, (await readFile(mdPath, 'utf8')).replace('Biography not provided.', 'Incorrect speaker biography'));
+  await assert.rejects(publishAgenda(options), /Markdown does not match the raw capture/);
   assert.equal(git(remote, 'rev-parse', 'gh-pages'), first.commit);
 });
 

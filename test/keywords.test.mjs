@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 import { buildKeywordCatalog, splitKeywords } from '../scripts/lib/keywords.mjs';
 import { validateData } from '../scripts/validate-data.mjs';
-import { buildAgenda } from '../scripts/lib/agenda.mjs';
+import { buildAgenda, publicAgenda } from '../scripts/lib/agenda.mjs';
 
 const session = (id, value) => ({ sessionID: id, attributevalues: [{ attribute_id: 'Keywords', value }] });
 
@@ -66,7 +66,7 @@ test('conflicting reviewed aliases require explicit resolution', () => {
 
 test('fixture keywords produce valid readable session labels', async () => {
   const raw = JSON.parse(await readFile(new URL('./fixtures/raw-agenda.json', import.meta.url), 'utf8'));
-  const proposed = buildAgenda(raw);
+  const proposed = publicAgenda(buildAgenda(raw));
   const parsed = buildKeywordCatalog(raw.sessions);
   assert.deepEqual(validateData(proposed), []);
   for (const entry of proposed.sessions) {
@@ -77,7 +77,7 @@ test('fixture keywords produce valid readable session labels', async () => {
 
 test('public keyword lists accept labels and reject duplicates and blank values', async () => {
   const raw = JSON.parse(await readFile(new URL('./fixtures/raw-agenda.json', import.meta.url), 'utf8'));
-  const proposed = buildAgenda(raw);
+  const proposed = publicAgenda(buildAgenda(raw));
   proposed.sessions[0].keywords = ['C++', 'C#'];
   assert.deepEqual(validateData(proposed), []);
   for (const keywords of [['AI', 'AI'], [''], [' '], [null]]) {

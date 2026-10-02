@@ -5,10 +5,10 @@ import test from 'node:test';
 import { discoverData } from '../scripts/discover-data.mjs';
 import { canonical } from '../scripts/scrape-agenda.mjs';
 import { sourceUtc, validateData } from '../scripts/validate-data.mjs';
-import { buildAgenda } from '../scripts/lib/agenda.mjs';
+import { buildAgenda, publicAgenda } from '../scripts/lib/agenda.mjs';
 
 const fixture = JSON.parse(await readFile(new URL('./fixtures/raw-agenda.json', import.meta.url), 'utf8'));
-const proposal = buildAgenda(fixture);
+const proposal = publicAgenda(buildAgenda(fixture));
 const clone = value => structuredClone(value);
 const updateDigest = data => {
   const { scrapedAt, contentSha256, ...payload } = data;
@@ -21,17 +21,16 @@ test('raw schema and semantic checks accept the synthetic source fixture', () =>
 
 test('public schema preserves sessions, occurrences, and session speakers without separate profiles', () => {
   const raw = fixture;
-  const agenda = buildAgenda(raw);
+  const agenda = publicAgenda(buildAgenda(raw));
   assert.deepEqual(validateData(agenda), []);
   assert.equal(agenda.sessions.length, raw.sessions.length);
-  assert.equal(agenda.schemaVersion, '2.0.0');
+  assert.equal(agenda.schemaVersion, '3.0.0');
   assert.equal(Object.hasOwn(agenda, 'speakers'), false);
   for (const session of agenda.sessions) {
     const source = raw.sessions.find(entry => entry.sessionID === session.id);
     assert.equal(session.occurrences.length, source.times?.length ?? 0);
     assert.equal(session.speakers.length, source.participants?.length ?? 0);
-    assert.deepEqual(session.speakers.map(speaker => [speaker.speakerId, speaker.name, speaker.company]),
-      source.participants.map(speaker => [speaker.speakerId, speaker.fullName, speaker.companyName]));
+    assert.deepEqual(session.speakers, source.participants.map(speaker => speaker.fullName));
     assert.equal(session.topic, source.attributevalues.find(attribute => attribute.attribute_id === 'Topic')?.value.trim() || null);
   }
 });
@@ -67,7 +66,7 @@ test('accepts source refreshes with missing metadata, unscheduled sessions, and 
   candidate.sessions[0].attributevalues[0].value = 'Alpha Beta Gamma Delta';
   updateDigest(candidate);
   assert.deepEqual(validateData(candidate, { raw: true }), []);
-  const agenda = buildAgenda(candidate);
+  const agenda = publicAgenda(buildAgenda(candidate));
   assert.deepEqual(validateData(agenda), []);
   const session = agenda.sessions.find(entry => entry.id === candidate.sessions[0].sessionID);
   assert.equal(session.description, null);
@@ -80,14 +79,14 @@ test('accepts source refreshes with missing metadata, unscheduled sessions, and 
 test('allows absent metadata, unscheduled sessions, repeats, and new source classification labels', () => {
   const candidate = clone(proposal);
   const session = candidate.sessions[0];
-  Object.assign(session, { description: null, code: null, language: null, level: null, sourceModifiedAt: null,
+  Object.assign(session, { description: null, level: null,
     topic: null, products: [], capabilities: [], technologies: [], keywords: [], sessionType: 'Future Official Session Type' });
   const firstOccurrence = clone(session.occurrences[0]);
   session.occurrences = [];
   assert.deepEqual(validateData(candidate), []);
   session.occurrences = [firstOccurrence, { ...clone(firstOccurrence), id: 'repeat-test-occurrence' }];
   assert.deepEqual(validateData(candidate), []);
-  Object.assign(session.occurrences[0], { room: null, inPerson: null, virtual: null });
+  session.occurrences[0].room = null;
   assert.deepEqual(validateData(candidate), []);
 });
 
@@ -95,6 +94,11 @@ test('rejects unknown public properties and invalid formats', () => {
   for (const mutate of [
     data => { data.unexpected = true; },
     data => { data.speakers = []; },
+    data => { data.sessions[0].speakers = [{ name: 'Example Speaker' }]; },
+    data => { data.sessions[0].speakers = ['']; },
+    data => { data.sessions[0].language = 'en'; },
+    data => { data.sessions[0].occurrences[0].room = { id: 'room-id', name: 'Room' }; },
+    data => { data.sessions[0].occurrences[0].durationMinutes = 60; },
     data => { data.sessions[0].url = 'http://example.com/session'; },
     data => { data.sessions[0].occurrences[0].startsAt = '2026-02-30T10:00:00Z'; },
     data => { data.sessions[0].occurrences[0].startsAt = '2026-10-21T10:00:00'; },
@@ -106,11 +110,10 @@ test('rejects unknown public properties and invalid formats', () => {
   }
 });
 
-test('rejects duplicate session, occurrence, and session speaker IDs', () => {
+test('rejects duplicate session and occurrence IDs', () => {
   for (const [mutate, expected] of [
     [data => data.sessions.push(clone(data.sessions[0])), /Duplicate session ID/],
     [data => { data.sessions[1].occurrences[0].id = data.sessions[0].occurrences[0].id; }, /Duplicate occurrence ID/],
-    [data => data.sessions[0].speakers.push(clone(data.sessions[0].speakers[0])), /Duplicate speaker assignment/],
   ]) {
     const candidate = clone(proposal); mutate(candidate);
     assert.match(validateData(candidate).join('\n'), expected);
@@ -120,6 +123,7 @@ test('rejects duplicate session, occurrence, and session speaker IDs', () => {
 test('raw validation still checks speaker profiles and assignments', () => {
   for (const [mutate, expected] of [
     [data => data.speakers.push(clone(data.speakers[0])), /Duplicate speaker ID/],
+    [data => data.sessions[0].participants.push(clone(data.sessions[0].participants[0])), /Duplicate speaker assignment/],
     [data => { data.sessions[0].participants[0].speakerId = 'missing-speaker'; }, /unknown speaker/],
     [data => { data.sessions[0].participants[0].fullName = 'Incorrect display name'; }, /name disagrees/],
     [data => { data.sessions[0].participants[0].companyName = 'Incorrect company'; }, /company disagrees/],
@@ -129,9 +133,8 @@ test('raw validation still checks speaker profiles and assignments', () => {
   }
 });
 
-test('rejects incorrect durations, reversed times, local dates, and timezones', () => {
+test('rejects reversed times, local dates, and timezones', () => {
   for (const [mutate, expected] of [
-    [data => { data.sessions[0].occurrences[0].durationMinutes++; }, /duration/],
     [data => { data.sessions[0].occurrences[0].endsAt = data.sessions[0].occurrences[0].startsAt; }, /end must be after/],
     [data => { data.sessions[0].occurrences[0].localEnd.date = '2026-10-22'; }, /local date\/time/],
     [data => { data.event.timezone = 'UTC'; }, /local date\/time/],
@@ -145,11 +148,11 @@ test('rejects incorrect durations, reversed times, local dates, and timezones', 
 test('validates timezone offsets across midnight and daylight saving changes', () => {
   const candidate = clone(proposal);
   candidate.sessions[0].occurrences = [{ ...candidate.sessions[0].occurrences[0],
-    startsAt: '2026-10-24T23:30:00Z', endsAt: '2026-10-25T02:30:00Z', durationMinutes: 180,
+    startsAt: '2026-10-24T23:30:00Z', endsAt: '2026-10-25T02:30:00Z',
     localStart: { date: '2026-10-25', time: '01:30' }, localEnd: { date: '2026-10-25', time: '03:30' } }];
   assert.deepEqual(validateData(candidate), []);
   candidate.sessions[0].occurrences[0] = { ...candidate.sessions[0].occurrences[0],
-    startsAt: '2026-10-21T21:30:00Z', endsAt: '2026-10-21T22:30:00Z', durationMinutes: 60,
+    startsAt: '2026-10-21T21:30:00Z', endsAt: '2026-10-21T22:30:00Z',
     localStart: { date: '2026-10-21', time: '23:30' }, localEnd: { date: '2026-10-22', time: '00:30' } };
   assert.deepEqual(validateData(candidate), []);
 });
@@ -160,6 +163,7 @@ test('raw validator detects digest, count, event, parent, and detail inconsisten
     [data => { data.counts.sessions++; }, /Count mismatch/],
     [data => { data.sessions[0].eventId = 'wrong-event'; }, /wrong source event/],
     [data => { data.sessions[0].times[0].sessionID = 'wrong-parent'; }, /wrong parent session/],
+    [data => { data.sessions[0].times[0].length++; }, /duration/],
     [data => { data.catalogItems[0].sessionID = 'missing-session'; }, /no session detail/],
     [data => { data.sessions[0].times[0].utcStartTime = '2026/02/30 10:00:00'; }, /Invalid source UTC timestamp/],
   ]) {

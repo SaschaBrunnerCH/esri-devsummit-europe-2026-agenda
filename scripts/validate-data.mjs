@@ -53,7 +53,7 @@ export function validateData(data, { raw = false } = {}) {
     const start = Date.parse(occurrence.startsAt);
     const end = Date.parse(occurrence.endsAt);
     require(end > start, `${label}: end must be after start`);
-    require((end - start) / 60_000 === occurrence.durationMinutes, `${label}: duration does not match UTC interval`);
+    if (raw) require((end - start) / 60_000 === occurrence.durationMinutes, `${label}: duration does not match UTC interval`);
     for (const [iso, local] of [[occurrence.startsAt, occurrence.localStart], [occurrence.endsAt, occurrence.localEnd]]) {
       const expected = localDateTime(iso, timezone);
       require(expected.date === local.date && expected.time === local.time, `${label}: local date/time disagrees with ${timezone}`);
@@ -62,8 +62,8 @@ export function validateData(data, { raw = false } = {}) {
   for (const session of data.sessions) {
     const id = raw ? session.sessionID : session.id;
     if (raw) require(session.eventId === data.source.eventId, `Session ${id}: wrong source event`);
-    const assignments = raw ? session.participants ?? [] : session.speakers;
-    uniqueIds(assignments, 'speakerId', `speaker assignment in ${id}`);
+    const assignments = raw ? session.participants ?? [] : [];
+    if (raw) uniqueIds(assignments, 'speakerId', `speaker assignment in ${id}`);
     if (raw) for (const assignment of assignments) {
       require(speakerIds.has(assignment.speakerId), `Session ${id}: unknown speaker ${assignment.speakerId}`);
       const profile = profiles.get(assignment.speakerId);
