@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:esri-devsummit-europe-2026:agenda:1",
+  "title": "Esri European Developer & Technology Summit agenda v1",
+  "description": "Public agenda bundle. IDs are opaque source IDs; classifications are source labels. Cross-record and time consistency require the companion validator.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "source", "event", "sessions", "speakers"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["url", "scrapedAt", "contentSha256", "scope"],
+      "properties": {
+        "url": { "$ref": "#/$defs/httpsUrl" },
+        "scrapedAt": { "$ref": "#/$defs/utcTimestamp" },
+        "contentSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "scope": { "$ref": "#/$defs/text" }
+      }
+    },
+    "event": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "catalogName", "timezone"],
+      "properties": {
+        "id": { "$ref": "#/$defs/text" },
+        "name": { "$ref": "#/$defs/text", "description": "Official shared registration event name." },
+        "catalogName": { "$ref": "#/$defs/text", "description": "Name of the selected Developer Summit catalogue." },
+        "timezone": { "$ref": "#/$defs/text", "description": "IANA timezone, validated by Intl; currently Europe/Berlin." }
+      }
+    },
+    "sessions": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/session" } },
+    "speakers": { "type": "array", "items": { "$ref": "#/$defs/speaker" } }
+  },
+  "$defs": {
+    "text": { "type": "string", "minLength": 1, "pattern": "\\S" },
+    "nullableText": { "anyOf": [{ "$ref": "#/$defs/text" }, { "type": "null" }] },
+    "httpsUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "utcTimestamp": { "type": "string", "format": "date-time", "pattern": "Z$" },
+    "nullableTimestamp": { "anyOf": [{ "$ref": "#/$defs/utcTimestamp" }, { "type": "null" }] },
+    "labels": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/text" } },
+    "localDateTime": {
+      "type": "object", "additionalProperties": false, "required": ["date", "time"],
+      "properties": {
+        "date": { "type": "string", "format": "date" },
+        "time": { "type": "string", "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$" }
+      }
+    },
+    "room": {
+      "type": "object", "additionalProperties": false, "required": ["id", "name"],
+      "properties": { "id": { "$ref": "#/$defs/nullableText" }, "name": { "$ref": "#/$defs/text" } }
+    },
+    "occurrence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "startsAt", "endsAt", "durationMinutes", "localStart", "localEnd", "room", "inPerson", "virtual"],
+      "properties": {
+        "id": { "$ref": "#/$defs/text", "description": "Source sessionTimeID; one ID per scheduled occurrence." },
+        "startsAt": { "$ref": "#/$defs/utcTimestamp" },
+        "endsAt": { "$ref": "#/$defs/utcTimestamp" },
+        "durationMinutes": { "type": "integer", "minimum": 1 },
+        "localStart": { "$ref": "#/$defs/localDateTime" },
+        "localEnd": { "$ref": "#/$defs/localDateTime" },
+        "room": { "anyOf": [{ "$ref": "#/$defs/room" }, { "type": "null" }] },
+        "inPerson": { "type": ["boolean", "null"] },
+        "virtual": { "type": ["boolean", "null"] }
+      }
+    },
+    "assignment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["speakerId", "name", "company", "role", "order"],
+      "properties": {
+        "speakerId": { "$ref": "#/$defs/text" },
+        "name": { "$ref": "#/$defs/text", "description": "Event display name, repeated here for self-contained session reads." },
+        "company": { "$ref": "#/$defs/nullableText" },
+        "role": { "$ref": "#/$defs/nullableText", "description": "Role in this specific session, not an aggregate speaker role." },
+        "order": { "type": ["number", "null"], "minimum": 0 }
+      }
+    },
+    "session": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "code", "title", "description", "url", "language", "sessionType", "level", "topic", "products", "capabilities", "technologies", "keywords", "catalogs", "speakers", "occurrences", "sourceModifiedAt"],
+      "properties": {
+        "id": { "$ref": "#/$defs/text", "description": "Source sessionID, preserved unchanged." },
+        "code": { "$ref": "#/$defs/nullableText" },
+        "title": { "$ref": "#/$defs/text" },
+        "description": { "$ref": "#/$defs/nullableText", "description": "Plain text derived from the source abstract, suitable for Markdown and agents." },
+        "url": { "$ref": "#/$defs/httpsUrl" },
+        "language": { "$ref": "#/$defs/nullableText", "description": "Source language label; currently en." },
+        "sessionType": { "$ref": "#/$defs/nullableText" },
+        "level": { "$ref": "#/$defs/nullableText" },
+        "topic": { "$ref": "#/$defs/nullableText", "description": "Single official Topic label; null when absent." },
+        "products": { "$ref": "#/$defs/labels" },
+        "capabilities": { "$ref": "#/$defs/labels" },
+        "technologies": { "$ref": "#/$defs/labels" },
+        "keywords": { "$ref": "#/$defs/labels", "description": "Readable keyword labels after splitting and reviewed alias normalization. Missing keywords become an empty array." },
+        "catalogs": { "$ref": "#/$defs/labels", "description": "Source Catalog Display labels, including shared partner activities." },
+        "speakers": { "type": "array", "items": { "$ref": "#/$defs/assignment" } },
+        "occurrences": { "type": "array", "items": { "$ref": "#/$defs/occurrence" }, "description": "May contain zero (unscheduled), one, or multiple occurrences." },
+        "sourceModifiedAt": { "$ref": "#/$defs/nullableTimestamp" }
+      }
+    },
+    "speaker": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "firstName", "lastName", "company", "jobTitle", "bio", "photoUrl", "sourceModifiedAt"],
+      "properties": {
+        "id": { "$ref": "#/$defs/text", "description": "Source speakerId, preserved unchanged." },
+        "name": { "$ref": "#/$defs/text" },
+        "firstName": { "$ref": "#/$defs/nullableText" },
+        "lastName": { "$ref": "#/$defs/nullableText" },
+        "company": { "$ref": "#/$defs/nullableText" },
+        "jobTitle": { "$ref": "#/$defs/nullableText" },
+        "bio": { "$ref": "#/$defs/nullableText", "description": "Plain text; event biography takes precedence over a global biography." },
+        "photoUrl": { "anyOf": [{ "$ref": "#/$defs/httpsUrl" }, { "type": "null" }] },
+        "sourceModifiedAt": { "$ref": "#/$defs/nullableTimestamp" }
+      }
+    }
+  }
+}
