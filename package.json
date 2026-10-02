@@ -7,11 +7,13 @@
   },
   "scripts": {
     "scrape": "node scripts/scrape-agenda.mjs",
+    "generate": "node scripts/generate-agenda.mjs",
+    "publish:agenda": "node scripts/publish-agenda.mjs",
     "test": "node --test test/*.test.mjs",
     "discover": "node scripts/discover-data.mjs",
-    "validate": "node scripts/validate-data.mjs --raw"
+    "validate": "node scripts/validate-data.mjs --raw && node scripts/validate-data.mjs --agenda public/agenda.json"
   },
-  "devDependencies": {
+  "dependencies": {
     "ajv": "8.20.0",
     "ajv-formats": "3.0.1",
     "html-to-text": "10.0.1"

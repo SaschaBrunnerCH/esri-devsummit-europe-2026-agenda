@@ -5,23 +5,23 @@ import test from 'node:test';
 import { discoverData } from '../scripts/discover-data.mjs';
 import { canonical } from '../scripts/scrape-agenda.mjs';
 import { sourceUtc, validateData } from '../scripts/validate-data.mjs';
-import { proposedAgenda } from './support/agenda-proposal.mjs';
+import { buildAgenda } from '../scripts/lib/agenda.mjs';
 
-const raw = JSON.parse(await readFile(new URL('../data/raw/agenda.json', import.meta.url), 'utf8'));
 const fixture = JSON.parse(await readFile(new URL('./fixtures/raw-agenda.json', import.meta.url), 'utf8'));
-const proposal = proposedAgenda(fixture);
+const proposal = buildAgenda(fixture);
 const clone = value => structuredClone(value);
 const updateDigest = data => {
   const { scrapedAt, contentSha256, ...payload } = data;
   data.contentSha256 = createHash('sha256').update(JSON.stringify(canonical(payload))).digest('hex');
 };
 
-test('raw schema and semantic checks accept the complete captured snapshot', () => {
-  assert.deepEqual(validateData(raw, { raw: true }), []);
+test('raw schema and semantic checks accept the synthetic source fixture', () => {
+  assert.deepEqual(validateData(fixture, { raw: true }), []);
 });
 
-test('proposed schema accepts every real session, occurrence, and speaker', () => {
-  const agenda = proposedAgenda(raw);
+test('public schema preserves every fixture session, occurrence, and speaker', () => {
+  const raw = fixture;
+  const agenda = buildAgenda(raw);
   assert.deepEqual(validateData(agenda), []);
   assert.equal(agenda.sessions.length, raw.sessions.length);
   assert.equal(agenda.speakers.length, raw.speakers.length);
@@ -33,11 +33,12 @@ test('proposed schema accepts every real session, occurrence, and speaker', () =
   }
 });
 
-test('saved discovery report matches the corresponding source capture', async () => {
-  const saved = JSON.parse(await readFile(new URL('../docs/data-discovery.json', import.meta.url), 'utf8'));
-  assert.equal(saved.sourceContentSha256.length, 64);
-  // The saved report describes a particular snapshot; daily refreshes need not rewrite it.
-  if (saved.sourceContentSha256 === raw.contentSha256) assert.deepEqual(saved, discoverData(raw));
+test('discovery counts the fixture and its keyword assignments', () => {
+  const report = discoverData(fixture);
+  assert.deepEqual(report.counts, { catalogEntries: 2, sessions: 2, speakers: 1, occurrences: 2, assignments: 2, rooms: 0 });
+  assert.deepEqual(report.dates, ['2026-10-21']);
+  assert.equal(report.parsedKeywords.catalogTerms, 2);
+  assert.equal(report.parsedKeywords.sessionAssignments, 4);
 });
 
 test('converts fixture HTML descriptions to plain text', () => {
@@ -47,12 +48,12 @@ test('converts fixture HTML descriptions to plain text', () => {
 test('allows a missing topic and rejects multiple distinct source topics without dropping data', () => {
   const candidate = clone(fixture);
   const attributes = candidate.sessions[0].attributevalues;
-  assert.equal(proposedAgenda(candidate).sessions[0].topic, null);
+  assert.equal(buildAgenda(candidate).sessions[0].topic, null);
   const topic = { attribute_id: 'Topic', attribute: 'Topic', value: 'Web' };
   attributes.push(topic, clone(topic));
-  assert.equal(proposedAgenda(candidate).sessions[0].topic, 'Web');
+  assert.equal(buildAgenda(candidate).sessions[0].topic, 'Web');
   attributes.push({ ...topic, value: 'Native SDKs' });
-  assert.throws(() => proposedAgenda(candidate), /fixture-one: multiple Topic labels/);
+  assert.throws(() => buildAgenda(candidate), /fixture-one: multiple Topic labels/);
 });
 
 test('accepts source refreshes with missing metadata, unscheduled sessions, and keyword review diagnostics', () => {
@@ -63,7 +64,7 @@ test('accepts source refreshes with missing metadata, unscheduled sessions, and 
   candidate.sessions[0].attributevalues[0].value = 'Alpha Beta Gamma Delta';
   updateDigest(candidate);
   assert.deepEqual(validateData(candidate, { raw: true }), []);
-  const agenda = proposedAgenda(candidate);
+  const agenda = buildAgenda(candidate);
   assert.deepEqual(validateData(agenda), []);
   assert.equal(agenda.sessions[0].description, null);
   assert.deepEqual(agenda.sessions[0].occurrences, []);

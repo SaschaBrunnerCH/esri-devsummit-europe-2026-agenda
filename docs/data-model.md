@@ -1,6 +1,6 @@
-# Proposed agenda data model
+# Agenda data model
 
-Draft for discussion. Based on the **2026-10-02** snapshot: **120 sessions, 120 occurrences, 74 speakers, 17 rooms, and 363 keyword entries**. See the [discovery report](data-discovery.json) for field coverage and source details.
+Based on the **2026-10-02** snapshot: **120 sessions, 120 occurrences, 74 speakers, 17 rooms, and 363 keyword entries**. See the [discovery report](data-discovery.json) for field coverage and source details.
 
 ## Structure
 
@@ -13,6 +13,10 @@ One JSON bundle, defined by the [public schema](../schemas/agenda.schema.json):
 | `speakers` | Profiles referenced by ID; biographies, companies, titles, and photos |
 
 An occurrence is a scheduled presentation of a session: its own ID, UTC start/end, local date/time, duration, room, and attendance mode. Sessions can have zero or multiple occurrences. Speaker assignments carry the person's role in that session.
+
+The [generator](../scripts/generate-agenda.mjs) validates before writing `public/agenda.json` and `public/agenda.md`, alongside the schema and link page. Markdown orders sessions by their first occurrence, shows all repeats, lists unscheduled sessions last, and includes speaker profiles.
+
+CI stores raw captures as debugging artifacts and commits public exports on `gh-pages`. When source content is unchanged, publication retains its first capture timestamp; the raw artifact records the latest capture. The digest identifies source content, while Git history also records changes to processing and presentation. Local `data/raw/` and `public/` are ignored by Git.
 
 ## Source handling
 
@@ -39,8 +43,8 @@ The [parser](../scripts/lib/keywords.mjs) splits commas, semicolons, newlines, a
 
 The separate [discovery catalogue](keyword-catalog.json) lists labels, aliases, and usage counts: **363 terms and 565 session assignments**. Original keyword text remains in the raw capture. Preserve source terms such as `test` and `close`; official topic/product fields provide stronger preference signals.
 
-## Validation and next steps
+## Validation
 
 The [raw schema](../schemas/raw-agenda.schema.json) permits additional source fields; the public schema rejects extra properties. The [validator](../scripts/validate-data.mjs) also checks IDs, speaker references, UTC/local times, durations, raw counts, and the source digest. Agenda overlaps are valid; personal schedules will resolve conflicts later.
 
-Use the [README](../README.md) for commands. Step 3 generates `public/agenda.json` and `public/agenda.md` from `data/raw/agenda.json` and refreshes both daily. Step 4 publishes `public/` through GitHub Pages and adds scheduling examples.
+Use the [README](../README.md) for commands, endpoints, and the publication layout. The same workflow records history and deploys the Pages artifact directly; it does not depend on the `gh-pages` push triggering another build.

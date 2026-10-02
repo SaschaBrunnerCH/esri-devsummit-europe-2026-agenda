@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "urn:esri-devsummit-europe-2026:agenda:1",
-  "title": "Esri European Developer & Technology Summit agenda — proposed v1",
-  "description": "Proposed public agenda bundle. IDs are opaque source IDs; classifications are source labels. Cross-record and time consistency require the companion validator.",
+  "title": "Esri European Developer & Technology Summit agenda v1",
+  "description": "Public agenda bundle. IDs are opaque source IDs; classifications are source labels. Cross-record and time consistency require the companion validator.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "source", "event", "sessions", "speakers"],

@@ -1,43 +1,42 @@
 # Esri European Developer & Technology Summit 2026 agenda
 
-Session data for the 2026 event in Frankfurt, collected from [Esri's detailed agenda](https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda).
+Session data from [Esri's detailed agenda](https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda), refreshed daily.
 
-The scraper and proposed schemas are ready. Full JSON/Markdown exports and GitHub Pages endpoints are next.
+[JSON endpoint](https://SaschaBrunnerCH.github.io/esri-devsummit-europe-2026-agenda/agenda.json) · [Markdown endpoint](https://SaschaBrunnerCH.github.io/esri-devsummit-europe-2026-agenda/agenda.md) · [Schema endpoint](https://SaschaBrunnerCH.github.io/esri-devsummit-europe-2026-agenda/agenda.schema.json)
 
-## Quick start
+## Local use
 
-Requires **Node.js 24+**. The scraper needs no dependencies or login.
-
-```bash
-npm run scrape
-```
-
-Saves sessions and speaker profiles to [data/raw/agenda.json](data/raw/agenda.json). Run `node scripts/scrape-agenda.mjs --help` for options.
-
-For validation and tests:
+Requires **Node.js 24+**. The scraper uses public source data and needs no login.
 
 ```bash
 npm ci
-npm run validate
 npm test
+npm run scrape
+npm run generate
+npm run validate
 ```
 
-## Data and schema
+Raw capture: `data/raw/agenda.json`. Generated site: `public/`, including JSON, Markdown, schema, and a link page. Both directories are ignored by Git. Scraping and generation leave unchanged files untouched; each script supports `--help`.
 
-- [Data model and findings](docs/data-model.md)
-- [Public schema](schemas/agenda.schema.json) · [Raw schema](schemas/raw-agenda.schema.json)
-- [Keyword catalogue](docs/keyword-catalog.json) · [Parsing rules](data/keyword-rules.json)
+[Data model](docs/data-model.md) · [Public schema](schemas/agenda.schema.json) · [Raw schema](schemas/raw-agenda.schema.json) · [Keyword catalogue](docs/keyword-catalog.json) · [Parsing rules](data/keyword-rules.json)
 
-Output locations:
+## Publication
 
-| File | Purpose | Status |
-| --- | --- | --- |
-| `data/raw/agenda.json` | Original source capture | Available |
-| `public/agenda.json` | Normalized agenda for agents and applications | Planned, step 3 |
-| `public/agenda.md` | Readable agenda for people and agents | Planned, step 3 |
+| Location | Content |
+| --- | --- |
+| `main` | Scripts, schemas, docs, and synthetic test fixtures |
+| CI workspace | Temporary raw capture and generated site |
+| CI artifact | Raw capture for debugging, retained for 30 days |
+| `gh-pages` | Public JSON, Markdown, schema, and link page with change history |
 
-GitHub Pages will publish `public/` in step 4, exposing `agenda.json` and `agenda.md` under the site's base URL. Export generation and Pages deployment are not implemented yet.
+The [workflow](.github/workflows/update-agenda.yml) runs at **04:17 UTC**, on pushes to `main`, or manually. It tests, scrapes, validates, records changed exports on `gh-pages`, then deploys the same files through GitHub Pages Actions. Enable **Settings → Pages → Source → GitHub Actions** once; private repositories need a plan supporting Pages.
 
-## Updates
+Unchanged source content keeps its first capture timestamp, avoiding daily history commits caused only by the clock. The raw artifact retains the current run's capture time. Publication failures leave the previous live site available.
 
-The [daily workflow](.github/workflows/update-agenda.yml) refreshes the raw data at **04:17 UTC**, validates it, and commits changes. Failed runs preserve the previous snapshot. It also supports manual runs from GitHub Actions.
+## Use with an agent
+
+Give Claude, Codex, or another agent the JSON endpoint and a request such as:
+
+> Build my schedule for the Developer Summit. I develop JavaScript mapping apps and want intermediate sessions about web components and 3D. Use the agenda JSON, explain each choice, include session IDs and rooms, avoid overlaps, and leave 15 minutes between sessions. Show local times in Europe/Berlin and flag missing information.
+
+Use official topic/product classifications and readable keywords for preferences. Session catalogue membership identifies activities shared with the Partner Conference. Example schedules for specific roles are the next step.
