@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-02T13:02:40.015Z  
+Source captured: 2026-10-02T14:12:11.135Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 74 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: 35e3d000cb1f47714e3c470463b25b15ab2de8469d8b458f032fb364924431c9
+Source SHA-256: 0a76ba41a7efb0ccc44be110e23520857ea97b8b514ce75ac98cde82d1b02ca3
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -122,7 +122,7 @@ The plenary concludes with coverage of new products, tools, capabilities, and te
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
 - Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev; Order: 2); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 3); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev; Order: 5); Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 6); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 7); Luis Flores Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 8); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 9); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 10); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev; Order: 11); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev; Order: 12); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 13); Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev; Order: 14)
-- Source modified: 2026-10-01T21:13:53Z
+- Source modified: 2026-10-02T13:49:52Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786148093148001wgxl>)
 
@@ -225,7 +225,7 @@ Attend this session to get a tour of the most important advancements in the ArcG
 - Keywords: 3D, JavaScript, analysis, editing, layers, performance, visualization, web development
 - Catalogues: European Dev & Tech Summit
 - Speakers: Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 2); Stefan Eilemann (Esri; Esri Speaker; ID: 1646186572837001UFcv\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-02T13:50:21Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494387567001kitV>)
 
@@ -697,7 +697,7 @@ This is the first session in a 4-part series and is critical for anyone building
 - Keywords: JavaScript, web components, web development
 - Catalogues: European Dev & Tech Summit
 - Speakers: Stefan Schläfli (Esri Switzerland; Distributor Esri Speaker; ID: 1757394953687001PoIg\_1777494026euroepcdev; Order: 1); Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-02T13:50:33Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494574001001ahF2>)
 
@@ -903,7 +903,7 @@ A dashboard is a view of geographic information and data that allows you to moni
 - Keywords: Configuration, Dashboards, Data Visualization, Road Map
 - Catalogues: European Dev & Tech Summit
 - Speakers: Olivia Mitchell (Esri UK; Distributor Esri Speaker; ID: 1688984653847001LV4O\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-02T13:48:55Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785483846697001ZJZh>)
 
@@ -2278,7 +2278,7 @@ Attend this session if you are new to creating web apps and interested in learni
 - Keywords: 2D, 3D, Calcite, apps, configurable apps, custom apps, design system, location services, strategies, web applications, web components, web development
 - Catalogues: European Dev & Tech Summit
 - Speakers: Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 1); Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-02T13:49:52Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495992137001r4SB>)
 
@@ -2492,7 +2492,7 @@ Join this dynamic session where presenters will build applications from the grou
 - Keywords: JavaScript, data pipeline, feature service, web map
 - Catalogues: European Dev & Tech Summit
 - Speakers: Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 1); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-02T13:49:52Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495281385001WwMT>)
 
@@ -3563,10 +3563,10 @@ Speaker ID: 1644920238602001EAxm\_1777494026euroepcdev
 - First name: Julie
 - Last name: Powell
 - Company: Esri
-- [Photo](<https://www.esri.com/content/dam/esrisites/en-us/about/events/common/speaker-globie-headshot.jpg>)
+- [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1644920238602001EAxm/attprofile/julie%20powell_1790948992298001NZ4y.jpg>)
 - Source modified: 2026-08-19T19:48:05Z
 
-Julie Powell is a Senior Principal Product Manager at Esri, focusing on ArcGIS web development technologies, including ArcGIS Maps SDK for JavaScript and Calcite Design System. Julie works to inspire the developer community while guiding the product vision and the technical road map.
+Julie Powell is senior principal product manager for ArcGIS web development technologies, including ArcGIS Maps SDK for JavaScript and Calcite Design System. Julie works to inspire the developer community while guiding the product vision and the technical road map.
 
 ### Karsten Löding
 
