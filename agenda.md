@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-02T10:16:29.226Z  
+Source captured: 2026-10-02T10:27:56.511Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 74 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: 0fb8a6279024bd42709732009bfd1581490d7d7582664d124b109db293022ce2
+Source SHA-256: 772bb179c563be236131887b11914b26b98b4a0482965b1ef48fe159d41c604c
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -194,6 +194,32 @@ Super charge your field operations through automation and integration with ArcGI
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485223708001pE3d>)
 
+### ArcGIS Maps SDK for JavaScript: What’s New
+
+Session ID: 1785494387567001kitV · Code: WEB-1136
+
+- When: 2026-10-20 14:30–2026-10-20 15:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-20T12:30:00Z–2026-10-20T13:30:00Z
+- Room: Spektrum 2—Level C2 | Congress Center
+- Occurrence ID: 1787337562770001vupb
+- Attendance: In person: yes; Virtual: no
+
+Attend this session to get a tour of the most important advancements in the ArcGIS Maps SDK for JavaScript that were introduced over the last year, and get inspired with new ideas for your web apps. You'll also get a taste for what other sessions will cover, which will help you plan your week at the conference.
+
+- Type: Technical Session
+- Level: All Attendees
+- Language: en
+- Topic: Web
+- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Maps SDK for JavaScript, ArcGIS Location Platform
+- Capabilities: Web App Development
+- Technologies: JavaScript, Calcite Design System
+- Keywords: 3D, JavaScript, analysis, editing, layers, performance, visualization, web development
+- Catalogues: European Dev & Tech Summit
+- Speakers: Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev); Stefan Eilemann (Esri; Esri Speaker; ID: 1646186572837001UFcv\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494387567001kitV>)
+
 ### ArcGIS Pro SDK for .NET: Patterns of Extensibility
 
 Session ID: 1785489365604001BwBR · Code: AGP-1101
@@ -218,6 +244,32 @@ This beginner-level session will cover fundamental approaches for extending ArcG
 - Source modified: 2026-10-01T17:36:02Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489365604001BwBR>)
+
+### Building Web Apps with Open Source Mapping APIs
+
+Session ID: 1785496078173001oMPR · Code: WEB-1147
+
+- When: 2026-10-20 14:30–2026-10-20 15:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-20T12:30:00Z–2026-10-20T13:30:00Z
+- Room: Illusion 1—Level C3 | Congress Center
+- Occurrence ID: 1786152178293001ASVY
+- Attendance: In person: yes; Virtual: no
+
+Learn the main differences between the most popular open-source mapping APIs such as Leaflet, OpenLayers, and Maplibre GL JS and how to integrate them with ArcGIS services such as basemaps, routing, geocoding and vector tiles with the help of ArcGIS REST JS.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: Web
+- Products: ArcGIS Location Platform
+- Capabilities: Open Source, Web App Development
+- Technologies: JavaScript
+- Keywords: APIs, Leaflet, Mapbox, OpenLayers, open source
+- Catalogues: European Dev & Tech Summit
+- Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785496078173001oMPR>)
 
 ### Strategies for Scripting and Automating with Python
 
@@ -271,57 +323,80 @@ Ready to take your GIS architecture to the next level? This session introduces t
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493152511001mz22>)
 
-### ArcGIS Maps SDK for JavaScript: What’s New
+### ArcGIS Location Platform: An Overview for Developers
 
-Session ID: 1785494387567001kitV · Code: WEB-1136
+Session ID: 1785487845940001dq1g · Code: ALP-1091
 
-- When: 2026-10-20 14:30–2026-10-20 15:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-20T12:30:00Z–2026-10-20T13:30:00Z
-- Room: Spektrum 2—Level C2 | Congress Center
-- Occurrence ID: 1787337562770001vupb
+- When: 2026-10-20 16:00–2026-10-20 17:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-20T14:00:00Z–2026-10-20T15:00:00Z
+- Room: Conclusio 1——Level C2 | Congress Center
+- Occurrence ID: 1786149882420001mizd
 - Attendance: In person: yes; Virtual: no
 
-Attend this session to get a tour of the most important advancements in the ArcGIS Maps SDK for JavaScript that were introduced over the last year, and get inspired with new ideas for your web apps. You'll also get a taste for what other sessions will cover, which will help you plan your week at the conference.
+ArcGIS Location Platform is a geospatial platform as a service (PaaS) for developers who are looking to integrate location capabilities into their apps, business systems, and products. It enables developers to create apps and extend ArcGIS functionality using ArcGIS APIs, SDKs and tools. In this technical session, speakers discuss what's new and what's different between ArcGIS Location Platform and ArcGIS Online or ArcGIS Enterprise when developing apps and how your organization might benefit from it.
 
 - Type: Technical Session
 - Level: All Attendees
 - Language: en
-- Topic: Web
-- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Maps SDK for JavaScript, ArcGIS Location Platform
-- Capabilities: Web App Development
-- Technologies: JavaScript, Calcite Design System
-- Keywords: 3D, JavaScript, analysis, editing, layers, performance, visualization, web development
+- Topic: ArcGIS Location Platform
+- Products: ArcGIS Location Platform
+- Capabilities: Data Hosting, Extending ArcGIS, Security, Location Services
+- Technologies: JavaScript, REST
+- Keywords: IT, PaaS, application development, authentication, integration, location services, open source
 - Catalogues: European Dev & Tech Summit
-- Speakers: Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev); Stefan Eilemann (Esri; Esri Speaker; ID: 1646186572837001UFcv\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
+- Speakers: Claire Drean (Esri; Esri Speaker; ID: 1780329648141003zUnj\_1777494026euroepcdev); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev)
+- Source modified: 2026-10-01T18:50:30Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494387567001kitV>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487845940001dq1g>)
 
-### Building Web Apps with Open Source Mapping APIs
+### ArcGIS Maps SDK for JavaScript: Using Vite for Building Fast, Dynamic Web Apps
 
-Session ID: 1785496078173001oMPR · Code: WEB-1147
+Session ID: 1785495619244001ttHS · Code: WEB-1144
 
-- When: 2026-10-20 14:30–2026-10-20 15:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-20T12:30:00Z–2026-10-20T13:30:00Z
-- Room: Illusion 1—Level C3 | Congress Center
-- Occurrence ID: 1786152178293001ASVY
+- When: 2026-10-20 16:00–2026-10-20 17:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-20T14:00:00Z–2026-10-20T15:00:00Z
+- Room: Spektrum 2—Level C2 | Congress Center
+- Occurrence ID: 1786152205959001L82p
 - Attendance: In person: yes; Virtual: no
 
-Learn the main differences between the most popular open-source mapping APIs such as Leaflet, OpenLayers, and Maplibre GL JS and how to integrate them with ArcGIS services such as basemaps, routing, geocoding and vector tiles with the help of ArcGIS REST JS.
+This session will explore a case study on how Esri's development teams are leveraging modern tools like Vite to build fast, dynamic Web GIS applications. With features such as lazy loading, client-side routing, hot module replacement, and lightning-fast builds, Vite streamlines the entire development workflow from bundling to deployment. Paired with Vitest for testing, these tools help ensure that your apps are both high-performing and production-ready.
 
 - Type: Technical Session
 - Level: Intermediate
 - Language: en
 - Topic: Web
-- Products: ArcGIS Location Platform
-- Capabilities: Open Source, Web App Development
-- Technologies: JavaScript
-- Keywords: APIs, Leaflet, Mapbox, OpenLayers, open source
+- Products: ArcGIS Maps SDK for JavaScript
+- Keywords: Vite, deployment, testing, web GIS, workflows
 - Catalogues: European Dev & Tech Summit
-- Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev)
+- Speakers: Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev); Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev)
 - Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785496078173001oMPR>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495619244001ttHS>)
+
+### ArcGIS Velocity: An Overview
+
+Session ID: 1785482542069001JXGo · Code: ADS-1061
+
+- When: 2026-10-20 16:00–2026-10-20 17:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-20T14:00:00Z–2026-10-20T15:00:00Z
+- Room: Spektrum 1—Level C2 | Congress Center
+- Occurrence ID: 1786152185692001LsaO
+- Attendance: In person: yes; Virtual: no
+
+ArcGIS Velocity is a real-time analysis capability in ArcGIS Online, and coming soon to Enterprise, enabling organizations to ingest, visualize, analyze, store, and act upon data from Internet of Things (IoT) sensors. Join the discussion on how to connect to virtually any type of streaming data, perform real-time analytics and processing, and automatically disseminate information and alert personnel when specified conditions occur. Learn how to create analytic models to process high-volume historical data to gain insights into patterns, trends, and anomalies in your big data.
+
+- Type: Technical Session
+- Level: All Attendees
+- Language: en
+- Topic: Analytics and Data Science
+- Products: ArcGIS Velocity
+- Capabilities: Real-Time Visualization and Analysis
+- Keywords: AVL, asset management, data ingestion, public safety, real-time, vehicle tracking
+- Catalogues: European Dev & Tech Summit
+- Speakers: Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482542069001JXGo>)
 
 ### ArcGIS: An Overview of 3D Capabilities
 
@@ -349,82 +424,6 @@ With 3D capabilities, you can uncover deeper spatial insights and transform how 
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785479114708001uTMf>)
 
-### Extracting Features Using GeoAI Models
-
-Session ID: 1785481230937001TX5V · Code: AI-1057
-
-- When: 2026-10-20 16:00–2026-10-20 17:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-20T14:00:00Z–2026-10-20T15:00:00Z
-- Room: Illusion 1—Level C3 | Congress Center
-- Occurrence ID: 1786152065104001jR3T
-- Attendance: In person: yes; Virtual: no
-
-Geospatial AI (GeoAI) is transforming the speed at which people extract meaning from complex datasets, helping them solve Earth's most pressing challenges. ArcGIS provides an easy-to-use solution for applying deep learning models to automate imagery workflows. Speakers cover the use of out-of-the-box tools and pretrained GeoAI models to accomplish advanced imagery workflows such as feature extraction, land-cover classification, and object identification. Learn how you can use GeoAI with ArcGIS Pro and the ArcGIS API for Python to quickly and easily extract key information from your imagery.
-
-- Type: Technical Session
-- Level: All Attendees
-- Language: en
-- Topic: AI
-- Products: ArcGIS API for Python, ArcGIS Pro
-- Capabilities: GeoAI, Imagery & Remote Sensing
-- Keywords: GeoAI, deep learning, imagery, pretrained models
-- Catalogues: European Dev & Tech Summit
-- Speakers: Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev); Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785481230937001TX5V>)
-
-### ArcGIS Velocity: An Overview
-
-Session ID: 1785482542069001JXGo · Code: ADS-1061
-
-- When: 2026-10-20 16:00–2026-10-20 17:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-20T14:00:00Z–2026-10-20T15:00:00Z
-- Room: Spektrum 1—Level C2 | Congress Center
-- Occurrence ID: 1786152185692001LsaO
-- Attendance: In person: yes; Virtual: no
-
-ArcGIS Velocity is a real-time analysis capability in ArcGIS Online, and coming soon to Enterprise, enabling organizations to ingest, visualize, analyze, store, and act upon data from Internet of Things (IoT) sensors. Join the discussion on how to connect to virtually any type of streaming data, perform real-time analytics and processing, and automatically disseminate information and alert personnel when specified conditions occur. Learn how to create analytic models to process high-volume historical data to gain insights into patterns, trends, and anomalies in your big data.
-
-- Type: Technical Session
-- Level: All Attendees
-- Language: en
-- Topic: Analytics and Data Science
-- Products: ArcGIS Velocity
-- Capabilities: Real-Time Visualization and Analysis
-- Keywords: AVL, asset management, data ingestion, public safety, real-time, vehicle tracking
-- Catalogues: European Dev & Tech Summit
-- Speakers: Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482542069001JXGo>)
-
-### ArcGIS Location Platform: An Overview for Developers
-
-Session ID: 1785487845940001dq1g · Code: ALP-1091
-
-- When: 2026-10-20 16:00–2026-10-20 17:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-20T14:00:00Z–2026-10-20T15:00:00Z
-- Room: Conclusio 1——Level C2 | Congress Center
-- Occurrence ID: 1786149882420001mizd
-- Attendance: In person: yes; Virtual: no
-
-ArcGIS Location Platform is a geospatial platform as a service (PaaS) for developers who are looking to integrate location capabilities into their apps, business systems, and products. It enables developers to create apps and extend ArcGIS functionality using ArcGIS APIs, SDKs and tools. In this technical session, speakers discuss what's new and what's different between ArcGIS Location Platform and ArcGIS Online or ArcGIS Enterprise when developing apps and how your organization might benefit from it.
-
-- Type: Technical Session
-- Level: All Attendees
-- Language: en
-- Topic: ArcGIS Location Platform
-- Products: ArcGIS Location Platform
-- Capabilities: Data Hosting, Extending ArcGIS, Security, Location Services
-- Technologies: JavaScript, REST
-- Keywords: IT, PaaS, application development, authentication, integration, location services, open source
-- Catalogues: European Dev & Tech Summit
-- Speakers: Claire Drean (Esri; Esri Speaker; ID: 1780329648141003zUnj\_1777494026euroepcdev); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev)
-- Source modified: 2026-10-01T18:50:30Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487845940001dq1g>)
-
 ### Designing and Implementing Well-Architected Systems
 
 Session ID: 1785493271654001i4IX · Code: SYS-1130
@@ -451,29 +450,30 @@ The ArcGIS Well-Architected Framework introduces the concepts of system patterns
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493271654001i4IX>)
 
-### ArcGIS Maps SDK for JavaScript: Using Vite for Building Fast, Dynamic Web Apps
+### Extracting Features Using GeoAI Models
 
-Session ID: 1785495619244001ttHS · Code: WEB-1144
+Session ID: 1785481230937001TX5V · Code: AI-1057
 
 - When: 2026-10-20 16:00–2026-10-20 17:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-20T14:00:00Z–2026-10-20T15:00:00Z
-- Room: Spektrum 2—Level C2 | Congress Center
-- Occurrence ID: 1786152205959001L82p
+- Room: Illusion 1—Level C3 | Congress Center
+- Occurrence ID: 1786152065104001jR3T
 - Attendance: In person: yes; Virtual: no
 
-This session will explore a case study on how Esri's development teams are leveraging modern tools like Vite to build fast, dynamic Web GIS applications. With features such as lazy loading, client-side routing, hot module replacement, and lightning-fast builds, Vite streamlines the entire development workflow from bundling to deployment. Paired with Vitest for testing, these tools help ensure that your apps are both high-performing and production-ready.
+Geospatial AI (GeoAI) is transforming the speed at which people extract meaning from complex datasets, helping them solve Earth's most pressing challenges. ArcGIS provides an easy-to-use solution for applying deep learning models to automate imagery workflows. Speakers cover the use of out-of-the-box tools and pretrained GeoAI models to accomplish advanced imagery workflows such as feature extraction, land-cover classification, and object identification. Learn how you can use GeoAI with ArcGIS Pro and the ArcGIS API for Python to quickly and easily extract key information from your imagery.
 
 - Type: Technical Session
-- Level: Intermediate
+- Level: All Attendees
 - Language: en
-- Topic: Web
-- Products: ArcGIS Maps SDK for JavaScript
-- Keywords: Vite, deployment, testing, web GIS, workflows
+- Topic: AI
+- Products: ArcGIS API for Python, ArcGIS Pro
+- Capabilities: GeoAI, Imagery & Remote Sensing
+- Keywords: GeoAI, deep learning, imagery, pretrained models
 - Catalogues: European Dev & Tech Summit
-- Speakers: Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev); Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev)
+- Speakers: Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev); Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev)
 - Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495619244001ttHS>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785481230937001TX5V>)
 
 ### Working with ArcGIS REST JS
 
@@ -544,82 +544,31 @@ This fun, fast paced event gives you the chance to experience multiple, quick de
 
 ## 2026-10-21
 
-### Getting Started with Real-Time Feeds in Your Applications
+### ArcGIS API for Python: Administering Your Web GIS
 
-Session ID: 1785482671472001dO7w · Code: ADS-1062
-
-- When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
-- Room: Illusion 3—Level C3 | Congress Center
-- Occurrence ID: 1786152325945001e8gI
-- Attendance: In person: yes; Virtual: no
-
-Apps that leverage real-time feeds enable a more engaging and dynamic experience for your users. ArcGIS natively supports ingest and analytics of feeds in our server products ArcGIS Velocity and GeoEvent Server, and developers can use the Maps SDKs and ArcGIS Pro SDK for .NET to ingest, analyze, visualize and interact with feeds. Come to this session to get an overview of all of these ways of working with real-time feeds, so that you can bring them to life in your apps.
-
-- Type: Technical Session
-- Level: Beginner
-- Language: en
-- Topic: Analytics and Data Science
-- Products: ArcGIS Velocity
-- Capabilities: Real-Time Visualization and Analysis
-- Keywords: JavaScript, desktop, feed, native, real-time, stream service, web map
-- Catalogues: European Dev & Tech Summit
-- Speakers: Mindaugas Rasiukevicius (HNIT-BALTIC; Distributor Esri Speaker; ID: 1646767858145001Mjle\_1777494026euroepcdev); Mantas Bukauskas (HNIT-BALTIC; Distributor Esri Speaker; ID: 165666508805000103kW\_1777494026euroepcdev)
-- Source modified: 2026-10-01T19:08:57Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482671472001dO7w>)
-
-### ArcGIS Experience Builder: Advanced Customization
-
-Session ID: 1785484275364001zgPm · Code: APB-1070
+Session ID: 1785492755046001JVlx · Code: PY-1126
 
 - When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
-- Room: Fantasie 2—Level C3 | Congress Center
-- Occurrence ID: 1786151237983001cK61
+- Room: Illusion 2—Level C3 | Congress Center
+- Occurrence ID: 1786152318423001c8Mt
 - Attendance: In person: yes; Virtual: no
 
-Join us to explore advanced solutions with the developer edition of ArcGIS Experience Builder. In this technical session, speakers cover deeper topics for building custom widgets, including widget communication, data sources, automated deployments, custom widget source code collaboration, connecting to the Map component from ArcGIS Maps SDK for JavaScript, and more.
+This technical session will teach GIS administrators how to use the ArcGIS API for Python to manage their Web GIS and automate common repetitive tasks. We will cover common administrative workflows for managing users, their credits and licenses, and groups and content. We’ll also cover different security aspects such as authentication schemes, login profiles, and API keys, as well as strategies for managing data stores and administering GIS servers. Additionally, we’ll discuss automation concepts such as webhooks and on-demand execution of notebooks.
 
 - Type: Technical Session
-- Level: Beginner
+- Level: Intermediate
 - Language: en
-- Topic: App Builders
-- Products: ArcGIS Experience Builder, ArcGIS Experience Builder Developer Edition
-- Capabilities: Web App Development
-- Technologies: JavaScript
-- Keywords: ArcGIS Experience Builder developer edition, Custom Widget
+- Topic: Python
+- Products: ArcGIS API for Python, ArcGIS Enterprise, ArcGIS Notebooks, ArcGIS Online
+- Capabilities: Portal Administration, Scripting and Automation
+- Technologies: Python
+- Keywords: GIS administration, Python, automation
 - Catalogues: European Dev & Tech Summit
-- Speakers: Christine Wiltawsky (Esri Germany; Distributor Esri Speaker; ID: 1657107725325001p5YF\_1777494026euroepcdev); Diego Diaz Doce (Esri UK; Distributor Esri Speaker; ID: 1674225917068001kEAU\_1777494026euroepcdev)
+- Speakers: Gaëlle Seffers (Esri Belux; Distributor Esri Speaker; ID: 1684758586751001FGks\_1777494026euroepcdev); Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev)
 - Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484275364001zgPm>)
-
-### ArcGIS Enterprise: What's New
-
-Session ID: 1785485792828001LNND · Code: AGE-1077
-
-- When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
-- Room: Harmonie Hall D-E—Level C2 | Congress Center
-- Occurrence ID: 1786149439919001umYp
-- Attendance: In person: yes; Virtual: no
-
-ArcGIS Enterprise is always evolving and advancing to support data management, mapping and visualization, analysis, operations, collaboration, and sharing. Join us at this session for details and demos on recent enhancements and exciting new features in the product that have been added in the latest releases. Learn how you can take advantage of these new capabilities in your own organization to advance and expand your use of ArcGIS Enterprise.
-
-- Type: Technical Session
-- Level: Beginner
-- Language: en
-- Topic: ArcGIS Enterprise
-- Products: ArcGIS Enterprise
-- Capabilities: Extending ArcGIS
-- Technologies: Kubernetes, Linux, Microsoft Windows
-- Keywords: analysis, collaboration, data management, mapping, operations, sharing, visualization
-- Catalogues: European Dev & Tech Summit
-- Speakers: Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev); Israel Ketema (Esri Belux; Distributor Esri Speaker; ID: 1789507123393001ZoRA\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485792828001LNND>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492755046001JVlx>)
 
 ### ArcGIS Enterprise: An Introduction for Developers
 
@@ -647,135 +596,57 @@ ArcGIS Enterprise provides comprehensive functionality for mapping, visualizatio
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486139714001MfAB>)
 
-### Developer Collaboration with Git and GitHub
+### ArcGIS Enterprise: What's New
 
-Session ID: 1785488298088001RAmI · Code: ALP-1094
-
-- When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
-- Room: Fantasie 1—Level C3 | Congress Center
-- Occurrence ID: 1786152344852001JaSY
-- Attendance: In person: yes; Virtual: no
-
-GitHub is a great collaboration tool and this technical session covers the basics of its version control system (git) using examples that do not require any experience writing code. Speakers also talk about how Esri uses GitHub features for managing projects and how you can get involved with Esri's open-source projects.
-
-- Type: Technical Session
-- Level: All Attendees
-- Language: en
-- Topic: ArcGIS Location Platform
-- Products: ArcGIS Developer, ArcGIS Enterprise, ArcGIS Online, ArcGIS Location Platform
-- Capabilities: Open Source
-- Technologies: JavaScript, REST
-- Keywords: Git, GitHub, application development, collaboration, open source
-- Catalogues: European Dev & Tech Summit
-- Speakers: Dave Olsthoorn (Esri Netherlands; Distributor Esri Speaker; ID: 1704900814996001CSLp\_1777494026euroepcdev); Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488298088001RAmI>)
-
-### Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services
-
-Session ID: 1785488466631001lUg0 · Code: ALP-1095
+Session ID: 1785485792828001LNND · Code: AGE-1077
 
 - When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
-- Room: Illusion 1—Level C3 | Congress Center
-- Occurrence ID: 1787337383285001eQf5
+- Room: Harmonie Hall D-E—Level C2 | Congress Center
+- Occurrence ID: 1786149439919001umYp
 - Attendance: In person: yes; Virtual: no
 
-Learn about the new enhancements and capabilities of ArcGIS Basemap services, such as the new styles and how to use preferences such as language labels, basemap places, and worldview borders. Create better applications and learn how to maximize your mapping experience by using basemaps to help support user interactivity and interactions with the map itself.
+ArcGIS Enterprise is always evolving and advancing to support data management, mapping and visualization, analysis, operations, collaboration, and sharing. Join us at this session for details and demos on recent enhancements and exciting new features in the product that have been added in the latest releases. Learn how you can take advantage of these new capabilities in your own organization to advance and expand your use of ArcGIS Enterprise.
 
 - Type: Technical Session
 - Level: Beginner
 - Language: en
-- Topic: ArcGIS Location Platform
-- Products: ArcGIS Online, ArcGIS Location Platform
-- Capabilities: Cartography, UI/UX
-- Technologies: JavaScript, REST
-- Keywords: PaaS, UX, application development, basemaps, interaction, location services, visualization
+- Topic: ArcGIS Enterprise
+- Products: ArcGIS Enterprise
+- Capabilities: Extending ArcGIS
+- Technologies: Kubernetes, Linux, Microsoft Windows
+- Keywords: analysis, collaboration, data management, mapping, operations, sharing, visualization
 - Catalogues: European Dev & Tech Summit
-- Speakers: Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev)
-- Source modified: 2026-10-01T20:08:29Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488466631001lUg0>)
-
-### ArcGIS Online: Best Practices with Hosted Feature Services
-
-Session ID: 1785488671141001OIca · Code: AGO-1096
-
-- When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
-- Room: Spektrum 2—Level C2 | Congress Center
-- Occurrence ID: 1786149647692001pBfz
-- Attendance: In person: yes; Virtual: no
-
-In this session, you will learn how to make effective use of Hosted Feature Services in your apps. Learn how to take advantage of the feature service REST API to make your app more performant, more resilient, and more reliable. You will also learn about the recommended workflows for updating, editing, and syncing feature service data. Future direction of online feature service will also be presented.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: ArcGIS Online
-- Products: ArcGIS Online
-- Capabilities: Cloud Architecture, Data, and Services, Data Hosting, Data Management
-- Technologies: Cross-Platform
-- Keywords: APIs, Hosted Feature Layer, Hosted Feature Service, REST, best practices, bulk, data, optimize, performance, sync
-- Catalogues: European Dev & Tech Summit
-- Speakers: Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev); Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev)
+- Speakers: Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev); Israel Ketema (Esri Belux; Distributor Esri Speaker; ID: 1789507123393001ZoRA\_1777494026euroepcdev)
 - Source modified: 2026-10-01T17:36:02Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488671141001OIca>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485792828001LNND>)
 
-### Strategies for Mobile and Desktop App Development
+### ArcGIS Experience Builder: Advanced Customization
 
-Session ID: 1785492284277001WPNe · Code: NTV-1122
+Session ID: 1785484275364001zgPm · Code: APB-1070
 
 - When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
-- Room: Conclusio 2—Level C2 | Congress Center
-- Occurrence ID: 1786149980303001LRYG
+- Room: Fantasie 2—Level C3 | Congress Center
+- Occurrence ID: 1786151237983001cK61
 - Attendance: In person: yes; Virtual: no
 
-Join this session if you are interested in developing specialized mobile and desktop GIS applications for your organization and need assistance in selecting the right technology. We will cover ArcGIS Maps SDKs for Native Apps for building custom 2D and 3D mapping applications, ArcGIS Maps SDKs for Game Engines which leverage game engines for enhanced rendering capabilities, and ArcGIS Pro SDK for .NET which provides the framework for extending the functionality of the ArcGIS Pro desktop GIS software.
+Join us to explore advanced solutions with the developer edition of ArcGIS Experience Builder. In this technical session, speakers cover deeper topics for building custom widgets, including widget communication, data sources, automated deployments, custom widget source code collaboration, connecting to the Map component from ArcGIS Maps SDK for JavaScript, and more.
 
 - Type: Technical Session
 - Level: Beginner
 - Language: en
-- Topic: Native SDKs
-- Products: ArcGIS Pro SDK for .NET, ArcGIS Maps SDKs for Native Apps, ArcGIS Maps SDKs for Game Engines
-- Capabilities: Native App Development
-- Technologies: Android and Kotlin, Apple iOS and Swift, Cross-Platform, Linux, Microsoft MAUI, Microsoft .NET, Microsoft Windows, Qt, Unity, Unreal Engine, Flutter
-- Keywords: desktop, game engine, location services, low code, mobile, no code, strategies
+- Topic: App Builders
+- Products: ArcGIS Experience Builder, ArcGIS Experience Builder Developer Edition
+- Capabilities: Web App Development
+- Technologies: JavaScript
+- Keywords: ArcGIS Experience Builder developer edition, Custom Widget
 - Catalogues: European Dev & Tech Summit
-- Speakers: Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev)
+- Speakers: Christine Wiltawsky (Esri Germany; Distributor Esri Speaker; ID: 1657107725325001p5YF\_1777494026euroepcdev); Diego Diaz Doce (Esri UK; Distributor Esri Speaker; ID: 1674225917068001kEAU\_1777494026euroepcdev)
 - Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492284277001WPNe>)
-
-### ArcGIS API for Python: Administering Your Web GIS
-
-Session ID: 1785492755046001JVlx · Code: PY-1126
-
-- When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
-- Room: Illusion 2—Level C3 | Congress Center
-- Occurrence ID: 1786152318423001c8Mt
-- Attendance: In person: yes; Virtual: no
-
-This technical session will teach GIS administrators how to use the ArcGIS API for Python to manage their Web GIS and automate common repetitive tasks. We will cover common administrative workflows for managing users, their credits and licenses, and groups and content. We’ll also cover different security aspects such as authentication schemes, login profiles, and API keys, as well as strategies for managing data stores and administering GIS servers. Additionally, we’ll discuss automation concepts such as webhooks and on-demand execution of notebooks.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: Python
-- Products: ArcGIS API for Python, ArcGIS Enterprise, ArcGIS Notebooks, ArcGIS Online
-- Capabilities: Portal Administration, Scripting and Automation
-- Technologies: Python
-- Keywords: GIS administration, Python, automation
-- Catalogues: European Dev & Tech Summit
-- Speakers: Gaëlle Seffers (Esri Belux; Distributor Esri Speaker; ID: 1684758586751001FGks\_1777494026euroepcdev); Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492755046001JVlx>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484275364001zgPm>)
 
 ### ArcGIS Maps SDK for JavaScript: App Development with Components—Programming Patterns
 
@@ -803,6 +674,84 @@ This is the first session in a 4-part series and is critical for anyone building
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494574001001ahF2>)
 
+### ArcGIS Online: Best Practices with Hosted Feature Services
+
+Session ID: 1785488671141001OIca · Code: AGO-1096
+
+- When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
+- Room: Spektrum 2—Level C2 | Congress Center
+- Occurrence ID: 1786149647692001pBfz
+- Attendance: In person: yes; Virtual: no
+
+In this session, you will learn how to make effective use of Hosted Feature Services in your apps. Learn how to take advantage of the feature service REST API to make your app more performant, more resilient, and more reliable. You will also learn about the recommended workflows for updating, editing, and syncing feature service data. Future direction of online feature service will also be presented.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: ArcGIS Online
+- Products: ArcGIS Online
+- Capabilities: Cloud Architecture, Data, and Services, Data Hosting, Data Management
+- Technologies: Cross-Platform
+- Keywords: APIs, Hosted Feature Layer, Hosted Feature Service, REST, best practices, bulk, data, optimize, performance, sync
+- Catalogues: European Dev & Tech Summit
+- Speakers: Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev); Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488671141001OIca>)
+
+### Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services
+
+Session ID: 1785488466631001lUg0 · Code: ALP-1095
+
+- When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
+- Room: Illusion 1—Level C3 | Congress Center
+- Occurrence ID: 1787337383285001eQf5
+- Attendance: In person: yes; Virtual: no
+
+Learn about the new enhancements and capabilities of ArcGIS Basemap services, such as the new styles and how to use preferences such as language labels, basemap places, and worldview borders. Create better applications and learn how to maximize your mapping experience by using basemaps to help support user interactivity and interactions with the map itself.
+
+- Type: Technical Session
+- Level: Beginner
+- Language: en
+- Topic: ArcGIS Location Platform
+- Products: ArcGIS Online, ArcGIS Location Platform
+- Capabilities: Cartography, UI/UX
+- Technologies: JavaScript, REST
+- Keywords: PaaS, UX, application development, basemaps, interaction, location services, visualization
+- Catalogues: European Dev & Tech Summit
+- Speakers: Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev)
+- Source modified: 2026-10-01T20:08:29Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488466631001lUg0>)
+
+### Developer Collaboration with Git and GitHub
+
+Session ID: 1785488298088001RAmI · Code: ALP-1094
+
+- When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
+- Room: Fantasie 1—Level C3 | Congress Center
+- Occurrence ID: 1786152344852001JaSY
+- Attendance: In person: yes; Virtual: no
+
+GitHub is a great collaboration tool and this technical session covers the basics of its version control system (git) using examples that do not require any experience writing code. Speakers also talk about how Esri uses GitHub features for managing projects and how you can get involved with Esri's open-source projects.
+
+- Type: Technical Session
+- Level: All Attendees
+- Language: en
+- Topic: ArcGIS Location Platform
+- Products: ArcGIS Developer, ArcGIS Enterprise, ArcGIS Online, ArcGIS Location Platform
+- Capabilities: Open Source
+- Technologies: JavaScript, REST
+- Keywords: Git, GitHub, application development, collaboration, open source
+- Catalogues: European Dev & Tech Summit
+- Speakers: Dave Olsthoorn (Esri Netherlands; Distributor Esri Speaker; ID: 1704900814996001CSLp\_1777494026euroepcdev); Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488298088001RAmI>)
+
 ### European Dev & Tech Summit Expo
 
 Session ID: 1786556817247001LV6e · Code: 1166
@@ -823,6 +772,57 @@ Explore opportunities to meet with experts, discover solutions, and get the late
 - Source modified: 2026-08-12T17:56:20Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786556817247001LV6e>)
+
+### Getting Started with Real-Time Feeds in Your Applications
+
+Session ID: 1785482671472001dO7w · Code: ADS-1062
+
+- When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
+- Room: Illusion 3—Level C3 | Congress Center
+- Occurrence ID: 1786152325945001e8gI
+- Attendance: In person: yes; Virtual: no
+
+Apps that leverage real-time feeds enable a more engaging and dynamic experience for your users. ArcGIS natively supports ingest and analytics of feeds in our server products ArcGIS Velocity and GeoEvent Server, and developers can use the Maps SDKs and ArcGIS Pro SDK for .NET to ingest, analyze, visualize and interact with feeds. Come to this session to get an overview of all of these ways of working with real-time feeds, so that you can bring them to life in your apps.
+
+- Type: Technical Session
+- Level: Beginner
+- Language: en
+- Topic: Analytics and Data Science
+- Products: ArcGIS Velocity
+- Capabilities: Real-Time Visualization and Analysis
+- Keywords: JavaScript, desktop, feed, native, real-time, stream service, web map
+- Catalogues: European Dev & Tech Summit
+- Speakers: Mindaugas Rasiukevicius (HNIT-BALTIC; Distributor Esri Speaker; ID: 1646767858145001Mjle\_1777494026euroepcdev); Mantas Bukauskas (HNIT-BALTIC; Distributor Esri Speaker; ID: 165666508805000103kW\_1777494026euroepcdev)
+- Source modified: 2026-10-01T19:08:57Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482671472001dO7w>)
+
+### Strategies for Mobile and Desktop App Development
+
+Session ID: 1785492284277001WPNe · Code: NTV-1122
+
+- When: 2026-10-21 09:00–2026-10-21 10:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T07:00:00Z–2026-10-21T08:00:00Z
+- Room: Conclusio 2—Level C2 | Congress Center
+- Occurrence ID: 1786149980303001LRYG
+- Attendance: In person: yes; Virtual: no
+
+Join this session if you are interested in developing specialized mobile and desktop GIS applications for your organization and need assistance in selecting the right technology. We will cover ArcGIS Maps SDKs for Native Apps for building custom 2D and 3D mapping applications, ArcGIS Maps SDKs for Game Engines which leverage game engines for enhanced rendering capabilities, and ArcGIS Pro SDK for .NET which provides the framework for extending the functionality of the ArcGIS Pro desktop GIS software.
+
+- Type: Technical Session
+- Level: Beginner
+- Language: en
+- Topic: Native SDKs
+- Products: ArcGIS Pro SDK for .NET, ArcGIS Maps SDKs for Native Apps, ArcGIS Maps SDKs for Game Engines
+- Capabilities: Native App Development
+- Technologies: Android and Kotlin, Apple iOS and Swift, Cross-Platform, Linux, Microsoft MAUI, Microsoft .NET, Microsoft Windows, Qt, Unity, Unreal Engine, Flutter
+- Keywords: desktop, game engine, location services, low code, mobile, no code, strategies
+- Catalogues: European Dev & Tech Summit
+- Speakers: Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492284277001WPNe>)
 
 ### Talk to Your Map: Early Lessons with the ArcGIS Enterprise MCP Server (Beta)
 
@@ -846,84 +846,6 @@ The ArcGIS Enterprise MCP-Server (Beta) lets an AI assistant (Claude, ChatGPT, e
 - Source modified: 2026-10-01T17:36:02Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785422699134001ptVx>)
-
-### GeoAI Workflows with ArcGIS
-
-Session ID: 1785480754385001m6KU · Code: AI-1055
-
-- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
-- Room: Fantasie 2—Level C3 | Congress Center
-- Occurrence ID: 1787723523563001dUMk
-- Attendance: In person: yes; Virtual: no
-
-Attend this session to learn about geospatial AI (GeoAI), the different types of geospatial machine learning and deep learning models, and how you can train and use them using the arcgis.learn module of ArcGIS API for Python and ArcGIS Pro. This session will showcase the application of ArcGIS’s GeoAI capabilities in the following areas: - Feature extraction from imagery and 3D data - Natural language processing of unstructured text - Clustering, prediction, and forecasting of feature, tabular, and time-series data
-
-- Type: Technical Session
-- Level: Advanced
-- Language: en
-- Topic: AI
-- Products: ArcGIS API for Python
-- Capabilities: GeoAI, Scripting and Automation
-- Technologies: Python
-- Keywords: 3D, AI, capabilities, deep learning, imagery
-- Catalogues: European Dev & Tech Summit
-- Speakers: Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev); Álvaro Gutierrez (Esri Spain; Distributor Esri Speaker; ID: 1691495250364001LNdS\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785480754385001m6KU>)
-
-### ArcGIS Notebooks: Automating Administration, Data Management, and Analysis
-
-Session ID: 1785482952493001LNiy · Code: ADS-1064
-
-- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
-- Room: Spektrum 2—Level C2 | Congress Center
-- Occurrence ID: 1786149654045001Lu3R
-- Attendance: In person: yes; Virtual: no
-
-ArcGIS Notebooks in ArcGIS Online and ArcGIS Enterprise provide various orchestration of tools, processes, and resources to automate administrative, data management, and analysis workflows. This session will detail the various techniques for scheduling notebook tasks, automating notebooks using webhooks, publishing notebooks as web tools, and calling notebooks programmatically via the ArcGIS API for Python.
-
-- Type: Technical Session
-- Level: All Attendees
-- Language: en
-- Topic: Analytics and Data Science
-- Products: ArcGIS API for Python, ArcGIS Enterprise, ArcGIS Notebook Server, ArcGIS Notebooks, ArcGIS Online
-- Capabilities: Scripting and Automation
-- Technologies: Python
-- Keywords: Python, automation, data science, notebooks
-- Catalogues: European Dev & Tech Summit
-- Speakers: Karthik Dutt (Esri; Esri Speaker; ID: 1646185844924001M6Ax\_1777494026euroepcdev); Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev)
-- Source modified: 2026-10-01T19:04:32Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482952493001LNiy>)
-
-### Intro to ArcGIS Knowledge Graphs & Extending with ArcGIS SDKs
-
-Session ID: 1785483303563001aNHq · Code: ADS-1066
-
-- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
-- Room: Spektrum 1—Level C2 | Congress Center
-- Occurrence ID: 1786149063189001Xctj
-- Attendance: In person: yes; Virtual: no
-
-Discover how ArcGIS Knowledge connects data into graph structures to uncover patterns, surface vulnerabilities, and spot hidden insights. This session covers graph model fundamentals, analytics tools, and how to build and explore graphs in ArcGIS Pro. Then learn at a high level how to extend graph-powered workflows with developer tools, focusing on the ArcGIS API for Python and the ArcGIS Maps SDK for JavaScript.
-
-- Type: Technical Session
-- Level: Beginner
-- Language: en
-- Topic: Analytics and Data Science
-- Products: ArcGIS API for Python, ArcGIS Knowledge, ArcGIS Pro, ArcGIS Maps SDK for JavaScript, ArcGIS Maps SDK for .NET
-- Capabilities: Data Management, Spatial Analysis and Data Science
-- Technologies: JavaScript, Microsoft .NET
-- Keywords: Python, graph analytics, graph database, notebooks, web applications
-- Catalogues: European Dev & Tech Summit
-- Speakers: Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785483303563001aNHq>)
 
 ### ArcGIS Dashboards: Extending with ArcGIS Arcade
 
@@ -949,83 +871,6 @@ A dashboard is a view of geographic information and data that allows you to moni
 - Source modified: 2026-10-01T17:36:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785483846697001ZJZh>)
-
-### Version Management with ArcGIS
-
-Session ID: 1785489730492001RUwn · Code: DM-1104
-
-- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
-- Room: Illusion 2—Level C3 | Congress Center
-- Occurrence ID: 1786152454236001wFk3
-- Attendance: In person: yes; Virtual: no
-
-This session will present some of the technical details behind the branch versioning model that was developed for ArcGIS Pro and ArcGIS Enterprise. We will review the ArcGIS Pro user experience and the database structures that support these capabilities.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Products: ArcGIS Enterprise, ArcGIS Pro
-- Capabilities: Data Management
-- Technologies: Microsoft SQL Server, Oracle, PostgreSQL, SAP HANA
-- Keywords: branch versioning, enterprise
-- Catalogues: European Dev & Tech Summit
-- Speakers: Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev); Rich Ruh (Esri; Esri Speaker; ID: 1644920233154001Et3f\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489730492001RUwn>)
-
-### ArcGIS Maps SDKs for Native Apps: Overview and What's New
-
-Session ID: 1785491789306001kknK · Code: NTV-1118
-
-- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
-- Room: Conclusio 2—Level C2 | Congress Center
-- Occurrence ID: 1786149991294001mBMr
-- Attendance: In person: yes; Virtual: no
-
-ArcGIS Maps SDKs for Native Apps let you build powerful mapping applications with .NET, Flutter, Kotlin, Qt, and Swift that integrate with the ArcGIS system and run directly on desktop or mobile devices, online or offline. Over the past year, several enhancements have been introduced, such as more flexible editing capabilities, improved handling of real-time data, and support for new data sources such as geospatial PDFs. This session will introduce the SDKs and showcase the latest improvements.
-
-- Type: Technical Session
-- Level: Beginner
-- Language: en
-- Topic: Native SDKs
-- Products: ArcGIS Maps SDKs for Native Apps
-- Capabilities: Field Operations, Native App Development
-- Technologies: Cross-Platform
-- Keywords: Cross-platform, Offline, maps, mobile, native
-- Catalogues: European Dev & Tech Summit
-- Speakers: Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev); Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491789306001kknK>)
-
-### Integrating ArcGIS with Other Business Systems
-
-Session ID: 1785493428600001x4gQ · Code: SYS-1131
-
-- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
-- Room: Illusion 1—Level C3 | Congress Center
-- Occurrence ID: 1786152338263001pFXV
-- Attendance: In person: yes; Virtual: no
-
-Realizing the full potential of ArcGIS across your organization or enterprise often demands that your ArcGIS systems are integrated with other business systems, such as EAM, CRM, CAMA, and ERP systems. ArcGIS supports a variety of integration approaches and methods, as well as provides native integration solutions for specific software and system providers. In this session we will review common, high-level approaches to integrating ArcGIS with other business systems, as well as explore specific, technical integration patterns at the application, services, and data tier.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: System Architecture
-- Products: ArcGIS API for Python, ArcGIS Data Interoperability, ArcGIS Enterprise, ArcGIS Online, ArcGIS Maps SDK for JavaScript, ArcGIS Data Pipelines
-- Capabilities: Cloud Architecture, Data, and Services, Data Interoperability and Conversion, Extending ArcGIS, Open Standards and OGC
-- Technologies: AutoCAD, JavaScript, Microsoft .NET, Python, Arcade, Java
-- Keywords: solutions, system integration
-- Catalogues: European Dev & Tech Summit
-- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493428600001x4gQ>)
 
 ### ArcGIS Maps SDK for JavaScript: App Development with Components—Using Frameworks
 
@@ -1053,6 +898,84 @@ Join us for the second session in our 4-part series on building applications wit
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494727635001W1Oa>)
 
+### ArcGIS Maps SDKs for Native Apps: Overview and What's New
+
+Session ID: 1785491789306001kknK · Code: NTV-1118
+
+- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
+- Room: Conclusio 2—Level C2 | Congress Center
+- Occurrence ID: 1786149991294001mBMr
+- Attendance: In person: yes; Virtual: no
+
+ArcGIS Maps SDKs for Native Apps let you build powerful mapping applications with .NET, Flutter, Kotlin, Qt, and Swift that integrate with the ArcGIS system and run directly on desktop or mobile devices, online or offline. Over the past year, several enhancements have been introduced, such as more flexible editing capabilities, improved handling of real-time data, and support for new data sources such as geospatial PDFs. This session will introduce the SDKs and showcase the latest improvements.
+
+- Type: Technical Session
+- Level: Beginner
+- Language: en
+- Topic: Native SDKs
+- Products: ArcGIS Maps SDKs for Native Apps
+- Capabilities: Field Operations, Native App Development
+- Technologies: Cross-Platform
+- Keywords: Cross-platform, Offline, maps, mobile, native
+- Catalogues: European Dev & Tech Summit
+- Speakers: Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev); Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev)
+- Source modified: 2026-10-02T10:18:00Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491789306001kknK>)
+
+### ArcGIS Notebooks: Automating Administration, Data Management, and Analysis
+
+Session ID: 1785482952493001LNiy · Code: ADS-1064
+
+- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
+- Room: Spektrum 2—Level C2 | Congress Center
+- Occurrence ID: 1786149654045001Lu3R
+- Attendance: In person: yes; Virtual: no
+
+ArcGIS Notebooks in ArcGIS Online and ArcGIS Enterprise provide various orchestration of tools, processes, and resources to automate administrative, data management, and analysis workflows. This session will detail the various techniques for scheduling notebook tasks, automating notebooks using webhooks, publishing notebooks as web tools, and calling notebooks programmatically via the ArcGIS API for Python.
+
+- Type: Technical Session
+- Level: All Attendees
+- Language: en
+- Topic: Analytics and Data Science
+- Products: ArcGIS API for Python, ArcGIS Enterprise, ArcGIS Notebook Server, ArcGIS Notebooks, ArcGIS Online
+- Capabilities: Scripting and Automation
+- Technologies: Python
+- Keywords: Python, automation, data science, notebooks
+- Catalogues: European Dev & Tech Summit
+- Speakers: Karthik Dutt (Esri; Esri Speaker; ID: 1646185844924001M6Ax\_1777494026euroepcdev); Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev)
+- Source modified: 2026-10-01T19:04:32Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482952493001LNiy>)
+
+### GeoAI Workflows with ArcGIS
+
+Session ID: 1785480754385001m6KU · Code: AI-1055
+
+- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
+- Room: Fantasie 2—Level C3 | Congress Center
+- Occurrence ID: 1787723523563001dUMk
+- Attendance: In person: yes; Virtual: no
+
+Attend this session to learn about geospatial AI (GeoAI), the different types of geospatial machine learning and deep learning models, and how you can train and use them using the arcgis.learn module of ArcGIS API for Python and ArcGIS Pro. This session will showcase the application of ArcGIS’s GeoAI capabilities in the following areas: - Feature extraction from imagery and 3D data - Natural language processing of unstructured text - Clustering, prediction, and forecasting of feature, tabular, and time-series data
+
+- Type: Technical Session
+- Level: Advanced
+- Language: en
+- Topic: AI
+- Products: ArcGIS API for Python
+- Capabilities: GeoAI, Scripting and Automation
+- Technologies: Python
+- Keywords: 3D, AI, capabilities, deep learning, imagery
+- Catalogues: European Dev & Tech Summit
+- Speakers: Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev); Álvaro Gutierrez (Esri Spain; Distributor Esri Speaker; ID: 1691495250364001LNdS\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785480754385001m6KU>)
+
 ### High-Performance Spatial Data on the Web: Feature Layers and Parquet Layers
 
 Session ID: 1785495907455001Yn0k · Code: WEB-1145
@@ -1078,6 +1001,83 @@ Feature layers are the best way to work with feature data on the web. In this se
 - Source modified: 2026-10-01T19:47:26Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495907455001Yn0k>)
+
+### Integrating ArcGIS with Other Business Systems
+
+Session ID: 1785493428600001x4gQ · Code: SYS-1131
+
+- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
+- Room: Illusion 1—Level C3 | Congress Center
+- Occurrence ID: 1786152338263001pFXV
+- Attendance: In person: yes; Virtual: no
+
+Realizing the full potential of ArcGIS across your organization or enterprise often demands that your ArcGIS systems are integrated with other business systems, such as EAM, CRM, CAMA, and ERP systems. ArcGIS supports a variety of integration approaches and methods, as well as provides native integration solutions for specific software and system providers. In this session we will review common, high-level approaches to integrating ArcGIS with other business systems, as well as explore specific, technical integration patterns at the application, services, and data tier.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: System Architecture
+- Products: ArcGIS API for Python, ArcGIS Data Interoperability, ArcGIS Enterprise, ArcGIS Online, ArcGIS Maps SDK for JavaScript, ArcGIS Data Pipelines
+- Capabilities: Cloud Architecture, Data, and Services, Data Interoperability and Conversion, Extending ArcGIS, Open Standards and OGC
+- Technologies: AutoCAD, JavaScript, Microsoft .NET, Python, Arcade, Java
+- Keywords: solutions, system integration
+- Catalogues: European Dev & Tech Summit
+- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493428600001x4gQ>)
+
+### Intro to ArcGIS Knowledge Graphs & Extending with ArcGIS SDKs
+
+Session ID: 1785483303563001aNHq · Code: ADS-1066
+
+- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
+- Room: Spektrum 1—Level C2 | Congress Center
+- Occurrence ID: 1786149063189001Xctj
+- Attendance: In person: yes; Virtual: no
+
+Discover how ArcGIS Knowledge connects data into graph structures to uncover patterns, surface vulnerabilities, and spot hidden insights. This session covers graph model fundamentals, analytics tools, and how to build and explore graphs in ArcGIS Pro. Then learn at a high level how to extend graph-powered workflows with developer tools, focusing on the ArcGIS API for Python and the ArcGIS Maps SDK for JavaScript.
+
+- Type: Technical Session
+- Level: Beginner
+- Language: en
+- Topic: Analytics and Data Science
+- Products: ArcGIS API for Python, ArcGIS Knowledge, ArcGIS Pro, ArcGIS Maps SDK for JavaScript, ArcGIS Maps SDK for .NET
+- Capabilities: Data Management, Spatial Analysis and Data Science
+- Technologies: JavaScript, Microsoft .NET
+- Keywords: Python, graph analytics, graph database, notebooks, web applications
+- Catalogues: European Dev & Tech Summit
+- Speakers: Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785483303563001aNHq>)
+
+### Version Management with ArcGIS
+
+Session ID: 1785489730492001RUwn · Code: DM-1104
+
+- When: 2026-10-21 10:30–2026-10-21 11:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T08:30:00Z–2026-10-21T09:30:00Z
+- Room: Illusion 2—Level C3 | Congress Center
+- Occurrence ID: 1786152454236001wFk3
+- Attendance: In person: yes; Virtual: no
+
+This session will present some of the technical details behind the branch versioning model that was developed for ArcGIS Pro and ArcGIS Enterprise. We will review the ArcGIS Pro user experience and the database structures that support these capabilities.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Products: ArcGIS Enterprise, ArcGIS Pro
+- Capabilities: Data Management
+- Technologies: Microsoft SQL Server, Oracle, PostgreSQL, SAP HANA
+- Keywords: branch versioning, enterprise
+- Catalogues: European Dev & Tech Summit
+- Speakers: Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev); Rich Ruh (Esri; Esri Speaker; ID: 1644920233154001Et3f\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489730492001RUwn>)
 
 ### Digital Incident File for Firefighters: Integration of GIS into a Standard DMS
 
@@ -1169,31 +1169,31 @@ Urban trees are critical infrastructure in the fight against climate change, yet
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1782801069412001KX4l>)
 
-### Spatial Data Science in ArcGIS
+### ArcGIS Arcade: Fundamentals
 
-Session ID: 1785482839006001nLsT · Code: ADS-1063
+Session ID: 1785491062415001SeNk · Code: IMP-1113
 
 - When: 2026-10-21 13:00–2026-10-21 14:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T11:00:00Z–2026-10-21T12:00:00Z
-- Room: Spektrum 1—Level C2 | Congress Center
-- Occurrence ID: 1786149072670001mpE0
+- Room: Harmonie Hall A-C—Level C2 | Congress Center
+- Occurrence ID: 1786148738424001mgIJ
 - Attendance: In person: yes; Virtual: no
 
-ArcGIS is a comprehensive analytics platform for data scientists. It enables you to unlock your data's full potential by integrating data exploration, statistical and machine learning algorithms, and advanced modeling techniques. Whether your analysis requires a powerful spatial data science workstation or a dynamic scripting environment, ArcGIS has you covered. In this session, you will learn about the analytic capabilities of ArcGIS, the key stages in any data science workflow, and how it all fits together.
+ArcGIS Arcade is a simple but powerful expression language developed by Esri to support multiple ArcGIS geospatial workflows, and is used in apps across the ArcGIS system. Arcade provides a library of functions to examine spatial relationships, clean up and convert data, visualize features dynamically on a map, format pop-ups using multiple layers, calculate field values, constrain form input values, and more. Come to this session to get a solid understanding of Arcade fundamentals and see a variety of examples of how it can be used to enhance ArcGIS workflows.
 
 - Type: Technical Session
-- Level: All Attendees
+- Level: Beginner
 - Language: en
-- Topic: Analytics and Data Science
-- Products: ArcGIS Notebooks, ArcGIS Online, ArcGIS Pro
-- Capabilities: Spatial Analysis and Data Science
-- Technologies: Python
-- Keywords: GeoAI, machine learning, predictive analytics, spatial analytics, spatial data science, statistics
+- Topic: Implementation Strategies
+- Products: ArcGIS Online, ArcGIS Pro
+- Capabilities: Arcade
+- Technologies: Cross-Platform, Arcade
+- Keywords: Arcade, expressions, fundamentals
 - Catalogues: European Dev & Tech Summit
-- Speakers: Jan Tschada (Esri Germany; Distributor Esri Speaker; ID: 1647440426471001nWep\_1777494026euroepcdev); Rohit Singh (Esri; Esri Speaker; ID: 1646186507739001EQtQ\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
+- Speakers: Lisa Keurentjes (Esri Netherlands; Distributor Esri Speaker; ID: 1752500167043001nk2t\_1777494026euroepcdev); Maartje Holtslag (Esri Netherlands; Distributor Esri Speaker; ID: 1646230356944001AmDt\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482839006001nLsT>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491062415001SeNk>)
 
 ### ArcGIS Enterprise: Data Storage Strategies
 
@@ -1221,57 +1221,31 @@ Data is an integral part of ArcGIS, providing the foundation for your mapping, a
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486341667001slFC>)
 
-### ArcGIS REST API: Full Throttle
+### ArcGIS Maps SDK for JavaScript: App Development with Components—User Experience
 
-Session ID: 1785487450715001do3c · Code: ALP-1089
-
-- When: 2026-10-21 13:00–2026-10-21 14:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T11:00:00Z–2026-10-21T12:00:00Z
-- Room: Fantasie 2—Level C3 | Congress Center
-- Occurrence ID: 1786152491377001ulmq
-- Attendance: In person: yes; Virtual: no
-
-In Web GIS, all resources are published as web services. While ArcGIS APIs/SDKs are to a large degree wrappers around the REST API, allowing you to access these web services following the conventions of the platform you're working with, you always still have access to the REST API for accessing web services directly. In this session, we will demonstrate to you the best practice techniques for working with the REST API when combining the REST API to a third API.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: ArcGIS Location Platform
-- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Location Platform
-- Capabilities: Scripting and Automation
-- Technologies: Cross-Platform
-- Keywords: JavaScript API, REST
-- Catalogues: European Dev & Tech Summit
-- Speakers: Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev)
-- Source modified: 2026-10-01T20:08:29Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487450715001do3c>)
-
-### ArcGIS Online: Developing with Web Maps and Web Scenes
-
-Session ID: 1785488844287001JhoD · Code: AGO-1097
+Session ID: 1785494866247001NFxW · Code: WEB-1139
 
 - When: 2026-10-21 13:00–2026-10-21 14:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T11:00:00Z–2026-10-21T12:00:00Z
-- Room: Conclusio 2—Level C2 | Congress Center
-- Occurrence ID: 1786149998882001etcO
+- Room: Harmonie Hall D-E—Level C2 | Congress Center
+- Occurrence ID: 1786149461617001wzBi
 - Attendance: In person: yes; Virtual: no
 
-Join this session to learn how to develop in ArcGIS Online as a GIS developer. You don't need to write 500 lines of code - you can build the basics in Map Viewer and then add custom interactivity into your app with focused code. We'll cover how to build web apps, how to register them, how to share them, and how to secure them using the ArcGIS security model.
+Join us for the third session in our 4-part series on building applications with the ArcGIS Maps SDK for JavaScript. This session is focused on building the user experience in your web app with the SDK's components and Calcite Design System. Calcite provides a library of patterns, icons, and user-friendly, configurable web components that enable developers to easily build responsive, accessible web applications. We'll demonstrate how the components can be used together to build intuitive yet powerful experiences in your apps.
 
 - Type: Technical Session
-- Level: Intermediate
+- Level: All Attendees
 - Language: en
-- Topic: ArcGIS Online
-- Products: ArcGIS Online
-- Capabilities: 3D Visualization and Analytics
-- Technologies: JavaScript
-- Keywords: interactive, map, security, sharing, viewer, web applications
+- Topic: Web
+- Products: ArcGIS Maps SDK for JavaScript
+- Capabilities: UI/UX, Web App Development, Calcite Design System
+- Technologies: JavaScript, Calcite Design System
+- Keywords: Calcite Design System, JavaScript, user experience, web components
 - Catalogues: European Dev & Tech Summit
-- Speakers: Sascha Brunner (Esri; Esri Speaker; ID: 1646186555410001UwXr\_1777494026euroepcdev); Kristian Kaesinger (Esri UK; Distributor Esri Speaker; ID: 1657631752276001DIJ1\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
+- Speakers: Keith Morrison (Esri UK; Distributor Esri Speaker; ID: 16466472387190010JgW\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488844287001JhoD>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494866247001NFxW>)
 
 ### ArcGIS Maps SDKs for Game Engines: An Introduction
 
@@ -1299,57 +1273,57 @@ ArcGIS Maps SDKs for Game Engines enable you to build next generation immersive 
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490333716001DTRX>)
 
-### ArcGIS Arcade: Fundamentals
+### ArcGIS Online: Developing with Web Maps and Web Scenes
 
-Session ID: 1785491062415001SeNk · Code: IMP-1113
+Session ID: 1785488844287001JhoD · Code: AGO-1097
 
 - When: 2026-10-21 13:00–2026-10-21 14:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T11:00:00Z–2026-10-21T12:00:00Z
-- Room: Harmonie Hall A-C—Level C2 | Congress Center
-- Occurrence ID: 1786148738424001mgIJ
+- Room: Conclusio 2—Level C2 | Congress Center
+- Occurrence ID: 1786149998882001etcO
 - Attendance: In person: yes; Virtual: no
 
-ArcGIS Arcade is a simple but powerful expression language developed by Esri to support multiple ArcGIS geospatial workflows, and is used in apps across the ArcGIS system. Arcade provides a library of functions to examine spatial relationships, clean up and convert data, visualize features dynamically on a map, format pop-ups using multiple layers, calculate field values, constrain form input values, and more. Come to this session to get a solid understanding of Arcade fundamentals and see a variety of examples of how it can be used to enhance ArcGIS workflows.
+Join this session to learn how to develop in ArcGIS Online as a GIS developer. You don't need to write 500 lines of code - you can build the basics in Map Viewer and then add custom interactivity into your app with focused code. We'll cover how to build web apps, how to register them, how to share them, and how to secure them using the ArcGIS security model.
 
 - Type: Technical Session
-- Level: Beginner
+- Level: Intermediate
 - Language: en
-- Topic: Implementation Strategies
-- Products: ArcGIS Online, ArcGIS Pro
-- Capabilities: Arcade
-- Technologies: Cross-Platform, Arcade
-- Keywords: Arcade, expressions, fundamentals
+- Topic: ArcGIS Online
+- Products: ArcGIS Online
+- Capabilities: 3D Visualization and Analytics
+- Technologies: JavaScript
+- Keywords: interactive, map, security, sharing, viewer, web applications
 - Catalogues: European Dev & Tech Summit
-- Speakers: Lisa Keurentjes (Esri Netherlands; Distributor Esri Speaker; ID: 1752500167043001nk2t\_1777494026euroepcdev); Maartje Holtslag (Esri Netherlands; Distributor Esri Speaker; ID: 1646230356944001AmDt\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
+- Speakers: Sascha Brunner (Esri; Esri Speaker; ID: 1646186555410001UwXr\_1777494026euroepcdev); Kristian Kaesinger (Esri UK; Distributor Esri Speaker; ID: 1657631752276001DIJ1\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491062415001SeNk>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488844287001JhoD>)
 
-### Data Integration: Streamlining Your Data Flow from Source to ArcGIS
+### ArcGIS REST API: Full Throttle
 
-Session ID: 1785491297787001u7vF · Code: IMP-1114
+Session ID: 1785487450715001do3c · Code: ALP-1089
 
 - When: 2026-10-21 13:00–2026-10-21 14:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T11:00:00Z–2026-10-21T12:00:00Z
-- Room: Illusion 1—Level C3 | Congress Center
-- Occurrence ID: 1786150686653001Pj68
+- Room: Fantasie 2—Level C3 | Congress Center
+- Occurrence ID: 1786152491377001ulmq
 - Attendance: In person: yes; Virtual: no
 
-ArcGIS is a system that allows for integration of many types of data - but what is the best approach to get data out of one system and into ArcGIS Online or ArcGIS Enterprise so that you can leverage it in your apps? Join us to survey various data integration strategies available in ArcGIS. We'll cover methods such as scripting, ETL, and direct read. You will leave with new strategies to streamline your own data flow process.
+In Web GIS, all resources are published as web services. While ArcGIS APIs/SDKs are to a large degree wrappers around the REST API, allowing you to access these web services following the conventions of the platform you're working with, you always still have access to the REST API for accessing web services directly. In this session, we will demonstrate to you the best practice techniques for working with the REST API when combining the REST API to a third API.
 
 - Type: Technical Session
-- Level: All Attendees
+- Level: Intermediate
 - Language: en
-- Topic: Implementation Strategies
-- Products: ArcGIS API for Python, ArcGIS Data Interoperability, ArcGIS Enterprise, ArcGIS Online, ArcGIS REST API, ArcGIS Data Pipelines
-- Capabilities: Data Interoperability and Conversion, Data Management, Scripting and Automation
+- Topic: ArcGIS Location Platform
+- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Location Platform
+- Capabilities: Scripting and Automation
 - Technologies: Cross-Platform
-- Keywords: ETL, automation, custom data feeds, data integration, strategies
+- Keywords: JavaScript API, REST
 - Catalogues: European Dev & Tech Summit
-- Speakers: Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
+- Speakers: Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev)
+- Source modified: 2026-10-01T20:08:29Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491297787001u7vF>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487450715001do3c>)
 
 ### Authentication: A Practical Approach to Security in ArcGIS
 
@@ -1377,31 +1351,57 @@ Two main authentication mechanisms exist for applications built with ArcGIS serv
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493533691001yG2g>)
 
-### ArcGIS Maps SDK for JavaScript: App Development with Components—User Experience
+### Data Integration: Streamlining Your Data Flow from Source to ArcGIS
 
-Session ID: 1785494866247001NFxW · Code: WEB-1139
+Session ID: 1785491297787001u7vF · Code: IMP-1114
 
 - When: 2026-10-21 13:00–2026-10-21 14:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T11:00:00Z–2026-10-21T12:00:00Z
-- Room: Harmonie Hall D-E—Level C2 | Congress Center
-- Occurrence ID: 1786149461617001wzBi
+- Room: Illusion 1—Level C3 | Congress Center
+- Occurrence ID: 1786150686653001Pj68
 - Attendance: In person: yes; Virtual: no
 
-Join us for the third session in our 4-part series on building applications with the ArcGIS Maps SDK for JavaScript. This session is focused on building the user experience in your web app with the SDK's components and Calcite Design System. Calcite provides a library of patterns, icons, and user-friendly, configurable web components that enable developers to easily build responsive, accessible web applications. We'll demonstrate how the components can be used together to build intuitive yet powerful experiences in your apps.
+ArcGIS is a system that allows for integration of many types of data - but what is the best approach to get data out of one system and into ArcGIS Online or ArcGIS Enterprise so that you can leverage it in your apps? Join us to survey various data integration strategies available in ArcGIS. We'll cover methods such as scripting, ETL, and direct read. You will leave with new strategies to streamline your own data flow process.
 
 - Type: Technical Session
 - Level: All Attendees
 - Language: en
-- Topic: Web
-- Products: ArcGIS Maps SDK for JavaScript
-- Capabilities: UI/UX, Web App Development, Calcite Design System
-- Technologies: JavaScript, Calcite Design System
-- Keywords: Calcite Design System, JavaScript, user experience, web components
+- Topic: Implementation Strategies
+- Products: ArcGIS API for Python, ArcGIS Data Interoperability, ArcGIS Enterprise, ArcGIS Online, ArcGIS REST API, ArcGIS Data Pipelines
+- Capabilities: Data Interoperability and Conversion, Data Management, Scripting and Automation
+- Technologies: Cross-Platform
+- Keywords: ETL, automation, custom data feeds, data integration, strategies
 - Catalogues: European Dev & Tech Summit
-- Speakers: Keith Morrison (Esri UK; Distributor Esri Speaker; ID: 16466472387190010JgW\_1777494026euroepcdev)
+- Speakers: Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev)
 - Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494866247001NFxW>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491297787001u7vF>)
+
+### Spatial Data Science in ArcGIS
+
+Session ID: 1785482839006001nLsT · Code: ADS-1063
+
+- When: 2026-10-21 13:00–2026-10-21 14:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T11:00:00Z–2026-10-21T12:00:00Z
+- Room: Spektrum 1—Level C2 | Congress Center
+- Occurrence ID: 1786149072670001mpE0
+- Attendance: In person: yes; Virtual: no
+
+ArcGIS is a comprehensive analytics platform for data scientists. It enables you to unlock your data's full potential by integrating data exploration, statistical and machine learning algorithms, and advanced modeling techniques. Whether your analysis requires a powerful spatial data science workstation or a dynamic scripting environment, ArcGIS has you covered. In this session, you will learn about the analytic capabilities of ArcGIS, the key stages in any data science workflow, and how it all fits together.
+
+- Type: Technical Session
+- Level: All Attendees
+- Language: en
+- Topic: Analytics and Data Science
+- Products: ArcGIS Notebooks, ArcGIS Online, ArcGIS Pro
+- Capabilities: Spatial Analysis and Data Science
+- Technologies: Python
+- Keywords: GeoAI, machine learning, predictive analytics, spatial analytics, spatial data science, statistics
+- Catalogues: European Dev & Tech Summit
+- Speakers: Jan Tschada (Esri Germany; Distributor Esri Speaker; ID: 1647440426471001nWep\_1777494026euroepcdev); Rohit Singh (Esri; Esri Speaker; ID: 1646186507739001EQtQ\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482839006001nLsT>)
 
 ### Using Agentic AI to Easily Create Geospatial Test Data for Your Infrastructure
 
@@ -1448,29 +1448,6 @@ Learn more about Norwegian Air Ambulance, the background behind the HemsWX mobil
 - Source modified: 2026-10-01T20:14:16Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1782470676098001hwxZ>)
-
-### The Machinery Behind a Map: Daily BigQuery-to-ArcGIS Sync with Airflow
-
-Session ID: 1784637938548001cydT · Code: 1018
-
-- When: 2026-10-21 14:30–2026-10-21 14:45 (Europe/Berlin; 15 minutes)
-- UTC: 2026-10-21T12:30:00Z–2026-10-21T12:45:00Z
-- Room: Illusion 3—Level C3 | Congress Center
-- Occurrence ID: 1788300603124001hT4A
-- Attendance: In person: yes; Virtual: no
-
-Allegro's expansion team relies on daily, map-ready data to decide where to place parcel lockers. We show how we orchestrate updates from Google BigQuery into ArcGIS Online and ArcGIS Enterprise using Apache Airflow and purpose-built operators. Instead of full reloads, a differential sync computes adds, updates and deletes, syncing ~200k points and polygons daily through the ArcGIS REST API. A dozen automated workflows—APM locations, Salesforce leads and more—feed our Site Selection app, used by nearly 100 analysts every day.
-
-- Type: User Presentation
-- Level: All Attendees
-- Language: en
-- Topic: Data Management
-- Keywords: Apache Airflow, BigQuery, Data synchronization, ETL, big data, location analytics
-- Catalogues: European Dev & Tech Summit
-- Speakers: Marcin Sutuła (Allegro Sp. z o.o.; Primary Speaker; ID: 1784636452165001riwb\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1784637938548001cydT>)
 
 ### 3D GIS: Working with the 3D Object Layer
 
@@ -1549,58 +1526,6 @@ This session will share best practices for securing your ArcGIS Enterprise deplo
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486451299001kT94>)
 
-### Working with Hosted Feature Layer Views
-
-Session ID: 1785488928741001oo5e · Code: AGO-1098
-
-- When: 2026-10-21 14:30–2026-10-21 15:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T12:30:00Z–2026-10-21T13:30:00Z
-- Room: Spektrum 1—Level C2 | Congress Center
-- Occurrence ID: 1786149087291001XNI6
-- Attendance: In person: yes; Virtual: no
-
-Hosted feature layer views allow you to create multiple unique windows into your data and customize them to fit your audience. In this session, learn how hosted feature layer views can be used to meet audience needs while ensuring data integrity and privacy.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: ArcGIS Online
-- Products: ArcGIS Online
-- Capabilities: Cloud Architecture, Data, and Services, Data Hosting, Data Management
-- Technologies: Cross-Platform
-- Keywords: Hosted Feature Layer, Hosted Feature Layer View, Hosted Feature Service, crowd-source, data, public, survey, viral app
-- Catalogues: European Dev & Tech Summit
-- Speakers: Isla Evans (Esri UK; Distributor Esri Speaker; ID: 1752656924580001Dj9l\_1777494026euroepcdev); Maartje Holtslag (Esri Netherlands; Distributor Esri Speaker; ID: 1646230356944001AmDt\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488928741001oo5e>)
-
-### Understanding MCP and A2A: A Primer for GIS Practitioners
-
-Session ID: 1785491630111001RFvk · Code: IMP-1117
-
-- When: 2026-10-21 14:30–2026-10-21 15:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T12:30:00Z–2026-10-21T13:30:00Z
-- Room: Harmonie Hall A-C—Level C2 | Congress Center
-- Occurrence ID: 1786148750385001e9E0
-- Attendance: In person: yes; Virtual: no
-
-As AI technologies evolve, new protocols are emerging to support intelligent system-to-system communication. This session introduces GIS professionals to MCP (Model Context Protocol) and A2A (Agent-to-Agent Protocol), two foundational standards enabling agentic AI workflows. Attendees will gain a high-level understanding of how these protocols work, why they matter, and how they may shape the future of geospatial problem-solving.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: Implementation Strategies
-- Products: ArcGIS Enterprise, ArcGIS Workflow Manager
-- Capabilities: Extending ArcGIS, Scripting and Automation, Server Administration
-- Technologies: Docker, Kubernetes, JavaScript, Python, REST
-- Keywords: Agentic Automation, Context-Aware Workflows, Intelligent Orchestration, MCP Server
-- Catalogues: European Dev & Tech Summit
-- Speakers: Mika Dinnus (Esri Germany; Distributor Esri Speaker; ID: 1761319069866001rrzx\_1777494026euroepcdev); Francesco Mazzilli (WhereTech; Distributor Esri Speaker; ID: 1759398453296001taQk\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491630111001RFvk>)
-
 ### ArcGIS in a Sovereign Resilient Architecture 
 
 Session ID: 1785493789000001BHsA · Code: SYS-1134
@@ -1670,6 +1595,81 @@ Many GIS programs struggle to demonstrate business impact because they are manag
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1790894989935001dzv5>)
 
+### The Machinery Behind a Map: Daily BigQuery-to-ArcGIS Sync with Airflow
+
+Session ID: 1784637938548001cydT · Code: 1018
+
+- When: 2026-10-21 14:30–2026-10-21 14:45 (Europe/Berlin; 15 minutes)
+- UTC: 2026-10-21T12:30:00Z–2026-10-21T12:45:00Z
+- Room: Illusion 3—Level C3 | Congress Center
+- Occurrence ID: 1788300603124001hT4A
+- Attendance: In person: yes; Virtual: no
+
+Allegro's expansion team relies on daily, map-ready data to decide where to place parcel lockers. We show how we orchestrate updates from Google BigQuery into ArcGIS Online and ArcGIS Enterprise using Apache Airflow and purpose-built operators. Instead of full reloads, a differential sync computes adds, updates and deletes, syncing ~200k points and polygons daily through the ArcGIS REST API. A dozen automated workflows—APM locations, Salesforce leads and more—feed our Site Selection app, used by nearly 100 analysts every day.
+
+- Type: User Presentation
+- Level: All Attendees
+- Language: en
+- Topic: Data Management
+- Keywords: Apache Airflow, BigQuery, Data synchronization, ETL, big data, location analytics
+- Catalogues: European Dev & Tech Summit
+- Speakers: Marcin Sutuła (Allegro Sp. z o.o.; Primary Speaker; ID: 1784636452165001riwb\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1784637938548001cydT>)
+
+### Understanding MCP and A2A: A Primer for GIS Practitioners
+
+Session ID: 1785491630111001RFvk · Code: IMP-1117
+
+- When: 2026-10-21 14:30–2026-10-21 15:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T12:30:00Z–2026-10-21T13:30:00Z
+- Room: Harmonie Hall A-C—Level C2 | Congress Center
+- Occurrence ID: 1786148750385001e9E0
+- Attendance: In person: yes; Virtual: no
+
+As AI technologies evolve, new protocols are emerging to support intelligent system-to-system communication. This session introduces GIS professionals to MCP (Model Context Protocol) and A2A (Agent-to-Agent Protocol), two foundational standards enabling agentic AI workflows. Attendees will gain a high-level understanding of how these protocols work, why they matter, and how they may shape the future of geospatial problem-solving.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: Implementation Strategies
+- Products: ArcGIS Enterprise, ArcGIS Workflow Manager
+- Capabilities: Extending ArcGIS, Scripting and Automation, Server Administration
+- Technologies: Docker, Kubernetes, JavaScript, Python, REST
+- Keywords: Agentic Automation, Context-Aware Workflows, Intelligent Orchestration, MCP Server
+- Catalogues: European Dev & Tech Summit
+- Speakers: Mika Dinnus (Esri Germany; Distributor Esri Speaker; ID: 1761319069866001rrzx\_1777494026euroepcdev); Francesco Mazzilli (WhereTech; Distributor Esri Speaker; ID: 1759398453296001taQk\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491630111001RFvk>)
+
+### Working with Hosted Feature Layer Views
+
+Session ID: 1785488928741001oo5e · Code: AGO-1098
+
+- When: 2026-10-21 14:30–2026-10-21 15:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T12:30:00Z–2026-10-21T13:30:00Z
+- Room: Spektrum 1—Level C2 | Congress Center
+- Occurrence ID: 1786149087291001XNI6
+- Attendance: In person: yes; Virtual: no
+
+Hosted feature layer views allow you to create multiple unique windows into your data and customize them to fit your audience. In this session, learn how hosted feature layer views can be used to meet audience needs while ensuring data integrity and privacy.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: ArcGIS Online
+- Products: ArcGIS Online
+- Capabilities: Cloud Architecture, Data, and Services, Data Hosting, Data Management
+- Technologies: Cross-Platform
+- Keywords: Hosted Feature Layer, Hosted Feature Layer View, Hosted Feature Service, crowd-source, data, public, survey, viral app
+- Catalogues: European Dev & Tech Summit
+- Speakers: Isla Evans (Esri UK; Distributor Esri Speaker; ID: 1752656924580001Dj9l\_1777494026euroepcdev); Maartje Holtslag (Esri Netherlands; Distributor Esri Speaker; ID: 1646230356944001AmDt\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488928741001oo5e>)
+
 ### A Mid-Sized City's Playbook for Effective, Adopted GIS Strategy
 
 Session ID: 1785486624065001AwRC · Code: 1083
@@ -1716,57 +1716,81 @@ ArcGIS Enterprise 11 retires the ArcMap runtime and legacy .NET Framework 4 serv
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1788273633838001XpDj>)
 
-### Building Trusted GeoAI with ArcGIS, Edge, and Local Inference
+### ArcGIS Maps SDK for JavaScript: Building AI Assistants
 
-Session ID: 1785481680531001fDJ8 · Code: AI-1059
+Session ID: 1785495094887001f0XA · Code: WEB-1141
 
 - When: 2026-10-21 16:00–2026-10-21 17:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T14:00:00Z–2026-10-21T15:00:00Z
-- Room: Fantasie 2—Level C3 | Congress Center
-- Occurrence ID: 1786151260514001rSrV
+- Room: Harmonie Hall A-C—Level C2 | Congress Center
+- Occurrence ID: 1786148768946001wcCq
 - Attendance: In person: yes; Virtual: no
 
-In this session, you will learn how to design and implement sovereign GeoAI architectures that combine ArcGIS capabilities with modern AI platforms, local inferencing, and edge-native operational workflows. Explore architectural patterns for building trusted enterprise AI systems that maintain operational control, data sovereignty, and offline resilience while integrating location intelligence into AI-driven applications, copilots, and autonomous agents. Attendees leave with solid architectural guidance for building secure, explainable, and operationally resilient GeoAI systems that scale.
+Learn how you can build an AI assistant for a web application using the framework being developed in the ArcGIS Maps SDK for JavaScript. We'll discuss key terminology, how to use the components and out-of-the-box workflows built in to the SDK, how to define your own workflows specific to your application, and how to leverage the client-side capabilities of the browser and the SDK to make the best possible experience for your users.
 
 - Type: Technical Session
-- Level: Intermediate
+- Level: All Attendees
 - Language: en
-- Topic: AI
-- Products: ArcGIS Enterprise, ArcGIS Maps SDKs for Native Apps, ArcGIS Location Platform
-- Capabilities: Cloud Architecture, Data, and Services, GeoAI, Native App Development, Portal Administration, Security, Server Administration, Location Services
-- Technologies: Android and Kotlin, Apple iOS and Swift, Microsoft MAUI, Microsoft .NET, Qt, Flutter
-- Keywords: AI, agents, architecture, data sovereignty, location, resilience
+- Topic: Web
+- Products: ArcGIS Maps SDK for JavaScript
+- Keywords: AI assistants, workflows
 - Catalogues: European Dev & Tech Summit
-- Speakers: Jan Tschada (Esri Germany; Distributor Esri Speaker; ID: 1647440426471001nWep\_1777494026euroepcdev); Karthik Dutt (Esri; Esri Speaker; ID: 1646185844924001M6Ax\_1777494026euroepcdev)
+- Speakers: Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev); Mika Dinnus (Esri Germany; Distributor Esri Speaker; ID: 1761319069866001rrzx\_1777494026euroepcdev)
 - Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785481680531001fDJ8>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495094887001f0XA>)
 
-### Extending ArcGIS Enterprise with Webhooks
+### ArcGIS Maps SDKs for Native Apps: Feature Editing and Offline Workflows
 
-Session ID: 1785487099616001SRmO · Code: AGE-1087
+Session ID: 1785491902057001pS8Z · Code: NTV-1119
 
 - When: 2026-10-21 16:00–2026-10-21 17:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T14:00:00Z–2026-10-21T15:00:00Z
-- Room: Fantasie 1—Level C3 | Congress Center
-- Occurrence ID: 1786151132005001rPJI
+- Room: Illusion 1—Level C3 | Congress Center
+- Occurrence ID: 1786152413400001CJBY
 - Attendance: In person: yes; Virtual: no
 
-Learn how to use powerful developer technologies to extend ArcGIS Enterprise through webhooks. Webhooks offer deep integration within ArcGIS Enterprise through event-driven notifications in both the portal as well as feature services and geoprocessing services. Join us to explore how items, users, and group modification along with feature service edits trigger a webhook and the different ways to respond to these notifications.
+The Native Maps SDKs are built from the ground up to provide an exceptional offline experience. We will explore offline patterns, the capabilities available while offline, and the data types that support these capabilities. Topics will cover ahead-of-time and on-demand options for generating, editing, and updating GIS data, utilizing both SaaS and self-hosted ArcGIS services, along with desktop-based workflows using ArcGIS Pro. This session is for new users who aim to create successful and scalable solutions for field operations and those looking to optimize their deployed solutions.
 
 - Type: Technical Session
-- Level: Intermediate
+- Level: Beginner
 - Language: en
-- Topic: ArcGIS Enterprise
-- Products: ArcGIS Enterprise
-- Capabilities: Server Administration
-- Technologies: Cross-Platform
-- Keywords: extending services, webhooks
+- Topic: Native SDKs
+- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Pro, ArcGIS Maps SDKs for Native Apps
+- Capabilities: Data Management, Field Operations, Native App Development
+- Technologies: Android and Kotlin, Apple iOS and Swift, Cross-Platform, Microsoft MAUI, Microsoft .NET, Qt
+- Keywords: Field, Offline, Runtime, editing, mobile, native
 - Catalogues: European Dev & Tech Summit
-- Speakers: Robert van Gilst (GeoInfo; Distributor Esri Speaker; ID: 1705406753000001QVwK\_1777494026euroepcdev); Edwin van Meijeren (Esri Netherlands; Distributor Esri Speaker; ID: 1688108508099001iZyO\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
+- Speakers: Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev)
+- Source modified: 2026-10-02T08:09:25Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487099616001SRmO>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491902057001pS8Z>)
+
+### ArcGIS Online and ArcGIS Enterprise: Deployment Patterns and Practices
+
+Session ID: 1785493662600001LeyY · Code: SYS-1133
+
+- When: 2026-10-21 16:00–2026-10-21 17:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T14:00:00Z–2026-10-21T15:00:00Z
+- Room: Spektrum 2—Level C2 | Congress Center
+- Occurrence ID: 1786149679772001p5eL
+- Attendance: In person: yes; Virtual: no
+
+It is a common misconception that an organization should use either ArcGIS Enterprise or ArcGIS Online, when in fact many organizations successfully use both. This session will cover how to choose the deployment that best fits your organizational needs. We will talk about the different forms of hybrid patterns that best take advantage of each environment’s unique strengths to build the best possible system and help you plan.
+
+- Type: Technical Session
+- Level: Beginner
+- Language: en
+- Topic: System Architecture
+- Products: ArcGIS Enterprise, ArcGIS Online
+- Capabilities: Server Administration
+- Technologies: Kubernetes, Linux, Microsoft Windows
+- Keywords: administration, organization, portal
+- Catalogues: European Dev & Tech Summit
+- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493662600001LeyY>)
 
 ### ArcGIS Pro SDK for .NET: Getting Started with Copilot-Assisted Development
 
@@ -1791,32 +1815,6 @@ Discover how to leverage the power of AI and Agentic AI in your ArcGIS Pro Add-i
 - Source modified: 2026-10-01T17:36:02Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489467647001jOjZ>)
-
-### Attribute Rules: A Deep Dive
-
-Session ID: 1785489872063001BCya · Code: DM-1105
-
-- When: 2026-10-21 16:00–2026-10-21 17:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T14:00:00Z–2026-10-21T15:00:00Z
-- Room: Illusion 3—Level C3 | Congress Center
-- Occurrence ID: 1786152507480001eUqW
-- Attendance: In person: yes; Virtual: no
-
-This session focuses on best practices when deploying Attribute Rules on enterprise systems. Learn how to identify and fix slow running rules in the entire stack, run-away recursive attribute rules, attribute rule execution during branch versioning reconcile, client side execution of attribute rules and more.
-
-- Type: Technical Session
-- Level: Advanced
-- Language: en
-- Topic: Data Management
-- Products: ArcGIS Enterprise
-- Capabilities: Data Management
-- Technologies: Cross-Platform, Microsoft SQL Server, Oracle, PostgreSQL, SAP HANA
-- Keywords: attribute rules, best practices, enterprise
-- Catalogues: European Dev & Tech Summit
-- Speakers: Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev); Rich Ruh (Esri; Esri Speaker; ID: 1644920233154001Et3f\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489872063001BCya>)
 
 ### ArcGIS: Automating Reality Mapping Workflows Using Python
 
@@ -1870,31 +1868,57 @@ ArcGIS offers a variety of tools to ingest and transform diverse data types as t
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491531788001hX13>)
 
-### ArcGIS Maps SDKs for Native Apps: Feature Editing and Offline Workflows
+### Attribute Rules: A Deep Dive
 
-Session ID: 1785491902057001pS8Z · Code: NTV-1119
+Session ID: 1785489872063001BCya · Code: DM-1105
 
 - When: 2026-10-21 16:00–2026-10-21 17:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T14:00:00Z–2026-10-21T15:00:00Z
-- Room: Illusion 1—Level C3 | Congress Center
-- Occurrence ID: 1786152413400001CJBY
+- Room: Illusion 3—Level C3 | Congress Center
+- Occurrence ID: 1786152507480001eUqW
 - Attendance: In person: yes; Virtual: no
 
-The Native Maps SDKs are built from the ground up to provide an exceptional offline experience. We will explore offline patterns, the capabilities available while offline, and the data types that support these capabilities. Topics will cover ahead-of-time and on-demand options for generating, editing, and updating GIS data, utilizing both SaaS and self-hosted ArcGIS services, along with desktop-based workflows using ArcGIS Pro. This session is for new users who aim to create successful and scalable solutions for field operations and those looking to optimize their deployed solutions.
+This session focuses on best practices when deploying Attribute Rules on enterprise systems. Learn how to identify and fix slow running rules in the entire stack, run-away recursive attribute rules, attribute rule execution during branch versioning reconcile, client side execution of attribute rules and more.
 
 - Type: Technical Session
-- Level: Beginner
+- Level: Advanced
 - Language: en
-- Topic: Native SDKs
-- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Pro, ArcGIS Maps SDKs for Native Apps
-- Capabilities: Data Management, Field Operations, Native App Development
-- Technologies: Android and Kotlin, Apple iOS and Swift, Cross-Platform, Microsoft MAUI, Microsoft .NET, Qt
-- Keywords: Field, Offline, Runtime, editing, mobile, native
+- Topic: Data Management
+- Products: ArcGIS Enterprise
+- Capabilities: Data Management
+- Technologies: Cross-Platform, Microsoft SQL Server, Oracle, PostgreSQL, SAP HANA
+- Keywords: attribute rules, best practices, enterprise
 - Catalogues: European Dev & Tech Summit
-- Speakers: Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev)
-- Source modified: 2026-10-02T08:09:25Z
+- Speakers: Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev); Rich Ruh (Esri; Esri Speaker; ID: 1644920233154001Et3f\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491902057001pS8Z>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489872063001BCya>)
+
+### Building Trusted GeoAI with ArcGIS, Edge, and Local Inference
+
+Session ID: 1785481680531001fDJ8 · Code: AI-1059
+
+- When: 2026-10-21 16:00–2026-10-21 17:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-21T14:00:00Z–2026-10-21T15:00:00Z
+- Room: Fantasie 2—Level C3 | Congress Center
+- Occurrence ID: 1786151260514001rSrV
+- Attendance: In person: yes; Virtual: no
+
+In this session, you will learn how to design and implement sovereign GeoAI architectures that combine ArcGIS capabilities with modern AI platforms, local inferencing, and edge-native operational workflows. Explore architectural patterns for building trusted enterprise AI systems that maintain operational control, data sovereignty, and offline resilience while integrating location intelligence into AI-driven applications, copilots, and autonomous agents. Attendees leave with solid architectural guidance for building secure, explainable, and operationally resilient GeoAI systems that scale.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: AI
+- Products: ArcGIS Enterprise, ArcGIS Maps SDKs for Native Apps, ArcGIS Location Platform
+- Capabilities: Cloud Architecture, Data, and Services, GeoAI, Native App Development, Portal Administration, Security, Server Administration, Location Services
+- Technologies: Android and Kotlin, Apple iOS and Swift, Microsoft MAUI, Microsoft .NET, Qt, Flutter
+- Keywords: AI, agents, architecture, data sovereignty, location, resilience
+- Catalogues: European Dev & Tech Summit
+- Speakers: Jan Tschada (Esri Germany; Distributor Esri Speaker; ID: 1647440426471001nWep\_1777494026euroepcdev); Karthik Dutt (Esri; Esri Speaker; ID: 1646185844924001M6Ax\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785481680531001fDJ8>)
 
 ### Content Management Using ArcGIS API for Python: Cloning and Migrating Content
 
@@ -1922,55 +1946,31 @@ Moving content between organizations is a fundamental task confronted by Web GIS
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492652962001ydxP>)
 
-### ArcGIS Online and ArcGIS Enterprise: Deployment Patterns and Practices
+### Extending ArcGIS Enterprise with Webhooks
 
-Session ID: 1785493662600001LeyY · Code: SYS-1133
+Session ID: 1785487099616001SRmO · Code: AGE-1087
 
 - When: 2026-10-21 16:00–2026-10-21 17:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-21T14:00:00Z–2026-10-21T15:00:00Z
-- Room: Spektrum 2—Level C2 | Congress Center
-- Occurrence ID: 1786149679772001p5eL
+- Room: Fantasie 1—Level C3 | Congress Center
+- Occurrence ID: 1786151132005001rPJI
 - Attendance: In person: yes; Virtual: no
 
-It is a common misconception that an organization should use either ArcGIS Enterprise or ArcGIS Online, when in fact many organizations successfully use both. This session will cover how to choose the deployment that best fits your organizational needs. We will talk about the different forms of hybrid patterns that best take advantage of each environment’s unique strengths to build the best possible system and help you plan.
+Learn how to use powerful developer technologies to extend ArcGIS Enterprise through webhooks. Webhooks offer deep integration within ArcGIS Enterprise through event-driven notifications in both the portal as well as feature services and geoprocessing services. Join us to explore how items, users, and group modification along with feature service edits trigger a webhook and the different ways to respond to these notifications.
 
 - Type: Technical Session
-- Level: Beginner
+- Level: Intermediate
 - Language: en
-- Topic: System Architecture
-- Products: ArcGIS Enterprise, ArcGIS Online
+- Topic: ArcGIS Enterprise
+- Products: ArcGIS Enterprise
 - Capabilities: Server Administration
-- Technologies: Kubernetes, Linux, Microsoft Windows
-- Keywords: administration, organization, portal
+- Technologies: Cross-Platform
+- Keywords: extending services, webhooks
 - Catalogues: European Dev & Tech Summit
-- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
+- Speakers: Robert van Gilst (GeoInfo; Distributor Esri Speaker; ID: 1705406753000001QVwK\_1777494026euroepcdev); Edwin van Meijeren (Esri Netherlands; Distributor Esri Speaker; ID: 1688108508099001iZyO\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493662600001LeyY>)
-
-### ArcGIS Maps SDK for JavaScript: Building AI Assistants
-
-Session ID: 1785495094887001f0XA · Code: WEB-1141
-
-- When: 2026-10-21 16:00–2026-10-21 17:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-21T14:00:00Z–2026-10-21T15:00:00Z
-- Room: Harmonie Hall A-C—Level C2 | Congress Center
-- Occurrence ID: 1786148768946001wcCq
-- Attendance: In person: yes; Virtual: no
-
-Learn how you can build an AI assistant for a web application using the framework being developed in the ArcGIS Maps SDK for JavaScript. We'll discuss key terminology, how to use the components and out-of-the-box workflows built in to the SDK, how to define your own workflows specific to your application, and how to leverage the client-side capabilities of the browser and the SDK to make the best possible experience for your users.
-
-- Type: Technical Session
-- Level: All Attendees
-- Language: en
-- Topic: Web
-- Products: ArcGIS Maps SDK for JavaScript
-- Keywords: AI assistants, workflows
-- Catalogues: European Dev & Tech Summit
-- Speakers: Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev); Mika Dinnus (Esri Germany; Distributor Esri Speaker; ID: 1761319069866001rrzx\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495094887001f0XA>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487099616001SRmO>)
 
 ### European Dev & Tech Summit Party
 
@@ -1995,80 +1995,30 @@ Join us for the European Dev & Tech Summit Party, where you can socialize and ne
 
 ## 2026-10-22
 
-### ArcGIS Reality: Launching a City-Wide 3D Digital Twin for Asset Management
+### ArcGIS Data Pipelines: Empowering Developers for Data Engineering
 
-Session ID: 1785479919268001vpFF · Code: 3D-1054
+Session ID: 1785490036168001dnx0 · Code: DM-1106
 
 - When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
-- Room: Fantasie 1—Level C3 | Congress Center
-- Occurrence ID: 1786151799671001cmvS
+- Room: Illusion 3—Level C3 | Congress Center
+- Occurrence ID: 1786152653673001J8HK
 - Attendance: In person: yes; Virtual: no
 
-Learn how to create and update 3D Digital Twins from Reality Mapping, capturing the real world as-is with Meshes, Point Clouds, True Orthos, and the newly released Gaussian Splats Layer. We’ll explore automated workflows for scalable asset monitoring and management, and how to integrate these reality-based layers with other geospatial and design data to drive deeper understanding and informed decision-making.
+Join us to learn about no-code data engineering and automation with ArcGIS Data Pipelines. We'll share how Data Pipelines can help process and manipulate data from a variety of sources, maintain application data, and deliver efficient and scalable data integration solutions in your ArcGIS organizations.
 
 - Type: Technical Session
 - Level: Intermediate
 - Language: en
-- Topic: 3D
-- Products: ArcGIS Reality
-- Capabilities: 3D Visualization and Analytics, Data Visualization, Imagery & Remote Sensing, Reality Mapping
-- Keywords: 3D, Digital Twin, Gaussian splat, Reality
+- Topic: Data Management
+- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Data Pipelines
+- Capabilities: Data Management
+- Keywords: ETL, automation, data engineering, data management
 - Catalogues: European Dev & Tech Summit
-- Speakers: Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev); Tobias Hauck (Esri; Esri Speaker; ID: 16461867668570017XQ1\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
+- Speakers: Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev)
+- Source modified: 2026-10-01T19:04:32Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785479919268001vpFF>)
-
-### Geospatial Foundation Models and Embeddings
-
-Session ID: 1785480969446001f0kE · Code: AI-1056
-
-- When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
-- Room: Harmonie Hall D-E—Level C2 | Congress Center
-- Occurrence ID: 1786149277152001cyDR
-- Attendance: In person: yes; Virtual: no
-
-Geospatial foundation models offer new ways to learn from large, diverse, and often unlabeled geospatial datasets. This presentation explores how geospatial artificial intelligence (GeoAI) is evolving to integrate foundation models into analytical workflows. Topics include remote sensing foundation models, location embeddings, and geospatial vision-language models, with an overview of how Esri is working in this space. Speakers also discuss how embeddings work in geospatial analysis and the potential implications for environmental, urban, and other application areas.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: AI
-- Products: ArcGIS API for Python, ArcGIS Pro
-- Keywords: AI, GeoAI, analysis, analytics, data science, embeddings, foundation models
-- Catalogues: European Dev & Tech Summit
-- Speakers: Karthik Dutt (Esri; Esri Speaker; ID: 1646185844924001M6Ax\_1777494026euroepcdev); Rohit Singh (Esri; Esri Speaker; ID: 1646186507739001EQtQ\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785480969446001f0kE>)
-
-### ArcGIS Survey123: Extending Through AI, Machine Learning, and the JavaScript API
-
-Session ID: 1785485000997001sFa2 · Code: APP-1074
-
-- When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
-- Room: Spektrum 2—Level C2 | Congress Center
-- Occurrence ID: 1786149715127001Mphv
-- Attendance: In person: yes; Virtual: no
-
-"In this session, we will begin by exploring the latest features of Survey123 and showcasing how they empower users in their data collection efforts. We will delve into leveraging the report engine of to create professional and customized reports. Furthermore, if you are a web developer seeking to integrate Survey123 forms within your apps, this session is for you. Learn valuable insights on loading forms into your app, setting values and properties within the form, and responding to form events using the Survey123 Web App JavaScript API."
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: Apps
-- Products: ArcGIS Survey123
-- Capabilities: Field Operations
-- Technologies: Android and Kotlin, Apple iOS and Swift, Microsoft Windows
-- Keywords: ArcGIS Survey123, JavaScript, web
-- Catalogues: European Dev & Tech Summit
-- Speakers: Issy Amis (Esri UK; Distributor Esri Speaker; ID: 1661355709567001zji6\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485000997001sFa2>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490036168001dnx0>)
 
 ### ArcGIS Enterprise: Automation with Hosted Notebooks
 
@@ -2096,82 +2046,6 @@ ArcGIS Notebooks provides a range of options for automating workflows, allowing 
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485972033001CCuC>)
 
-### Vector Tile Style Editor: Deep Customization of ArcGIS Basemaps
-
-Session ID: 1785488070964001MGwx · Code: ALP-1092
-
-- When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
-- Room: Illusion 1—Level C3 | Congress Center
-- Occurrence ID: 1787260629005001Lmza
-- Attendance: In person: yes; Virtual: no
-
-Learn how to customize the ArcGIS vector basemaps to showcase your data and meet your applications and your customers' needs. Explore advanced features like direct JSON editing to customize layers and merge datasets together into the perfect basemap.
-
-- Type: Technical Session
-- Level: All Attendees
-- Language: en
-- Topic: ArcGIS Location Platform
-- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Location Platform
-- Capabilities: Cartography, Location Services
-- Technologies: JavaScript, REST
-- Keywords: JSON, UX, VTSE, style, vector tiles, visualization
-- Catalogues: European Dev & Tech Summit
-- Speakers: Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev)
-- Source modified: 2026-10-01T20:08:29Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488070964001MGwx>)
-
-### ArcGIS Data Pipelines: Empowering Developers for Data Engineering
-
-Session ID: 1785490036168001dnx0 · Code: DM-1106
-
-- When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
-- Room: Illusion 3—Level C3 | Congress Center
-- Occurrence ID: 1786152653673001J8HK
-- Attendance: In person: yes; Virtual: no
-
-Join us to learn about no-code data engineering and automation with ArcGIS Data Pipelines. We'll share how Data Pipelines can help process and manipulate data from a variety of sources, maintain application data, and deliver efficient and scalable data integration solutions in your ArcGIS organizations.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: Data Management
-- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Data Pipelines
-- Capabilities: Data Management
-- Keywords: ETL, automation, data engineering, data management
-- Catalogues: European Dev & Tech Summit
-- Speakers: Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev)
-- Source modified: 2026-10-01T19:04:32Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490036168001dnx0>)
-
-### Understanding the Utility Network
-
-Session ID: 1785490194801001Mi5z · Code: DM-1107
-
-- When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
-- Room: Spektrum 1—Level C2 | Congress Center
-- Occurrence ID: 1786149177648001uFpg
-- Attendance: In person: yes; Virtual: no
-
-This session will dive into the utility network. We will discuss how the data works and we will cover the APIs, SDKs, and out-of-the-box customizability that is supported. We will demonstrate the opportunities for developers to leverage different SDKs to work with network management in ArcGIS. We will explore the access and customizations available across the entire ArcGIS Platform and how we can build products that deliver significant business value for customers .
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: Data Management
-- Products: ArcGIS Enterprise, ArcGIS Pro, ArcGIS Utility Network
-- Capabilities: Data Management
-- Keywords: network diagrams, trace, utility network
-- Catalogues: European Dev & Tech Summit
-- Speakers: Rich Ruh (Esri; Esri Speaker; ID: 1644920233154001Et3f\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490194801001Mi5z>)
-
 ### ArcGIS Enterprise: Low to No Downtime Upgrades
 
 Session ID: 1785491397743001mAwB · Code: IMP-1115
@@ -2197,6 +2071,102 @@ Discover how to upgrade ArcGIS Enterprise with minimal disruption using a blue-g
 - Source modified: 2026-10-01T17:36:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491397743001mAwB>)
+
+### ArcGIS Reality: Launching a City-Wide 3D Digital Twin for Asset Management
+
+Session ID: 1785479919268001vpFF · Code: 3D-1054
+
+- When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
+- Room: Fantasie 1—Level C3 | Congress Center
+- Occurrence ID: 1786151799671001cmvS
+- Attendance: In person: yes; Virtual: no
+
+Learn how to create and update 3D Digital Twins from Reality Mapping, capturing the real world as-is with Meshes, Point Clouds, True Orthos, and the newly released Gaussian Splats Layer. We’ll explore automated workflows for scalable asset monitoring and management, and how to integrate these reality-based layers with other geospatial and design data to drive deeper understanding and informed decision-making.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: 3D
+- Products: ArcGIS Reality
+- Capabilities: 3D Visualization and Analytics, Data Visualization, Imagery & Remote Sensing, Reality Mapping
+- Keywords: 3D, Digital Twin, Gaussian splat, Reality
+- Catalogues: European Dev & Tech Summit
+- Speakers: Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev); Tobias Hauck (Esri; Esri Speaker; ID: 16461867668570017XQ1\_1777494026euroepcdev)
+- Source modified: 2026-10-02T09:29:32Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785479919268001vpFF>)
+
+### ArcGIS Survey123: Extending Through AI, Machine Learning, and the JavaScript API
+
+Session ID: 1785485000997001sFa2 · Code: APP-1074
+
+- When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
+- Room: Spektrum 2—Level C2 | Congress Center
+- Occurrence ID: 1786149715127001Mphv
+- Attendance: In person: yes; Virtual: no
+
+"In this session, we will begin by exploring the latest features of Survey123 and showcasing how they empower users in their data collection efforts. We will delve into leveraging the report engine of to create professional and customized reports. Furthermore, if you are a web developer seeking to integrate Survey123 forms within your apps, this session is for you. Learn valuable insights on loading forms into your app, setting values and properties within the form, and responding to form events using the Survey123 Web App JavaScript API."
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: Apps
+- Products: ArcGIS Survey123
+- Capabilities: Field Operations
+- Technologies: Android and Kotlin, Apple iOS and Swift, Microsoft Windows
+- Keywords: ArcGIS Survey123, JavaScript, web
+- Catalogues: European Dev & Tech Summit
+- Speakers: Issy Amis (Esri UK; Distributor Esri Speaker; ID: 1661355709567001zji6\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485000997001sFa2>)
+
+### European Dev & Tech Summit Expo
+
+Session ID: 1786556878651001Sy0C · Code: 1167
+
+- When: 2026-10-22 09:00–2026-10-22 15:30 (Europe/Berlin; 390 minutes)
+- UTC: 2026-10-22T07:00:00Z–2026-10-22T13:30:00Z
+- Room: Foyer—Level C2 | Congress Center
+- Occurrence ID: 1786557388635001Ge4B
+- Attendance: In person: yes; Virtual: no
+
+Explore opportunities to meet with experts, discover solutions, and get the latest product and technical information provided by Esri and our partners.
+
+- Type: Conference Activity
+- Level: All Attendees
+- Language: en
+- Catalogues: European Dev & Tech Summit
+- Speakers: None listed
+- Source modified: 2026-08-12T17:56:28Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786556878651001Sy0C>)
+
+### Geospatial Foundation Models and Embeddings
+
+Session ID: 1785480969446001f0kE · Code: AI-1056
+
+- When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
+- Room: Harmonie Hall D-E—Level C2 | Congress Center
+- Occurrence ID: 1786149277152001cyDR
+- Attendance: In person: yes; Virtual: no
+
+Geospatial foundation models offer new ways to learn from large, diverse, and often unlabeled geospatial datasets. This presentation explores how geospatial artificial intelligence (GeoAI) is evolving to integrate foundation models into analytical workflows. Topics include remote sensing foundation models, location embeddings, and geospatial vision-language models, with an overview of how Esri is working in this space. Speakers also discuss how embeddings work in geospatial analysis and the potential implications for environmental, urban, and other application areas.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: AI
+- Products: ArcGIS API for Python, ArcGIS Pro
+- Keywords: AI, GeoAI, analysis, analytics, data science, embeddings, foundation models
+- Catalogues: European Dev & Tech Summit
+- Speakers: Karthik Dutt (Esri; Esri Speaker; ID: 1646185844924001M6Ax\_1777494026euroepcdev); Rohit Singh (Esri; Esri Speaker; ID: 1646186507739001EQtQ\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785480969446001f0kE>)
 
 ### Strategies for Web Development
 
@@ -2224,26 +2194,56 @@ Attend this session if you are new to creating web apps and interested in learni
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495992137001r4SB>)
 
-### European Dev & Tech Summit Expo
+### Understanding the Utility Network
 
-Session ID: 1786556878651001Sy0C · Code: 1167
+Session ID: 1785490194801001Mi5z · Code: DM-1107
 
-- When: 2026-10-22 09:00–2026-10-22 15:30 (Europe/Berlin; 390 minutes)
-- UTC: 2026-10-22T07:00:00Z–2026-10-22T13:30:00Z
-- Room: Foyer—Level C2 | Congress Center
-- Occurrence ID: 1786557388635001Ge4B
+- When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
+- Room: Spektrum 1—Level C2 | Congress Center
+- Occurrence ID: 1786149177648001uFpg
 - Attendance: In person: yes; Virtual: no
 
-Explore opportunities to meet with experts, discover solutions, and get the latest product and technical information provided by Esri and our partners.
+This session will dive into the utility network. We will discuss how the data works and we will cover the APIs, SDKs, and out-of-the-box customizability that is supported. We will demonstrate the opportunities for developers to leverage different SDKs to work with network management in ArcGIS. We will explore the access and customizations available across the entire ArcGIS Platform and how we can build products that deliver significant business value for customers .
 
-- Type: Conference Activity
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: Data Management
+- Products: ArcGIS Enterprise, ArcGIS Pro, ArcGIS Utility Network
+- Capabilities: Data Management
+- Keywords: network diagrams, trace, utility network
+- Catalogues: European Dev & Tech Summit
+- Speakers: Rich Ruh (Esri; Esri Speaker; ID: 1644920233154001Et3f\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490194801001Mi5z>)
+
+### Vector Tile Style Editor: Deep Customization of ArcGIS Basemaps
+
+Session ID: 1785488070964001MGwx · Code: ALP-1092
+
+- When: 2026-10-22 09:00–2026-10-22 10:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T07:00:00Z–2026-10-22T08:00:00Z
+- Room: Illusion 1—Level C3 | Congress Center
+- Occurrence ID: 1787260629005001Lmza
+- Attendance: In person: yes; Virtual: no
+
+Learn how to customize the ArcGIS vector basemaps to showcase your data and meet your applications and your customers' needs. Explore advanced features like direct JSON editing to customize layers and merge datasets together into the perfect basemap.
+
+- Type: Technical Session
 - Level: All Attendees
 - Language: en
+- Topic: ArcGIS Location Platform
+- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Location Platform
+- Capabilities: Cartography, Location Services
+- Technologies: JavaScript, REST
+- Keywords: JSON, UX, VTSE, style, vector tiles, visualization
 - Catalogues: European Dev & Tech Summit
-- Speakers: None listed
-- Source modified: 2026-08-12T17:56:28Z
+- Speakers: Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev)
+- Source modified: 2026-10-01T20:08:29Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786556878651001Sy0C>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488070964001MGwx>)
 
 ### ArcGIS GeoAnalytics: Big Data and Spatial Analysis 
 
@@ -2296,84 +2296,6 @@ If you are looking to quickly transform your maps into interactive, focused web 
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484578943001M00N>)
 
-### Upgrading ArcGIS Enterprise
-
-Session ID: 1785487230377001mEju · Code: AGE-1088
-
-- When: 2026-10-22 10:30–2026-10-22 11:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T08:30:00Z–2026-10-22T09:30:00Z
-- Room: Harmonie Hall A-C—Level C2 | Congress Center
-- Occurrence ID: 1786148798721001CNCN
-- Attendance: In person: yes; Virtual: no
-
-Planning ahead when upgrading to a new release of ArcGIS Enterprise allows you to take advantage of new features and capabilities, stability enhancements, and improved functionality with ease. This technical session covers how to efficiently and effectively upgrade your deployment, including the steps to take before, during, and after an upgrade so that you can approach upgrades with confidence.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: ArcGIS Enterprise
-- Products: ArcGIS Enterprise
-- Capabilities: Server Administration
-- Technologies: Linux, Microsoft Windows
-- Keywords: deployment, upgrading
-- Catalogues: European Dev & Tech Summit
-- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev); Christian Grass (Esri Switzerland; Distributor Esri Speaker; ID: 1688971316092001Z7Bd\_1777494026euroepcdev)
-- Source modified: 2026-10-02T08:41:21Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487230377001mEju>)
-
-### Security and Authentication for Custom Applications
-
-Session ID: 1785487648507001JydR · Code: ALP-1090
-
-- When: 2026-10-22 10:30–2026-10-22 11:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T08:30:00Z–2026-10-22T09:30:00Z
-- Room: Fantasie 2—Level C3 | Congress Center
-- Occurrence ID: 1786151954451001LltN
-- Attendance: In person: yes; Virtual: no
-
-Learn about the different security options available for accessing Esri's secured authoritative content, ArcGIS Location Services, spatial analysis, and your hosted content in your applications. Speakers cover API key authentication, user authentication, and app credential authentication using ArcGIS APIs and SDKs.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: ArcGIS Location Platform
-- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Location Platform
-- Capabilities: Security, Location Services
-- Technologies: JavaScript
-- Keywords: API keys, JavaScript, OAuth, application development, secure services, security
-- Catalogues: European Dev & Tech Summit
-- Speakers: Dave Olsthoorn (Esri Netherlands; Distributor Esri Speaker; ID: 1704900814996001CSLp\_1777494026euroepcdev); Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev)
-- Source modified: 2026-10-01T18:49:33Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487648507001JydR>)
-
-### ArcGIS Online: Best Practices for High Performance Web Apps
-
-Session ID: 1785489101482001RTUA · Code: AGO-1099
-
-- When: 2026-10-22 10:30–2026-10-22 11:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T08:30:00Z–2026-10-22T09:30:00Z
-- Room: Illusion 3—Level C3 | Congress Center
-- Occurrence ID: 1786152683732001cDnb
-- Attendance: In person: yes; Virtual: no
-
-Join us in this session to learn the essentials of building and maintaining viral web applications. We'll discuss efficient data management, seamless user interactions, and effective tracking and analysis of user engagement to boost app performance. Discover best practices for creating intuitive, responsive views that captivate your audience. Master high frequency data updates to keep your application dynamic. By the end, you'll gain practical knowledge and strategies to elevate your web applications immediately.
-
-- Type: Technical Session
-- Level: Beginner
-- Language: en
-- Topic: ArcGIS Online
-- Products: ArcGIS Online
-- Capabilities: Cloud Architecture, Data, and Services, Data Hosting, Data Management
-- Technologies: Cross-Platform
-- Keywords: datastore, feature layer data profiles, updating data, usage, views
-- Catalogues: European Dev & Tech Summit
-- Speakers: Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev); David McRitchie (Esri UK; Distributor Esri Speaker; ID: 1688977729096001S1Of\_1777494026euroepcdev)
-- Source modified: 2026-10-01T19:47:26Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489101482001RTUA>)
-
 ### ArcGIS Maps SDKs for Game Engines: Building Immersive Apps
 
 Session ID: 1785490499081001qENE · Code: GE-1109
@@ -2400,31 +2322,31 @@ Interested in building a digital twin with ArcGIS and bringing it to life in a g
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490499081001qENE>)
 
-### Managing Imagery Layers Using the ArcGIS API for Python
+### ArcGIS Online: Best Practices for High Performance Web Apps
 
-Session ID: 1785490861924001sC71 · Code: IMG-1111
+Session ID: 1785489101482001RTUA · Code: AGO-1099
 
 - When: 2026-10-22 10:30–2026-10-22 11:30 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-22T08:30:00Z–2026-10-22T09:30:00Z
-- Room: Spektrum 1—Level C2 | Congress Center
-- Occurrence ID: 1786149171033001SLIq
+- Room: Illusion 3—Level C3 | Congress Center
+- Occurrence ID: 1786152683732001cDnb
 - Attendance: In person: yes; Virtual: no
 
-This session offers a deep dive into imagery layer management within ArcGIS Enterprise and ArcGIS Online using the ArcGIS API for Python. Attendees will discover efficient, scalable workflows for updating and automating imagery content management.
+Join us in this session to learn the essentials of building and maintaining viral web applications. We'll discuss efficient data management, seamless user interactions, and effective tracking and analysis of user engagement to boost app performance. Discover best practices for creating intuitive, responsive views that captivate your audience. Master high frequency data updates to keep your application dynamic. By the end, you'll gain practical knowledge and strategies to elevate your web applications immediately.
 
 - Type: Technical Session
-- Level: Intermediate
+- Level: Beginner
 - Language: en
-- Topic: Imagery and Raster
-- Products: ArcGIS API for Python, ArcGIS Image for ArcGIS Online
-- Capabilities: Data Hosting, Data Management, Imagery & Remote Sensing
-- Technologies: Python
-- Keywords: Image Services, Imagery Layers, Python, imagery
+- Topic: ArcGIS Online
+- Products: ArcGIS Online
+- Capabilities: Cloud Architecture, Data, and Services, Data Hosting, Data Management
+- Technologies: Cross-Platform
+- Keywords: datastore, feature layer data profiles, updating data, usage, views
 - Catalogues: European Dev & Tech Summit
-- Speakers: Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev); Rohit Singh (Esri; Esri Speaker; ID: 1646186507739001EQtQ\_1777494026euroepcdev)
-- Source modified: 2026-10-02T05:11:38Z
+- Speakers: Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev); David McRitchie (Esri UK; Distributor Esri Speaker; ID: 1688977729096001S1Of\_1777494026euroepcdev)
+- Source modified: 2026-10-01T19:47:26Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490861924001sC71>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489101482001RTUA>)
 
 ### Creating and Using Web Tools and GP Services
 
@@ -2478,6 +2400,58 @@ Join this dynamic session where presenters will build applications from the grou
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495281385001WwMT>)
 
+### Managing Imagery Layers Using the ArcGIS API for Python
+
+Session ID: 1785490861924001sC71 · Code: IMG-1111
+
+- When: 2026-10-22 10:30–2026-10-22 11:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T08:30:00Z–2026-10-22T09:30:00Z
+- Room: Spektrum 1—Level C2 | Congress Center
+- Occurrence ID: 1786149171033001SLIq
+- Attendance: In person: yes; Virtual: no
+
+This session offers a deep dive into imagery layer management within ArcGIS Enterprise and ArcGIS Online using the ArcGIS API for Python. Attendees will discover efficient, scalable workflows for updating and automating imagery content management.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: Imagery and Raster
+- Products: ArcGIS API for Python, ArcGIS Image for ArcGIS Online
+- Capabilities: Data Hosting, Data Management, Imagery & Remote Sensing
+- Technologies: Python
+- Keywords: Image Services, Imagery Layers, Python, imagery
+- Catalogues: European Dev & Tech Summit
+- Speakers: Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev); Rohit Singh (Esri; Esri Speaker; ID: 1646186507739001EQtQ\_1777494026euroepcdev)
+- Source modified: 2026-10-02T05:11:38Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490861924001sC71>)
+
+### Security and Authentication for Custom Applications
+
+Session ID: 1785487648507001JydR · Code: ALP-1090
+
+- When: 2026-10-22 10:30–2026-10-22 11:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T08:30:00Z–2026-10-22T09:30:00Z
+- Room: Fantasie 2—Level C3 | Congress Center
+- Occurrence ID: 1786151954451001LltN
+- Attendance: In person: yes; Virtual: no
+
+Learn about the different security options available for accessing Esri's secured authoritative content, ArcGIS Location Services, spatial analysis, and your hosted content in your applications. Speakers cover API key authentication, user authentication, and app credential authentication using ArcGIS APIs and SDKs.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: ArcGIS Location Platform
+- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Location Platform
+- Capabilities: Security, Location Services
+- Technologies: JavaScript
+- Keywords: API keys, JavaScript, OAuth, application development, secure services, security
+- Catalogues: European Dev & Tech Summit
+- Speakers: Dave Olsthoorn (Esri Netherlands; Distributor Esri Speaker; ID: 1704900814996001CSLp\_1777494026euroepcdev); Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev)
+- Source modified: 2026-10-01T18:49:33Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487648507001JydR>)
+
 ### Tools for the Modern Web Developer
 
 Session ID: 1785496151845001upt9 · Code: WEB-1148
@@ -2502,6 +2476,32 @@ There are many tools to assist developing frontend web apps. Come hear about som
 - Source modified: 2026-10-01T17:36:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785496151845001upt9>)
+
+### Upgrading ArcGIS Enterprise
+
+Session ID: 1785487230377001mEju · Code: AGE-1088
+
+- When: 2026-10-22 10:30–2026-10-22 11:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T08:30:00Z–2026-10-22T09:30:00Z
+- Room: Harmonie Hall A-C—Level C2 | Congress Center
+- Occurrence ID: 1786148798721001CNCN
+- Attendance: In person: yes; Virtual: no
+
+Planning ahead when upgrading to a new release of ArcGIS Enterprise allows you to take advantage of new features and capabilities, stability enhancements, and improved functionality with ease. This technical session covers how to efficiently and effectively upgrade your deployment, including the steps to take before, during, and after an upgrade so that you can approach upgrades with confidence.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: ArcGIS Enterprise
+- Products: ArcGIS Enterprise
+- Capabilities: Server Administration
+- Technologies: Linux, Microsoft Windows
+- Keywords: deployment, upgrading
+- Catalogues: European Dev & Tech Summit
+- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev); Christian Grass (Esri Switzerland; Distributor Esri Speaker; ID: 1688971316092001Z7Bd\_1777494026euroepcdev)
+- Source modified: 2026-10-02T08:41:21Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487230377001mEju>)
 
 ### Hosted Lunch
 
@@ -2576,57 +2576,31 @@ Arcade expressions allow you to break free of your data model and derive new inf
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484717497001i0tK>)
 
-### ArcGIS Survey123: Unlocking AI in Survey
+### ArcGIS Maps SDKs for Native Apps: Real-time Situational Awareness
 
-Session ID: 1785485538445001FfUd · Code: APP-1076
+Session ID: 1785492163207001rhKM · Code: NTV-1121
 
 - When: 2026-10-22 13:00–2026-10-22 14:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-22T11:00:00Z–2026-10-22T12:00:00Z
-- Room: Conclusio 2—Level C2 | Congress Center
-- Occurrence ID: 1786150570877001p4UR
+- Room: Fantasie 1—Level C3 | Congress Center
+- Occurrence ID: 1786151826229001SqFJ
 - Attendance: In person: yes; Virtual: no
 
-Discover how AI can be integrated into ArcGIS Survey123 to streamline workflows, improve data quality, and enhance field operations. Learn how ready-to-use AI models support tasks such as smart photo redaction for privacy protection. We will also introduce the creation and deployment of custom AI models for image classification, object detection, and organization-specific workflows. Finally, explore the new AI Assistant in Survey123 Web Designer and see how natural language can accelerate form creation and simplify survey design.
+Integrating real-time feeds, analyzing and visualizing data, and alerting are key to real-time situational awareness apps. The Dynamic Entities API provides a framework for visualizing, processing, and analyzing real-time data feeds, the Geotriggers API allows you to setup notifications for geofence-based incident detection, and the new raster analytics API performs fast visibility calculations. This session will give an overview of these APIs and show examples of how to ingest feeds, work with Dynamic Entities, visualize and interact with them as tracks, and build custom automated behaviors.
 
 - Type: Technical Session
 - Level: Intermediate
 - Language: en
-- Topic: Apps
-- Products: ArcGIS API for Python, ArcGIS Online, ArcGIS Survey123
-- Capabilities: Field Operations
-- Technologies: Android and Kotlin, Apple iOS and Swift, Microsoft Windows
-- Keywords: AI assistants, smart forms
+- Topic: Native SDKs
+- Products: ArcGIS Maps SDKs for Native Apps
+- Capabilities: 3D Visualization and Analytics, Data Visualization, Native App Development, Real-Time Visualization and Analysis
+- Technologies: Cross-Platform
+- Keywords: dynamic, feed, geofence, location, maps, native, real-time, stream
 - Catalogues: European Dev & Tech Summit
-- Speakers: Filip Ciotkowski (Esri Polska; Distributor Esri Speaker; ID: 1761561730987001zBFj\_1777494026euroepcdev); Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev)
+- Speakers: Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev)
 - Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485538445001FfUd>)
-
-### Extending ArcGIS Enterprise with Custom Data Feeds
-
-Session ID: 1785486678088001UO2a · Code: AGE-1084
-
-- When: 2026-10-22 13:00–2026-10-22 14:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T11:00:00Z–2026-10-22T12:00:00Z
-- Room: Illusion 3—Level C3 | Congress Center
-- Occurrence ID: 1786152537916001LMBN
-- Attendance: In person: yes; Virtual: no
-
-Learn how to use powerful developer technologies to integrate data with ArcGIS Enterprise. Custom data feeds allows users to expose their data as an input for feature services with optional write capability. Potential input data include, but are not limited to, user-managed data stores not natively supported by ArcGIS clients.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: ArcGIS Enterprise
-- Products: ArcGIS Enterprise
-- Capabilities: Cloud Architecture, Data, and Services
-- Technologies: Kubernetes, Linux, Microsoft Windows
-- Keywords: SOE, SOI, custom data feeds, extending services
-- Catalogues: European Dev & Tech Summit
-- Speakers: Karsten Löding (Esri Germany; Distributor Esri Speaker; ID: 1785486524127001qylh\_1777494026euroepcdev); Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev)
-- Source modified: 2026-10-01T19:04:32Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486678088001UO2a>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492163207001rhKM>)
 
 ### ArcGIS Monitor: Observability in Practice
 
@@ -2654,83 +2628,31 @@ Effectively managing and operating systems requires that staff and responsible t
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486877948001udxW>)
 
-### Built-in Client Capabilities for Dynamic, Tiled, and Oriented Imagery
+### ArcGIS Survey123: Unlocking AI in Survey
 
-Session ID: 1785490730686001okeu · Code: IMG-1110
-
-- When: 2026-10-22 13:00–2026-10-22 14:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T11:00:00Z–2026-10-22T12:00:00Z
-- Room: Spektrum 1—Level C2 | Congress Center
-- Occurrence ID: 1786149392742001SCIn
-- Attendance: In person: yes; Virtual: no
-
-Learn how to use and offer interactivity and flexibility with imagery in Esri clients, app templates and customized web clients and make use of the capabilities embedded in the wide variety of imagery data models for visualization and analysis. These include datasets such as Mosaic, Catalog, Oriented Imagery, Raster Collections, Multi-Dimensional Imagecubes, LIDAR/LAS Datasets, and 3D Meshes.
-
-- Type: Technical Session
-- Level: All Attendees
-- Language: en
-- Topic: Imagery and Raster
-- Products: ArcGIS Enterprise, ArcGIS Excalibur, ArcGIS Image Server, ArcGIS Online, ArcGIS Location Platform
-- Capabilities: Data Visualization, Imagery & Remote Sensing, Raster GIS
-- Technologies: Cross-Platform
-- Keywords: Template, hosting, imagery, web applications
-- Catalogues: European Dev & Tech Summit
-- Speakers: Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490730686001okeu>)
-
-### ArcGIS Maps SDKs for Native Apps: Real-time Situational Awareness
-
-Session ID: 1785492163207001rhKM · Code: NTV-1121
+Session ID: 1785485538445001FfUd · Code: APP-1076
 
 - When: 2026-10-22 13:00–2026-10-22 14:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-22T11:00:00Z–2026-10-22T12:00:00Z
-- Room: Fantasie 1—Level C3 | Congress Center
-- Occurrence ID: 1786151826229001SqFJ
+- Room: Conclusio 2—Level C2 | Congress Center
+- Occurrence ID: 1786150570877001p4UR
 - Attendance: In person: yes; Virtual: no
 
-Integrating real-time feeds, analyzing and visualizing data, and alerting are key to real-time situational awareness apps. The Dynamic Entities API provides a framework for visualizing, processing, and analyzing real-time data feeds, the Geotriggers API allows you to setup notifications for geofence-based incident detection, and the new raster analytics API performs fast visibility calculations. This session will give an overview of these APIs and show examples of how to ingest feeds, work with Dynamic Entities, visualize and interact with them as tracks, and build custom automated behaviors.
+Discover how AI can be integrated into ArcGIS Survey123 to streamline workflows, improve data quality, and enhance field operations. Learn how ready-to-use AI models support tasks such as smart photo redaction for privacy protection. We will also introduce the creation and deployment of custom AI models for image classification, object detection, and organization-specific workflows. Finally, explore the new AI Assistant in Survey123 Web Designer and see how natural language can accelerate form creation and simplify survey design.
 
 - Type: Technical Session
 - Level: Intermediate
 - Language: en
-- Topic: Native SDKs
-- Products: ArcGIS Maps SDKs for Native Apps
-- Capabilities: 3D Visualization and Analytics, Data Visualization, Native App Development, Real-Time Visualization and Analysis
-- Technologies: Cross-Platform
-- Keywords: dynamic, feed, geofence, location, maps, native, real-time, stream
+- Topic: Apps
+- Products: ArcGIS API for Python, ArcGIS Online, ArcGIS Survey123
+- Capabilities: Field Operations
+- Technologies: Android and Kotlin, Apple iOS and Swift, Microsoft Windows
+- Keywords: AI assistants, smart forms
 - Catalogues: European Dev & Tech Summit
-- Speakers: Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev)
+- Speakers: Filip Ciotkowski (Esri Polska; Distributor Esri Speaker; ID: 1761561730987001zBFj\_1777494026euroepcdev); Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev)
 - Source modified: 2026-10-01T17:36:03Z
 
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492163207001rhKM>)
-
-### Level Up your ArcGIS Python Skills
-
-Session ID: 1785492551934001fcc9 · Code: PY-1124
-
-- When: 2026-10-22 13:00–2026-10-22 14:00 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T11:00:00Z–2026-10-22T12:00:00Z
-- Room: Illusion 2—Level C3 | Congress Center
-- Occurrence ID: 1786149672138001mw6u
-- Attendance: In person: yes; Virtual: no
-
-Python is a powerful open source programming language that you can use across the ArcGIS system. Though the language is easy to learn, the huge variety of packages and tools means people use it in vastly different ways. Come to this presentation to learn a few things we think everybody really needs to know to be more awesome at Python. We'll cover the extensive distribution included with ArcGIS products, effective use of JupyterLab, debugging with VS Code, scaling your code, and best practices for using LLMs.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: Python
-- Products: ArcGIS Enterprise, ArcGIS Pro
-- Capabilities: Scripting and Automation, Spatial Analysis and Data Science
-- Technologies: Python
-- Keywords: Anaconda, Conda, Jupyter, Python, notebooks
-- Catalogues: European Dev & Tech Summit
-- Speakers: Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev); Francesco Mazzilli (WhereTech; Distributor Esri Speaker; ID: 1759398453296001taQk\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492551934001fcc9>)
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485538445001FfUd>)
 
 ### Best Practices for Scalable, Mission-Critical Systems
 
@@ -2758,6 +2680,84 @@ In this technical session, speakers share proven approaches for designing, build
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494189026001yKkd>)
 
+### Built-in Client Capabilities for Dynamic, Tiled, and Oriented Imagery
+
+Session ID: 1785490730686001okeu · Code: IMG-1110
+
+- When: 2026-10-22 13:00–2026-10-22 14:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T11:00:00Z–2026-10-22T12:00:00Z
+- Room: Spektrum 1—Level C2 | Congress Center
+- Occurrence ID: 1786149392742001SCIn
+- Attendance: In person: yes; Virtual: no
+
+Learn how to use and offer interactivity and flexibility with imagery in Esri clients, app templates and customized web clients and make use of the capabilities embedded in the wide variety of imagery data models for visualization and analysis. These include datasets such as Mosaic, Catalog, Oriented Imagery, Raster Collections, Multi-Dimensional Imagecubes, LIDAR/LAS Datasets, and 3D Meshes.
+
+- Type: Technical Session
+- Level: All Attendees
+- Language: en
+- Topic: Imagery and Raster
+- Products: ArcGIS Enterprise, ArcGIS Excalibur, ArcGIS Image Server, ArcGIS Online, ArcGIS Location Platform
+- Capabilities: Data Visualization, Imagery & Remote Sensing, Raster GIS
+- Technologies: Cross-Platform
+- Keywords: Template, hosting, imagery, web applications
+- Catalogues: European Dev & Tech Summit
+- Speakers: Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490730686001okeu>)
+
+### Extending ArcGIS Enterprise with Custom Data Feeds
+
+Session ID: 1785486678088001UO2a · Code: AGE-1084
+
+- When: 2026-10-22 13:00–2026-10-22 14:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T11:00:00Z–2026-10-22T12:00:00Z
+- Room: Illusion 3—Level C3 | Congress Center
+- Occurrence ID: 1786152537916001LMBN
+- Attendance: In person: yes; Virtual: no
+
+Learn how to use powerful developer technologies to integrate data with ArcGIS Enterprise. Custom data feeds allows users to expose their data as an input for feature services with optional write capability. Potential input data include, but are not limited to, user-managed data stores not natively supported by ArcGIS clients.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: ArcGIS Enterprise
+- Products: ArcGIS Enterprise
+- Capabilities: Cloud Architecture, Data, and Services
+- Technologies: Kubernetes, Linux, Microsoft Windows
+- Keywords: SOE, SOI, custom data feeds, extending services
+- Catalogues: European Dev & Tech Summit
+- Speakers: Karsten Löding (Esri Germany; Distributor Esri Speaker; ID: 1785486524127001qylh\_1777494026euroepcdev); Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev)
+- Source modified: 2026-10-02T09:27:28Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486678088001UO2a>)
+
+### Level Up your ArcGIS Python Skills
+
+Session ID: 1785492551934001fcc9 · Code: PY-1124
+
+- When: 2026-10-22 13:00–2026-10-22 14:00 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T11:00:00Z–2026-10-22T12:00:00Z
+- Room: Illusion 2—Level C3 | Congress Center
+- Occurrence ID: 1786149672138001mw6u
+- Attendance: In person: yes; Virtual: no
+
+Python is a powerful open source programming language that you can use across the ArcGIS system. Though the language is easy to learn, the huge variety of packages and tools means people use it in vastly different ways. Come to this presentation to learn a few things we think everybody really needs to know to be more awesome at Python. We'll cover the extensive distribution included with ArcGIS products, effective use of JupyterLab, debugging with VS Code, scaling your code, and best practices for using LLMs.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: Python
+- Products: ArcGIS Enterprise, ArcGIS Pro
+- Capabilities: Scripting and Automation, Spatial Analysis and Data Science
+- Technologies: Python
+- Keywords: Anaconda, Conda, Jupyter, Python, notebooks
+- Catalogues: European Dev & Tech Summit
+- Speakers: Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev); Francesco Mazzilli (WhereTech; Distributor Esri Speaker; ID: 1759398453296001taQk\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492551934001fcc9>)
+
 ### AI-Infused Development: Lessons Learned and Patterns from Esri Engineers 
 
 Session ID: 1785481365243001f1yI · Code: AI-1058
@@ -2781,159 +2781,6 @@ In this technical session, learn how Esri engineers are using AI to improve code
 - Source modified: 2026-10-01T18:49:33Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785481365243001f1yI>)
-
-### Raster Analysis with ArcPy and ArcGIS API for Python
-
-Session ID: 1785483113801001cqSp · Code: ADS-1065
-
-- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
-- Room: Spektrum 1—Level C2 | Congress Center
-- Occurrence ID: 1786149403474001SFOr
-- Attendance: In person: yes; Virtual: no
-
-This session explores the integration of map algebra with Python, highlighting how the ability to execute analytical tools in ArcPy and ArcGIS API for Python has created new opportunities for raster analysis, data management, and workflow automation. Participants will be introduced to the Spatial Analyst, Image Analyst, and other modules relevant to raster analysis. Real-world examples will demonstrate best practices for using raster objects and classes to enhance modeling capabilities, optimize performance with raster functions, and explore various methods to extend analytical capabilities.
-
-- Type: Technical Session
-- Level: All Attendees
-- Language: en
-- Topic: Analytics and Data Science
-- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Pro
-- Capabilities: Imagery & Remote Sensing, Raster GIS
-- Technologies: Python
-- Keywords: RCI, Raster object, ia module, imagery, sa module
-- Catalogues: European Dev & Tech Summit
-- Speakers: Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev); Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785483113801001cqSp>)
-
-### ArcGIS Experience Builder: Tips and Tricks for Designing and Building Exciting Apps
-
-Session ID: 1785484407097001or0h · Code: APB-1071
-
-- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
-- Room: Harmonie Hall A-C—Level C2 | Congress Center
-- Occurrence ID: 1786148857300001e6PK
-- Attendance: In person: yes; Virtual: no
-
-Join us for an action-packed session to discover the hidden gems of ArcGIS Experience Builder design framework. Whether you're a seasoned pro or just getting started, this talk will provide you with practical, time-saving tips and tricks to supercharge your workflows. Learn how to properly size and position elements, choose color palettes that pop, use ArcGIS Arcade expressions for advanced formatting, and customize your apps to truly stand out. We'll also show you how to customize themes, integrate Calcite Components and unlock the full potential of ArcGIS Experience Builder with Developer Edition.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: App Builders
-- Products: ArcGIS Experience Builder
-- Capabilities: Web App Development
-- Technologies: JavaScript
-- Keywords: Design, calcite component, custom theme, layout, mobile optimization, style, web applications
-- Catalogues: European Dev & Tech Summit
-- Speakers: Robert van Gilst (GeoInfo; Distributor Esri Speaker; ID: 1705406753000001QVwK\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484407097001or0h>)
-
-### ArcGIS Enterprise: Cloud Deployment Options and Cloud-Native Services
-
-Session ID: 1785486994541001rFoj · Code: AGE-1086
-
-- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
-- Room: Spektrum 2—Level C2 | Congress Center
-- Occurrence ID: 1786149770864001pcUO
-- Attendance: In person: yes; Virtual: no
-
-Discover the automation that you can take advantage of to deploy ArcGIS Enterprise in the cloud using Esri’s latest tooling and applications. After you have learned about the different ways that you can deploy ArcGIS Enterprise in the cloud, speakers explore how to integrate your GIS workflows with cloud-native storage solutions like object storage, database as a service, and cloud data warehouse offerings.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Topic: ArcGIS Enterprise
-- Products: ArcGIS Enterprise on Amazon Web Services, ArcGIS Enterprise on Microsoft Azure
-- Capabilities: Cloud Architecture, Data, and Services
-- Technologies: AWS, Linux, Microsoft Azure, Microsoft Windows
-- Keywords: automation, cloud, cloud data, database, storage, workflows
-- Catalogues: European Dev & Tech Summit
-- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486994541001rFoj>)
-
-### ArcGIS Pro: Tools for Diagnosing Issues and Troubleshooting
-
-Session ID: 1785489191804001FZif · Code: AGP-1100
-
-- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
-- Room: Conclusio 2—Level C2 | Congress Center
-- Occurrence ID: 1787258512943001d2zW
-- Attendance: In person: yes; Virtual: no
-
-ArcGIS Pro has provided the Diagnostic Monitor for quite some time. Now that the Help ribbon is easier to find, we want to show you how to gather some details about your work with ArcGIS Pro and where you could optimize it. We will also discuss other tools like the ArcGIS Pro Performance Assessment Tool (PAT).
-
-- Type: Technical Session
-- Level: Beginner
-- Language: en
-- Products: ArcGIS Pro
-- Capabilities: Desktop Development
-- Technologies: Microsoft .NET
-- Keywords: ArcGIS Pro, Diagnostic Monitor, performance
-- Catalogues: European Dev & Tech Summit
-- Speakers: Filip Ciotkowski (Esri Polska; Distributor Esri Speaker; ID: 1761561730987001zBFj\_1777494026euroepcdev); Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:02Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489191804001FZif>)
-
-### ArcGIS Pro SDK for .NET: Copilot-Supported Add-in Development
-
-Session ID: 1785489584194001RCVI · Code: AGP-1103
-
-- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
-- Room: Illusion 2—Level C3 | Congress Center
-- Occurrence ID: 1786152663517001ccZM
-- Attendance: In person: yes; Virtual: no
-
-Join us for an immersive session where we use Agentic AI and GitHub Copilot in Visual Studio Code to create a real-world ArcGIS Pro Add-in project from start to finish. We will use Copilot to create the addin and to help us write the code needed for our GIS workflow.
-
-- Type: Technical Session
-- Level: Intermediate
-- Language: en
-- Products: ArcGIS Pro SDK for .NET
-- Capabilities: Desktop Development, Extending ArcGIS, AI Assistants
-- Keywords: AI assistants, MVVM, workflows
-- Catalogues: European Dev & Tech Summit
-- Speakers: Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev); Rich Ruh (Esri; Esri Speaker; ID: 1644920233154001Et3f\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489584194001RCVI>)
-
-### ArcGIS Maps SDK for .NET: Advanced Workflows
-
-Session ID: 1785492028686001iLdL · Code: NTV-1120
-
-- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
-- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
-- Room: Fantasie 1—Level C3 | Congress Center
-- Occurrence ID: 1786151832975001mFSS
-- Attendance: In person: yes; Virtual: no
-
-In this session we will discuss advanced topics such as building ArcGIS Maps SDK for .NET applications using MVVM patterns, migrating from .NET Framework and UWP, cross-platform authentication workflows, and exploring UI tools available to develop consistent looking cross-platform applications. In addition, we'll present various tips and tricks to boost your productivity and make your applications more robust and improve performance.
-
-- Type: Technical Session
-- Level: Advanced
-- Language: en
-- Topic: Native SDKs
-- Products: ArcGIS Maps SDK for .NET
-- Capabilities: Native App Development
-- Technologies: Cross-Platform, Microsoft MAUI, Microsoft .NET
-- Keywords: .NET, Android, MAUI, UWP, WinUI, Windows, Xamarin, iOS, macOS, maps, native
-- Catalogues: European Dev & Tech Summit
-- Speakers: Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev)
-- Source modified: 2026-10-01T17:36:03Z
-
-[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492028686001iLdL>)
 
 ### ArcGIS API for Python: Managing Web Maps and Layers
 
@@ -2961,6 +2808,84 @@ This technical session will demonstrate how to use the ArcGIS API for Python to 
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493024826001Salx>)
 
+### ArcGIS Enterprise: Cloud Deployment Options and Cloud-Native Services
+
+Session ID: 1785486994541001rFoj · Code: AGE-1086
+
+- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
+- Room: Spektrum 2—Level C2 | Congress Center
+- Occurrence ID: 1786149770864001pcUO
+- Attendance: In person: yes; Virtual: no
+
+Discover the automation that you can take advantage of to deploy ArcGIS Enterprise in the cloud using Esri’s latest tooling and applications. After you have learned about the different ways that you can deploy ArcGIS Enterprise in the cloud, speakers explore how to integrate your GIS workflows with cloud-native storage solutions like object storage, database as a service, and cloud data warehouse offerings.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: ArcGIS Enterprise
+- Products: ArcGIS Enterprise on Amazon Web Services, ArcGIS Enterprise on Microsoft Azure
+- Capabilities: Cloud Architecture, Data, and Services
+- Technologies: AWS, Linux, Microsoft Azure, Microsoft Windows
+- Keywords: automation, cloud, cloud data, database, storage, workflows
+- Catalogues: European Dev & Tech Summit
+- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486994541001rFoj>)
+
+### ArcGIS Experience Builder: Tips and Tricks for Designing and Building Exciting Apps
+
+Session ID: 1785484407097001or0h · Code: APB-1071
+
+- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
+- Room: Harmonie Hall A-C—Level C2 | Congress Center
+- Occurrence ID: 1786148857300001e6PK
+- Attendance: In person: yes; Virtual: no
+
+Join us for an action-packed session to discover the hidden gems of ArcGIS Experience Builder design framework. Whether you're a seasoned pro or just getting started, this talk will provide you with practical, time-saving tips and tricks to supercharge your workflows. Learn how to properly size and position elements, choose color palettes that pop, use ArcGIS Arcade expressions for advanced formatting, and customize your apps to truly stand out. We'll also show you how to customize themes, integrate Calcite Components and unlock the full potential of ArcGIS Experience Builder with Developer Edition.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Topic: App Builders
+- Products: ArcGIS Experience Builder
+- Capabilities: Web App Development
+- Technologies: JavaScript
+- Keywords: Design, calcite component, custom theme, layout, mobile optimization, style, web applications
+- Catalogues: European Dev & Tech Summit
+- Speakers: Robert van Gilst (GeoInfo; Distributor Esri Speaker; ID: 1705406753000001QVwK\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484407097001or0h>)
+
+### ArcGIS Maps SDK for .NET: Advanced Workflows
+
+Session ID: 1785492028686001iLdL · Code: NTV-1120
+
+- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
+- Room: Fantasie 1—Level C3 | Congress Center
+- Occurrence ID: 1786151832975001mFSS
+- Attendance: In person: yes; Virtual: no
+
+In this session we will discuss advanced topics such as building ArcGIS Maps SDK for .NET applications using MVVM patterns, migrating from .NET Framework and UWP, cross-platform authentication workflows, and exploring UI tools available to develop consistent looking cross-platform applications. In addition, we'll present various tips and tricks to boost your productivity and make your applications more robust and improve performance.
+
+- Type: Technical Session
+- Level: Advanced
+- Language: en
+- Topic: Native SDKs
+- Products: ArcGIS Maps SDK for .NET
+- Capabilities: Native App Development
+- Technologies: Cross-Platform, Microsoft MAUI, Microsoft .NET
+- Keywords: .NET, Android, MAUI, UWP, WinUI, Windows, Xamarin, iOS, macOS, maps, native
+- Catalogues: European Dev & Tech Summit
+- Speakers: Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492028686001iLdL>)
+
 ### ArcGIS Maps SDK for JavaScript: Dynamic, Data-driven Visualization
 
 Session ID: 1785495505595001u7S6 · Code: WEB-1143
@@ -2986,6 +2911,81 @@ Learn the basics of how to turn your raw data into information that tells a stor
 - Source modified: 2026-10-01T17:36:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495505595001u7S6>)
+
+### ArcGIS Pro SDK for .NET: Copilot-Supported Add-in Development
+
+Session ID: 1785489584194001RCVI · Code: AGP-1103
+
+- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
+- Room: Illusion 2—Level C3 | Congress Center
+- Occurrence ID: 1786152663517001ccZM
+- Attendance: In person: yes; Virtual: no
+
+Join us for an immersive session where we use Agentic AI and GitHub Copilot in Visual Studio Code to create a real-world ArcGIS Pro Add-in project from start to finish. We will use Copilot to create the addin and to help us write the code needed for our GIS workflow.
+
+- Type: Technical Session
+- Level: Intermediate
+- Language: en
+- Products: ArcGIS Pro SDK for .NET
+- Capabilities: Desktop Development, Extending ArcGIS, AI Assistants
+- Keywords: AI assistants, MVVM, workflows
+- Catalogues: European Dev & Tech Summit
+- Speakers: Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev); Rich Ruh (Esri; Esri Speaker; ID: 1644920233154001Et3f\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:03Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489584194001RCVI>)
+
+### ArcGIS Pro: Tools for Diagnosing Issues and Troubleshooting
+
+Session ID: 1785489191804001FZif · Code: AGP-1100
+
+- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
+- Room: Conclusio 2—Level C2 | Congress Center
+- Occurrence ID: 1787258512943001d2zW
+- Attendance: In person: yes; Virtual: no
+
+ArcGIS Pro has provided the Diagnostic Monitor for quite some time. Now that the Help ribbon is easier to find, we want to show you how to gather some details about your work with ArcGIS Pro and where you could optimize it. We will also discuss other tools like the ArcGIS Pro Performance Assessment Tool (PAT).
+
+- Type: Technical Session
+- Level: Beginner
+- Language: en
+- Products: ArcGIS Pro
+- Capabilities: Desktop Development
+- Technologies: Microsoft .NET
+- Keywords: ArcGIS Pro, Diagnostic Monitor, performance
+- Catalogues: European Dev & Tech Summit
+- Speakers: Filip Ciotkowski (Esri Polska; Distributor Esri Speaker; ID: 1761561730987001zBFj\_1777494026euroepcdev); Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489191804001FZif>)
+
+### Raster Analysis with ArcPy and ArcGIS API for Python
+
+Session ID: 1785483113801001cqSp · Code: ADS-1065
+
+- When: 2026-10-22 14:30–2026-10-22 15:30 (Europe/Berlin; 60 minutes)
+- UTC: 2026-10-22T12:30:00Z–2026-10-22T13:30:00Z
+- Room: Spektrum 1—Level C2 | Congress Center
+- Occurrence ID: 1786149403474001SFOr
+- Attendance: In person: yes; Virtual: no
+
+This session explores the integration of map algebra with Python, highlighting how the ability to execute analytical tools in ArcPy and ArcGIS API for Python has created new opportunities for raster analysis, data management, and workflow automation. Participants will be introduced to the Spatial Analyst, Image Analyst, and other modules relevant to raster analysis. Real-world examples will demonstrate best practices for using raster objects and classes to enhance modeling capabilities, optimize performance with raster functions, and explore various methods to extend analytical capabilities.
+
+- Type: Technical Session
+- Level: All Attendees
+- Language: en
+- Topic: Analytics and Data Science
+- Products: ArcGIS Enterprise, ArcGIS Online, ArcGIS Pro
+- Capabilities: Imagery & Remote Sensing, Raster GIS
+- Technologies: Python
+- Keywords: RCI, Raster object, ia module, imagery, sa module
+- Catalogues: European Dev & Tech Summit
+- Speakers: Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev); Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev)
+- Source modified: 2026-10-01T17:36:02Z
+
+[Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785483113801001cqSp>)
 
 ### Closing Session
 
