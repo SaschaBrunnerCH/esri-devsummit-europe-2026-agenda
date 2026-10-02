@@ -19,16 +19,19 @@ test('raw schema and semantic checks accept the synthetic source fixture', () =>
   assert.deepEqual(validateData(fixture, { raw: true }), []);
 });
 
-test('public schema preserves every fixture session, occurrence, and speaker', () => {
+test('public schema preserves sessions, occurrences, and session speakers without separate profiles', () => {
   const raw = fixture;
   const agenda = buildAgenda(raw);
   assert.deepEqual(validateData(agenda), []);
   assert.equal(agenda.sessions.length, raw.sessions.length);
-  assert.equal(agenda.speakers.length, raw.speakers.length);
+  assert.equal(agenda.schemaVersion, '2.0.0');
+  assert.equal(Object.hasOwn(agenda, 'speakers'), false);
   for (const session of agenda.sessions) {
     const source = raw.sessions.find(entry => entry.sessionID === session.id);
     assert.equal(session.occurrences.length, source.times?.length ?? 0);
     assert.equal(session.speakers.length, source.participants?.length ?? 0);
+    assert.deepEqual(session.speakers.map(speaker => [speaker.speakerId, speaker.name, speaker.company]),
+      source.participants.map(speaker => [speaker.speakerId, speaker.fullName, speaker.companyName]));
     assert.equal(session.topic, source.attributevalues.find(attribute => attribute.attribute_id === 'Topic')?.value.trim() || null);
   }
 });
@@ -85,13 +88,13 @@ test('allows absent metadata, unscheduled sessions, repeats, and new source clas
   session.occurrences = [firstOccurrence, { ...clone(firstOccurrence), id: 'repeat-test-occurrence' }];
   assert.deepEqual(validateData(candidate), []);
   Object.assign(session.occurrences[0], { room: null, inPerson: null, virtual: null });
-  Object.assign(candidate.speakers[0], { bio: null, jobTitle: null, photoUrl: null });
   assert.deepEqual(validateData(candidate), []);
 });
 
 test('rejects unknown public properties and invalid formats', () => {
   for (const mutate of [
     data => { data.unexpected = true; },
+    data => { data.speakers = []; },
     data => { data.sessions[0].url = 'http://example.com/session'; },
     data => { data.sessions[0].occurrences[0].startsAt = '2026-02-30T10:00:00Z'; },
     data => { data.sessions[0].occurrences[0].startsAt = '2026-10-21T10:00:00'; },
@@ -103,17 +106,26 @@ test('rejects unknown public properties and invalid formats', () => {
   }
 });
 
-test('rejects duplicate IDs and broken speaker references', () => {
+test('rejects duplicate session, occurrence, and session speaker IDs', () => {
   for (const [mutate, expected] of [
     [data => data.sessions.push(clone(data.sessions[0])), /Duplicate session ID/],
-    [data => data.speakers.push(clone(data.speakers[0])), /Duplicate speaker ID/],
     [data => { data.sessions[1].occurrences[0].id = data.sessions[0].occurrences[0].id; }, /Duplicate occurrence ID/],
-    [data => { data.sessions[0].speakers[0].speakerId = 'missing-speaker'; }, /unknown speaker/],
-    [data => { data.sessions[0].speakers[0].name = 'Incorrect display name'; }, /name disagrees/],
     [data => data.sessions[0].speakers.push(clone(data.sessions[0].speakers[0])), /Duplicate speaker assignment/],
   ]) {
     const candidate = clone(proposal); mutate(candidate);
     assert.match(validateData(candidate).join('\n'), expected);
+  }
+});
+
+test('raw validation still checks speaker profiles and assignments', () => {
+  for (const [mutate, expected] of [
+    [data => data.speakers.push(clone(data.speakers[0])), /Duplicate speaker ID/],
+    [data => { data.sessions[0].participants[0].speakerId = 'missing-speaker'; }, /unknown speaker/],
+    [data => { data.sessions[0].participants[0].fullName = 'Incorrect display name'; }, /name disagrees/],
+    [data => { data.sessions[0].participants[0].companyName = 'Incorrect company'; }, /company disagrees/],
+  ]) {
+    const candidate = clone(fixture); mutate(candidate); updateDigest(candidate);
+    assert.match(validateData(candidate, { raw: true }).join('\n'), expected);
   }
 });
 

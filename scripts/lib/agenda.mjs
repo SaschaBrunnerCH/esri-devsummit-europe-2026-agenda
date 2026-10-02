@@ -28,7 +28,7 @@ export function buildAgenda(snapshot) {
   };
   const keywords = buildKeywordCatalog(snapshot.sessions);
   return {
-    schemaVersion: '1.0.0',
+    schemaVersion: '2.0.0',
     source: { url: snapshot.source.url, scrapedAt: snapshot.scrapedAt, contentSha256: snapshot.contentSha256, scope: snapshot.source.scope },
     event: { id: snapshot.source.eventId, name: snapshot.sessions[0].eventName, catalogName: 'Esri European Developer & Technology Summit 2026', timezone: snapshot.source.timezone },
     sessions: orderSessions(snapshot.sessions.map(session => ({
@@ -51,13 +51,14 @@ export function buildAgenda(snapshot) {
       })),
       sourceModifiedAt: session.modified ?? null,
     }))),
-    speakers: snapshot.speakers.map(speaker => ({
-      id: speaker.speakerId, name: speaker.fullName,
-      firstName: text(speaker.firstName), lastName: text(speaker.lastName), company: text(speaker.companyName),
-      jobTitle: text(speaker.jobTitle) ?? text(speaker.globalJobtitle), bio: plain(text(speaker.bio) ?? text(speaker.globalBio)),
-      photoUrl: text(speaker.photoURL), sourceModifiedAt: speaker.modified ?? null,
-    })),
   };
+}
+
+export function renderJson(agenda) {
+  const { sessions, ...metadata } = agenda;
+  const header = JSON.stringify(metadata, null, 2).slice(0, -1).trimEnd();
+  const rows = sessions.map(session => `    ${JSON.stringify(session)}`).join(',\n');
+  return `${header},\n  "sessions": [\n${rows}\n  ]\n}\n`;
 }
 
 const markdown = value => String(value).replace(/[\\`*_{}\[\]<>]/g, '\\$&')
@@ -71,7 +72,7 @@ export function renderMarkdown(agenda) {
     `Timezone: ${inline(agenda.event.timezone)}  `,
     `Source captured: ${agenda.source.scrapedAt}  `,
     `[Official agenda](<${agenda.source.url}>) · [JSON agenda](agenda.json)`, '',
-    `${agenda.sessions.length} sessions · ${occurrenceCount} occurrences · ${agenda.speakers.length} speaker profiles.`, '',
+    `${agenda.sessions.length} sessions · ${occurrenceCount} occurrences.`, '',
     `Registration event: ${inline(agenda.event.name)}  `,
     `Event ID: ${inline(agenda.event.id)}  `,
     `Source SHA-256: ${agenda.source.contentSha256}`, '',
@@ -106,16 +107,6 @@ export function renderMarkdown(agenda) {
       `${inline(speaker.name)} (${[speaker.company, speaker.role, `ID: ${speaker.speakerId}`].filter(Boolean).map(inline).join('; ')})`).join('; ') : 'None listed'}`);
     if (session.sourceModifiedAt) lines.push(`- Source modified: ${session.sourceModifiedAt}`);
     lines.push('', `[Session on the official agenda](<${session.url}>)`, '');
-  }
-  lines.push('## Speaker profiles', '');
-  for (const speaker of [...agenda.speakers].sort((a, b) => a.name.localeCompare(b.name, 'en') || a.id.localeCompare(b.id))) {
-    lines.push(`### ${inline(speaker.name)}`, '', `Speaker ID: ${inline(speaker.id)}`, '');
-    for (const [label, value] of [['First name', speaker.firstName], ['Last name', speaker.lastName], ['Company', speaker.company], ['Job title', speaker.jobTitle]]) {
-      if (value) lines.push(`- ${label}: ${inline(value)}`);
-    }
-    if (speaker.photoUrl) lines.push(`- [Photo](<${speaker.photoUrl}>)`);
-    if (speaker.sourceModifiedAt) lines.push(`- Source modified: ${speaker.sourceModifiedAt}`);
-    lines.push('', markdown(speaker.bio ?? 'Biography not provided.'), '');
   }
   return lines.join('\n');
 }

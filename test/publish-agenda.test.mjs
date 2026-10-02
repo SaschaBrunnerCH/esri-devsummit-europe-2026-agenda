@@ -51,6 +51,10 @@ test('publication creates a separate history containing only public files and no
   await generateAgenda({ input, outputDir });
   assert.deepEqual(await publishAgenda(options), { changed: false, commit: first.commit });
   const published = JSON.parse(await readFile(join(outputDir, 'agenda.json'), 'utf8'));
+  const publishedText = await readFile(join(outputDir, 'agenda.json'), 'utf8');
+  assert.deepEqual(publishedText.split('\n').filter(line => line.startsWith('    {"id":'))
+    .map(line => JSON.parse(line.trim().replace(/,$/, ''))), published.sessions,
+    'timestamp preservation must retain one session per line');
   assert.equal(published.source.scrapedAt, fixture.scrapedAt);
   assert.ok((await readFile(join(outputDir, 'agenda.md'), 'utf8')).includes(fixture.scrapedAt));
   const { scrapedAt, contentSha256, ...payload } = later;
@@ -73,9 +77,9 @@ test('invalid JSON or mismatched Markdown leaves the publication branch unchange
   await writeFile(join(outputDir, 'agenda.md'), 'Stale Markdown');
   await assert.rejects(publishAgenda(options), /Markdown does not match/);
   const agenda = JSON.parse(await readFile(join(outputDir, 'agenda.json'), 'utf8'));
-  agenda.sessions[0].speakers[0].speakerId = 'missing';
+  agenda.sessions[0].speakers.push(structuredClone(agenda.sessions[0].speakers[0]));
   await writeFile(join(outputDir, 'agenda.json'), JSON.stringify(agenda));
-  await assert.rejects(publishAgenda(options), /unknown speaker/);
+  await assert.rejects(publishAgenda(options), /Duplicate speaker assignment/);
   assert.equal(git(remote, 'rev-parse', 'gh-pages'), first.commit);
 });
 

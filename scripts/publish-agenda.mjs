@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { basename, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { parseArgs } from 'node:util';
-import { renderMarkdown } from './lib/agenda.mjs';
+import { renderJson, renderMarkdown } from './lib/agenda.mjs';
 import { validateData } from './validate-data.mjs';
 
 const files = ['agenda.json', 'agenda.md', 'agenda.schema.json', 'index.html'];
@@ -50,7 +50,7 @@ export async function publishAgenda({ directory = 'public', repository = process
         agenda.source.scrapedAt = previous.source.scrapedAt;
         const errors = validateData(agenda);
         if (errors.length) throw new Error(`Invalid publication timestamp:\n${errors.join('\n')}`);
-        content.set('agenda.json', `${JSON.stringify(agenda, null, 2)}\n`);
+        content.set('agenda.json', renderJson(agenda));
         content.set('agenda.md', renderMarkdown(agenda));
       }
     }

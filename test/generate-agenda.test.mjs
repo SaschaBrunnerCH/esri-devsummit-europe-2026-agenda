@@ -26,13 +26,19 @@ test('generates complete valid exports and leaves unchanged files untouched', as
   assert.equal(await readFile(options.input, 'utf8'), original);
   const jsonPath = join(options.outputDir, 'agenda.json');
   const mdPath = join(options.outputDir, 'agenda.md');
-  const json = JSON.parse(await readFile(jsonPath, 'utf8'));
+  const jsonText = await readFile(jsonPath, 'utf8');
+  const json = JSON.parse(jsonText);
+  const sessionLines = jsonText.split('\n').filter(line => line.startsWith('    {"id":'));
+  assert.deepEqual(sessionLines.map(line => JSON.parse(line.trim().replace(/,$/, ''))), json.sessions,
+    'each session must occupy one complete line for readable diffs');
+  assert.deepEqual(json, buildAgenda(fixture), 'formatting must preserve the public data');
   assert.deepEqual(validateData(json), []);
   assert.equal(json.source.contentSha256, fixture.contentSha256);
   assert.deepEqual(json.sessions.map(session => session.id), fixture.sessions.map(session => session.sessionID));
   const md = await readFile(mdPath, 'utf8');
   for (const session of fixture.sessions) assert.ok(md.includes(session.title));
   assert.ok(md.includes('Example Speaker'));
+  assert.equal(md.includes('## Speaker profiles'), false);
   assert.ok(md.includes(fixture.contentSha256));
   const timestamps = [(await stat(jsonPath)).mtimeMs, (await stat(mdPath)).mtimeMs];
   assert.deepEqual((await generateAgenda(options)).changed, []);

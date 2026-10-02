@@ -46,8 +46,8 @@ export function validateData(data, { raw = false } = {}) {
   try { new Intl.DateTimeFormat('en', { timeZone: timezone }); }
   catch { return [`Invalid event timezone: ${timezone}`]; }
   const sessionIds = uniqueIds(data.sessions, raw ? 'sessionID' : 'id', 'session');
-  const speakerIds = uniqueIds(data.speakers, raw ? 'speakerId' : 'id', 'speaker');
-  const profiles = new Map(data.speakers.map(speaker => [raw ? speaker.speakerId : speaker.id, speaker]));
+  const speakerIds = raw ? uniqueIds(data.speakers, 'speakerId', 'speaker') : null;
+  const profiles = raw ? new Map(data.speakers.map(speaker => [speaker.speakerId, speaker])) : null;
   const occurrenceIds = new Set();
   const checkTime = (occurrence, label) => {
     const start = Date.parse(occurrence.startsAt);
@@ -64,12 +64,13 @@ export function validateData(data, { raw = false } = {}) {
     if (raw) require(session.eventId === data.source.eventId, `Session ${id}: wrong source event`);
     const assignments = raw ? session.participants ?? [] : session.speakers;
     uniqueIds(assignments, 'speakerId', `speaker assignment in ${id}`);
-    for (const assignment of assignments) {
+    if (raw) for (const assignment of assignments) {
       require(speakerIds.has(assignment.speakerId), `Session ${id}: unknown speaker ${assignment.speakerId}`);
       const profile = profiles.get(assignment.speakerId);
-      if (!raw && profile) {
-        require(assignment.name === profile.name, `Session ${id}: speaker name disagrees with profile`);
-        require(assignment.company === profile.company, `Session ${id}: speaker company disagrees with profile`);
+      if (profile) {
+        require(assignment.fullName === profile.fullName, `Session ${id}: speaker name disagrees with profile`);
+        require((assignment.companyName?.trim() || null) === (profile.companyName?.trim() || null),
+          `Session ${id}: speaker company disagrees with profile`);
       }
     }
     for (const time of raw ? session.times ?? [] : session.occurrences) {
