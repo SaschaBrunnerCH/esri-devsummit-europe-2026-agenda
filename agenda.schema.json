@@ -1,13 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:esri-devsummit-europe-2026:agenda:1",
-  "title": "Esri European Developer & Technology Summit agenda v1",
+  "$id": "urn:esri-devsummit-europe-2026:agenda:2",
+  "title": "Esri European Developer & Technology Summit agenda v2",
   "description": "Public agenda bundle. IDs are opaque source IDs; classifications are source labels. Cross-record and time consistency require the companion validator.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "source", "event", "sessions", "speakers"],
+  "required": ["schemaVersion", "source", "event", "sessions"],
   "properties": {
-    "schemaVersion": { "const": "1.0.0" },
+    "schemaVersion": { "const": "2.0.0" },
     "source": {
       "type": "object", "additionalProperties": false,
       "required": ["url", "scrapedAt", "contentSha256", "scope"],
@@ -28,8 +28,7 @@
         "timezone": { "$ref": "#/$defs/text", "description": "IANA timezone, validated by Intl; currently Europe/Berlin." }
       }
     },
-    "sessions": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/session" } },
-    "speakers": { "type": "array", "items": { "$ref": "#/$defs/speaker" } }
+    "sessions": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/session" } }
   },
   "$defs": {
     "text": { "type": "string", "minLength": 1, "pattern": "\\S" },
@@ -69,7 +68,7 @@
       "required": ["speakerId", "name", "company", "role", "order"],
       "properties": {
         "speakerId": { "$ref": "#/$defs/text" },
-        "name": { "$ref": "#/$defs/text", "description": "Event display name, repeated here for self-contained session reads." },
+        "name": { "$ref": "#/$defs/text", "description": "Source event display name." },
         "company": { "$ref": "#/$defs/nullableText" },
         "role": { "$ref": "#/$defs/nullableText", "description": "Role in this specific session, not an aggregate speaker role." },
         "order": { "type": ["number", "null"], "minimum": 0 }
@@ -95,21 +94,6 @@
         "catalogs": { "$ref": "#/$defs/labels", "description": "Source Catalog Display labels, including shared partner activities." },
         "speakers": { "type": "array", "items": { "$ref": "#/$defs/assignment" } },
         "occurrences": { "type": "array", "items": { "$ref": "#/$defs/occurrence" }, "description": "May contain zero (unscheduled), one, or multiple occurrences." },
-        "sourceModifiedAt": { "$ref": "#/$defs/nullableTimestamp" }
-      }
-    },
-    "speaker": {
-      "type": "object", "additionalProperties": false,
-      "required": ["id", "name", "firstName", "lastName", "company", "jobTitle", "bio", "photoUrl", "sourceModifiedAt"],
-      "properties": {
-        "id": { "$ref": "#/$defs/text", "description": "Source speakerId, preserved unchanged." },
-        "name": { "$ref": "#/$defs/text" },
-        "firstName": { "$ref": "#/$defs/nullableText" },
-        "lastName": { "$ref": "#/$defs/nullableText" },
-        "company": { "$ref": "#/$defs/nullableText" },
-        "jobTitle": { "$ref": "#/$defs/nullableText" },
-        "bio": { "$ref": "#/$defs/nullableText", "description": "Plain text; event biography takes precedence over a global biography." },
-        "photoUrl": { "anyOf": [{ "$ref": "#/$defs/httpsUrl" }, { "type": "null" }] },
         "sourceModifiedAt": { "$ref": "#/$defs/nullableTimestamp" }
       }
     }
