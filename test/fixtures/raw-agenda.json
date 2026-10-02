@@ -1,0 +1,134 @@
+{
+  "attributes": [],
+  "captureVersion": 1,
+  "catalogConfiguration": [],
+  "catalogItems": [
+    {
+      "attributevalues": [
+        {
+          "attribute": "Keywords",
+          "attribute_id": "Keywords",
+          "value": "AI, JavaScript"
+        }
+      ],
+      "eventId": "fixture-event",
+      "eventName": "Fixture event",
+      "sessionID": "fixture-one",
+      "title": "Fixture session fixture-one"
+    },
+    {
+      "attributevalues": [
+        {
+          "attribute": "Keywords",
+          "attribute_id": "Keywords",
+          "value": "AI, JavaScript"
+        }
+      ],
+      "eventId": "fixture-event",
+      "eventName": "Fixture event",
+      "sessionID": "fixture-two",
+      "title": "Fixture session fixture-two"
+    }
+  ],
+  "catalogSections": [
+    {
+      "sectionId": null,
+      "title": "",
+      "total": 2
+    }
+  ],
+  "counts": {
+    "catalogEntries": 2,
+    "sessions": 2,
+    "speakers": 1
+  },
+  "sessions": [
+    {
+      "abstract": "<p>Learn <strong>JavaScript</strong> with examples.</p>",
+      "attributevalues": [
+        {
+          "attribute": "Keywords",
+          "attribute_id": "Keywords",
+          "value": "AI, JavaScript"
+        }
+      ],
+      "eventId": "fixture-event",
+      "eventName": "Fixture event",
+      "participants": [
+        {
+          "companyName": "Example company",
+          "fullName": "Example Speaker",
+          "speakerId": "fixture-speaker"
+        }
+      ],
+      "sessionID": "fixture-one",
+      "times": [
+        {
+          "date": "2026-10-21",
+          "endDate": "2026-10-21",
+          "endTime": "10:00",
+          "length": 60,
+          "sessionID": "fixture-one",
+          "sessionTimeID": "fixture-one-time",
+          "startTime": "09:00",
+          "utcEndTime": "2026/10/21 08:00:00",
+          "utcStartTime": "2026/10/21 07:00:00"
+        }
+      ],
+      "title": "Fixture session fixture-one"
+    },
+    {
+      "abstract": "<p>Learn <strong>JavaScript</strong> with examples.</p>",
+      "attributevalues": [
+        {
+          "attribute": "Keywords",
+          "attribute_id": "Keywords",
+          "value": "AI, JavaScript"
+        }
+      ],
+      "eventId": "fixture-event",
+      "eventName": "Fixture event",
+      "participants": [
+        {
+          "companyName": "Example company",
+          "fullName": "Example Speaker",
+          "speakerId": "fixture-speaker"
+        }
+      ],
+      "sessionID": "fixture-two",
+      "times": [
+        {
+          "date": "2026-10-21",
+          "endDate": "2026-10-21",
+          "endTime": "10:00",
+          "length": 60,
+          "sessionID": "fixture-two",
+          "sessionTimeID": "fixture-two-time",
+          "startTime": "09:00",
+          "utcEndTime": "2026/10/21 08:00:00",
+          "utcStartTime": "2026/10/21 07:00:00"
+        }
+      ],
+      "title": "Fixture session fixture-two"
+    }
+  ],
+  "source": {
+    "apiBaseUrl": "https://event.esri.com/api/",
+    "eventCode": "26euroepcdev",
+    "eventId": "fixture-event",
+    "organization": "esri",
+    "scope": "Synthetic test fixture.",
+    "timezone": "Europe/Berlin",
+    "url": "https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda"
+  },
+  "speakers": [
+    {
+      "companyName": "Example company",
+      "eventId": "fixture-event",
+      "fullName": "Example Speaker",
+      "speakerId": "fixture-speaker"
+    }
+  ],
+  "scrapedAt": "2026-10-02T00:00:00Z",
+  "contentSha256": "e6393a2de86ca40affe4e32429c77dc436767dd5ee82e47d4a6c49dc5c36e7fc"
+}

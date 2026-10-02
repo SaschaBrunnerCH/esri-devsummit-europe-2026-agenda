@@ -1,0 +1,1924 @@
+{
+  "sourceContentSha256": "e9c945f33a15714820194b181773744e31e7e024aeabdc572168eefcb4fef9e7",
+  "rulesVersion": 1,
+  "terms": [
+    {
+      "label": ".NET",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "2D",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "3D",
+      "aliases": [],
+      "sessionCount": 5
+    },
+    {
+      "label": "3D scene",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "3D views",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "accessibility",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "add-ins",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "administration",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Aerial",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Agent Frameworks",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Agentic AI",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Agentic Automation",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "agents",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "AI",
+      "aliases": [
+        "artificial intelligence"
+      ],
+      "sessionCount": 8
+    },
+    {
+      "label": "AI Agents",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "AI applications",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "AI assistants",
+      "aliases": [
+        "AI Assistant",
+        "AI Assistants"
+      ],
+      "sessionCount": 4
+    },
+    {
+      "label": "AI-assisted development",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Anaconda",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "analysis",
+      "aliases": [],
+      "sessionCount": 3
+    },
+    {
+      "label": "analytics",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Android",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Apache Airflow",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "API keys",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "API Management",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "APIs",
+      "aliases": [
+        "API"
+      ],
+      "sessionCount": 5
+    },
+    {
+      "label": "App framework",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "app-building",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "application development",
+      "aliases": [],
+      "sessionCount": 4
+    },
+    {
+      "label": "apps",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Arcade",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "ArcGIS API for Python",
+      "aliases": [
+        "ArcGIS Python API"
+      ],
+      "sessionCount": 1
+    },
+    {
+      "label": "ArcGIS Enterprise",
+      "aliases": [],
+      "sessionCount": 4
+    },
+    {
+      "label": "ArcGIS Experience Builder developer edition",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "ArcGIS Field Maps",
+      "aliases": [
+        "Field Maps"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "ArcGIS GeoAnalytics for Fabric",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "ArcGIS GeoEvent Server",
+      "aliases": [
+        "ArcGIS Geoevent Server"
+      ],
+      "sessionCount": 1
+    },
+    {
+      "label": "ArcGIS Maps SDK for Javascript",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "ArcGIS Notebook Server",
+      "aliases": [
+        "ArcGIS Notebok Server"
+      ],
+      "sessionCount": 1
+    },
+    {
+      "label": "ArcGIS Online",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "ArcGIS Pro",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "ArcGIS Survey123",
+      "aliases": [
+        "Survey123"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "ArcGIS web maps",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "architecture",
+      "aliases": [
+        "Architecture"
+      ],
+      "sessionCount": 5
+    },
+    {
+      "label": "asset management",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "attribute rules",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "authentication",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "automating",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "automation",
+      "aliases": [
+        "Automation"
+      ],
+      "sessionCount": 12
+    },
+    {
+      "label": "AVL",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "basemaps",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "best practices",
+      "aliases": [
+        "best practice"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "big data",
+      "aliases": [
+        "Big data"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "BigQuery",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "BIM",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Blue-Green Deployment",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "branch versioning",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "branding",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "build systems",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Building blocks",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "bulk",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Business Continuity",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Calcite",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "calcite component",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Calcite Design System",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "capabilities",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "ChatGPT",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "CI/CD",
+      "aliases": [
+        "ci/cd"
+      ],
+      "sessionCount": 1
+    },
+    {
+      "label": "Claude",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "climate resilience",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "close",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "cloud",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "cloud data",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "cloud data warehouse",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Cloud Infrastructure",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "cloud storage",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "cloud-native",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "code",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "collaboration",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Conda",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Configurable",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "configurable apps",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Configuration",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "content management",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Context-Aware Workflows",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Copilot",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Copilots",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Cross-platform",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "crowd-source",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "custom apps",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "custom data feeds",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "custom theme",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "custom tool",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Custom Widget",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "customizable",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "customization",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Customize",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Dashboards",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "data",
+      "aliases": [
+        "Data"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "data access",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "data engineering",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "data ingestion",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "data integration",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "data management",
+      "aliases": [
+        "Data management"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "data pipeline",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "data science",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Data source",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "data sovereignty",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "data storage",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Data synchronization",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Data Transformation",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Data Visualization",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "data-driven decisions",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "database",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "datastore",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "deep learning",
+      "aliases": [],
+      "sessionCount": 4
+    },
+    {
+      "label": "deployment",
+      "aliases": [
+        "Deployment"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "deployment pattern",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "deployments",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Design",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "design system",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "desktop",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "developer",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "development",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "development patterns",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "DevOps",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Diagnostic Monitor",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "digital sovereignty",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "digital transformation",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Digital Twin",
+      "aliases": [
+        "Digital Twins",
+        "digital twin"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "Disaster Recovery",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "documentation",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Drone",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "DSM",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "dynamic",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Edge AI",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "editing",
+      "aliases": [
+        "Editing"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "embeddings",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "enterprise",
+      "aliases": [
+        "Enterprise"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "Enterprise AI",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "enterprise GIS",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Epic",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "ETL",
+      "aliases": [],
+      "sessionCount": 4
+    },
+    {
+      "label": "eventbase",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "expressions",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "extending",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "extending services",
+      "aliases": [],
+      "sessionCount": 3
+    },
+    {
+      "label": "extensibility",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Fault Tolerance",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "feature layer data profiles",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "feature layers",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "feature service",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "feed",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Field",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "flexible design",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Flutter SDK",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "foundation models",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "frameworks",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "front-end",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "fundamental",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "fundamentals",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "game engine",
+      "aliases": [
+        "Game Engine"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "Gaussian splat",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "GeoAI",
+      "aliases": [
+        "Geospatial AI"
+      ],
+      "sessionCount": 5
+    },
+    {
+      "label": "geocoding",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "geodatabases",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "geofence",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Geospatial Reasoning",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "GIS administration",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "GIS adoption",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Git",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "GitHub",
+      "aliases": [
+        "Github"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "Governance",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "GPT",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "graph analytics",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "graph database",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "High Availability",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Hosted Feature Layer",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Hosted Feature Layer View",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Hosted Feature Service",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "hosting",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "ia module",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Image Services",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "imagery",
+      "aliases": [
+        "Imagery"
+      ],
+      "sessionCount": 6
+    },
+    {
+      "label": "Imagery Layers",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "integration",
+      "aliases": [
+        "Integration"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "Intelligent Orchestration",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "interaction",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "interactive",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Interoperability",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "introduction",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "iOS",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "IT",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "JavaScript",
+      "aliases": [],
+      "sessionCount": 11
+    },
+    {
+      "label": "JavaScript API",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "JSON",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Jupyter",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Knowledge Graphs",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "layers",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "layout",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Leaflet",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "LLM",
+      "aliases": [
+        "LLMs",
+        "Large Language Models (LLMs)"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "Load Balancing",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "location",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "location analytics",
+      "aliases": [
+        "Location analytics"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "location services",
+      "aliases": [
+        "Location Services"
+      ],
+      "sessionCount": 5
+    },
+    {
+      "label": "low code",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "machine learning",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "macOS",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Make",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "map",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Mapbox",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "mapping",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "maps",
+      "aliases": [
+        "Maps"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "MAUI",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "MCP",
+      "aliases": [
+        "MCP (Model Context Protocol)"
+      ],
+      "sessionCount": 1
+    },
+    {
+      "label": "MCP Server",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Mesh",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "mobile",
+      "aliases": [
+        "Mobile"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "mobile optimization",
+      "aliases": [
+        "Mobile optimization"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "monitoring",
+      "aliases": [
+        "Monitoring"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "multilingual",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "municipal GIS",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "MVVM",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "native",
+      "aliases": [
+        "Native"
+      ],
+      "sessionCount": 5
+    },
+    {
+      "label": "Native SDKs",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "network analysis",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "network diagrams",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "no code",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "node",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "notebooks",
+      "aliases": [
+        "notebook"
+      ],
+      "sessionCount": 4
+    },
+    {
+      "label": "OAuth",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Observability",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Offline",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "online",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "open source",
+      "aliases": [],
+      "sessionCount": 3
+    },
+    {
+      "label": "OpenLayers",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "operations",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Optimization",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "optimize",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "organization",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "orthomosaic",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "PaaS",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "parameters",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "performance",
+      "aliases": [
+        "Performance"
+      ],
+      "sessionCount": 5
+    },
+    {
+      "label": "permission",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Point Cloud",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "portal",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Power Automate",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "predictive analytics",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "pretrained models",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Pro",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "profile",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "prompt-engineering",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "public",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "public safety",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Python",
+      "aliases": [
+        "python"
+      ],
+      "sessionCount": 11
+    },
+    {
+      "label": "RAG",
+      "aliases": [
+        "Retrieval-Augmented Generation (RAG)"
+      ],
+      "sessionCount": 1
+    },
+    {
+      "label": "Raster object",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "RCI",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "React",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Ready to Use",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "real-time",
+      "aliases": [
+        "Real-Time"
+      ],
+      "sessionCount": 4
+    },
+    {
+      "label": "Reality",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Reality Mapping",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "remote sensing",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "resilience",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "resiliency",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "REST",
+      "aliases": [],
+      "sessionCount": 3
+    },
+    {
+      "label": "REST APIs",
+      "aliases": [
+        "REST API"
+      ],
+      "sessionCount": 1
+    },
+    {
+      "label": "Risk Mitigation",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Road Map",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "role",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Runtime",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "sa module",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Satellite",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "scale services",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "scene",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "scheduling",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "script tool",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "scripts",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "SDKs",
+      "aliases": [
+        "SDK"
+      ],
+      "sessionCount": 1
+    },
+    {
+      "label": "secure services",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "security",
+      "aliases": [
+        "Security"
+      ],
+      "sessionCount": 5
+    },
+    {
+      "label": "sharing",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "smart city",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "smart forms",
+      "aliases": [
+        "Smart forms"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "Smart widget",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "SOE",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "software engineering",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "SOI",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Solution",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "solutions",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Spark",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "spatial analytics",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "spatial data governance",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "spatial data science",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Spatial Grounding",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "statistics",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "storage",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "storage options",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "strategic plan monitoring",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "strategies",
+      "aliases": [],
+      "sessionCount": 4
+    },
+    {
+      "label": "stream",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "stream service",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "style",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "styling",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "survey",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "sustainable urban development",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "sync",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "system downtime",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "system health",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "system integration",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "system of record",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Systems",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Template",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "test",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "testing",
+      "aliases": [
+        "Testing"
+      ],
+      "sessionCount": 3
+    },
+    {
+      "label": "tools",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "trace",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "tree detection",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "True Ortho",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "UI/UX",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Unity",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Unreal Engine",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "updating data",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "upgrades",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "upgrading",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "urban green infrastructure",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "urban planning",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "usage",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "user",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "user experience",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "utility network",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "UWP",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "UX",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "validator",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Vector Search",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "vector tiles",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "vehicle tracking",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "vibe-coding",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "viewer",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "views",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "viral app",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Virtual Reality",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "visualization",
+      "aliases": [
+        "Visualization"
+      ],
+      "sessionCount": 5
+    },
+    {
+      "label": "Vite",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "VTSE",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "web",
+      "aliases": [
+        "Web"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "web applications",
+      "aliases": [
+        "WebApp",
+        "web app",
+        "web application",
+        "web apps"
+      ],
+      "sessionCount": 6
+    },
+    {
+      "label": "web components",
+      "aliases": [],
+      "sessionCount": 4
+    },
+    {
+      "label": "web development",
+      "aliases": [],
+      "sessionCount": 4
+    },
+    {
+      "label": "web GIS",
+      "aliases": [
+        "Web GIS"
+      ],
+      "sessionCount": 2
+    },
+    {
+      "label": "web map",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "web tool",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "webhook",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "webhooks",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "Well-Architected",
+      "aliases": [],
+      "sessionCount": 2
+    },
+    {
+      "label": "Windows",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "WinUI",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "workflows",
+      "aliases": [
+        "workflow"
+      ],
+      "sessionCount": 6
+    },
+    {
+      "label": "Xamarin",
+      "aliases": [],
+      "sessionCount": 1
+    },
+    {
+      "label": "XR",
+      "aliases": [],
+      "sessionCount": 2
+    }
+  ],
+  "diagnostics": []
+}

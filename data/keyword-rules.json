@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "description": "Reviewed canonical labels, aliases, and exact parsing overrides. These rules normalize supplied keywords; they do not infer tags from session content.",
+  "terms": [
+    { "label": "AI", "aliases": ["artificial intelligence"] },
+    { "label": "GeoAI", "aliases": ["Geospatial AI"] },
+    { "label": "AI assistants", "aliases": ["AI Assistant"] },
+    { "label": "Digital Twin", "aliases": ["Digital Twins"] },
+    { "label": "LLM", "aliases": ["LLMs", "Large Language Models (LLMs)"] },
+    { "label": "MCP", "aliases": ["MCP (Model Context Protocol)"] },
+    { "label": "RAG", "aliases": ["Retrieval-Augmented Generation (RAG)"] },
+    { "label": "APIs", "aliases": ["API"] },
+    { "label": "REST APIs", "aliases": ["REST API"] },
+    { "label": "SDKs", "aliases": ["SDK"] },
+    { "label": "JavaScript", "aliases": [] },
+    { "label": "Python", "aliases": [] },
+    { "label": "GitHub", "aliases": [] },
+    { "label": ".NET", "aliases": [] },
+    { "label": "CI/CD", "aliases": [] },
+    { "label": "UI/UX", "aliases": [] },
+    { "label": "workflows", "aliases": ["workflow"] },
+    { "label": "web applications", "aliases": ["web application", "web app", "web apps", "WebApp"] },
+    { "label": "notebooks", "aliases": ["notebook"] },
+    { "label": "best practices", "aliases": ["best practice"] },
+    { "label": "ArcGIS API for Python", "aliases": ["ArcGIS Python API"] },
+    { "label": "ArcGIS Field Maps", "aliases": ["Field Maps"] },
+    { "label": "ArcGIS Survey123", "aliases": ["Survey123"] },
+    { "label": "ArcGIS GeoEvent Server", "aliases": ["ArcGIS Geoevent Server"] },
+    { "label": "ArcGIS Notebook Server", "aliases": ["ArcGIS Notebok Server"] }
+  ],
+  "exactOverrides": [
+    {
+      "text": "AI Testing Enterprise Pro Claude GPT ChatGPT Copilot Data",
+      "tokens": ["AI", "Testing", "Enterprise", "Pro", "Claude", "GPT", "ChatGPT", "Copilot", "Data"],
+      "reason": "Reviewed boundaries for the current undelimited list. Keep Enterprise and Pro as source labels; do not infer product expansions."
+    },
+    {
+      "text": "Disaster Recovery.",
+      "tokens": ["Disaster Recovery"],
+      "reason": "Reviewed sentence-ending punctuation in the mission-critical systems keyword list; do not strip punctuation from all keywords."
+    }
+  ]
+}

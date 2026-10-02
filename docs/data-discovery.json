@@ -1,0 +1,1656 @@
+{
+  "sourceContentSha256": "e9c945f33a15714820194b181773744e31e7e024aeabdc572168eefcb4fef9e7",
+  "sourceScrapedAt": "2026-10-02T06:57:19.559Z",
+  "counts": {
+    "catalogEntries": 120,
+    "sessions": 120,
+    "speakers": 74,
+    "occurrences": 120,
+    "assignments": 208,
+    "rooms": 17
+  },
+  "dates": [
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22"
+  ],
+  "sessionTypes": {
+    "Closing Session": 1,
+    "Conference Activity": 6,
+    "Partner Presentation": 1,
+    "Plenary": 3,
+    "Social Activity": 3,
+    "SpeedGeeking": 1,
+    "Technical Session": 96,
+    "User Presentation": 9
+  },
+  "durationsMinutes": {
+    "15": 9,
+    "20": 1,
+    "60": 100,
+    "75": 1,
+    "90": 3,
+    "120": 2,
+    "180": 1,
+    "210": 1,
+    "390": 1,
+    "480": 1
+  },
+  "occurrencesPerSession": {
+    "1": 120
+  },
+  "speakersPerSession": {
+    "0": 12,
+    "1": 30,
+    "2": 73,
+    "3": 2,
+    "4": 1,
+    "9": 1,
+    "13": 1
+  },
+  "classificationCoverage": {
+    "Capabilities": {
+      "sessions": 89,
+      "distinctValues": 36,
+      "values": [
+        "3D Visualization and Analytics",
+        "AEC, BIM, CAD",
+        "AI Assistants",
+        "Agentic AI",
+        "Arcade",
+        "Calcite Design System",
+        "Cartography",
+        "Cloud Architecture, Data, and Services",
+        "Containerization",
+        "Data Hosting",
+        "Data Interoperability and Conversion",
+        "Data Management",
+        "Data Visualization",
+        "Desktop Development",
+        "Extending ArcGIS",
+        "Field Operations",
+        "Game Engine Development",
+        "GeoAI",
+        "Geoprocessing",
+        "High Availability and Disaster Recovery",
+        "Imagery & Remote Sensing",
+        "Location Services",
+        "Native App Development",
+        "Open Source",
+        "Open Standards and OGC",
+        "Portal Administration",
+        "Raster GIS",
+        "Real-Time Visualization and Analysis",
+        "Reality Mapping",
+        "Scripting and Automation",
+        "Security",
+        "Server Administration",
+        "Spatial Analysis and Data Science",
+        "UI/UX",
+        "Web App Development",
+        "Web GIS"
+      ]
+    },
+    "Catalog Display": {
+      "sessions": 120,
+      "distinctValues": 2,
+      "values": [
+        "European Dev & Tech Summit",
+        "European Partner Conference"
+      ]
+    },
+    "Day": {
+      "sessions": 120,
+      "distinctValues": 4,
+      "values": [
+        "Monday, Oct 19",
+        "Thursday, Oct 22",
+        "Tuesday, Oct 20",
+        "Wednesday, Oct 21"
+      ]
+    },
+    "Esri Products": {
+      "sessions": 94,
+      "distinctValues": 40,
+      "values": [
+        "ArcGIS API for Python",
+        "ArcGIS Dashboards",
+        "ArcGIS Data Interoperability",
+        "ArcGIS Data Pipelines",
+        "ArcGIS Developer",
+        "ArcGIS Enterprise",
+        "ArcGIS Enterprise on Amazon Web Services",
+        "ArcGIS Enterprise on Microsoft Azure",
+        "ArcGIS Excalibur",
+        "ArcGIS Experience Builder",
+        "ArcGIS Experience Builder Developer Edition",
+        "ArcGIS Field Maps",
+        "ArcGIS GeoAnalytics Engine",
+        "ArcGIS Image Server",
+        "ArcGIS Image for ArcGIS Online",
+        "ArcGIS Instant Apps",
+        "ArcGIS Knowledge",
+        "ArcGIS Location Platform",
+        "ArcGIS Maps SDK for .NET",
+        "ArcGIS Maps SDK for JavaScript",
+        "ArcGIS Maps SDK for Unity ",
+        "ArcGIS Maps SDK for Unreal Engine",
+        "ArcGIS Maps SDKs",
+        "ArcGIS Maps SDKs for Game Engines",
+        "ArcGIS Maps SDKs for Native Apps",
+        "ArcGIS Monitor",
+        "ArcGIS Navigator",
+        "ArcGIS Notebook Server",
+        "ArcGIS Notebooks",
+        "ArcGIS Online",
+        "ArcGIS Pro",
+        "ArcGIS Pro SDK for .NET",
+        "ArcGIS QuickCapture",
+        "ArcGIS REST API",
+        "ArcGIS Reality",
+        "ArcGIS Reality for ArcGIS Pro",
+        "ArcGIS Survey123",
+        "ArcGIS Utility Network",
+        "ArcGIS Velocity",
+        "ArcGIS Workflow Manager"
+      ]
+    },
+    "Include Session in Proceedings": {
+      "sessions": 13,
+      "distinctValues": 1,
+      "values": [
+        "No"
+      ]
+    },
+    "Keywords": {
+      "sessions": 106,
+      "distinctValues": 104,
+      "values": [
+        "2D, visualization, JavaScript",
+        "3D, Digital Twin, Reality, Gaussian splat",
+        "3D, data management, system of record, scene, BIM, urban planning",
+        "AI Assistant, workflows",
+        "AI Assistants, GitHub, code",
+        "AI Assistants, MVVM, workflow",
+        "AI Testing Enterprise Pro Claude GPT ChatGPT Copilot Data",
+        "AI, documentation, workflows, security, software engineering, development, AI-assisted development, development patterns, prompt-engineering, vibe-coding, SDKs, APIs",
+        "Agentic AI, Geospatial AI, Spatial Grounding, Enterprise AI, Copilots, AI Agents, MCP, Location Services, Geospatial Reasoning, Digital Twins, Large Language Models (LLMs), MCP (Model Context Protocol), Agent Frameworks, REST APIs, Vector Search, Retrieval-Augmented Generation (RAG), Knowledge Graphs, Edge AI",
+        "Agentic Automation, MCP Server, Intelligent Orchestration, Context-Aware Workflows ",
+        "Apache Airflow, BigQuery, Data synchronization, Location analytics, ETL, Big data",
+        "App framework, Building blocks, Smart widget, Data source, Mobile optimization, flexible design, deployment pattern",
+        "ArcGIS Enterprise · MCP Server · GeoAI · LLM · Automation",
+        "ArcGIS Enterprise, ArcGIS Notebok Server, notebooks, automation,   scheduling, python, webhook, web tool, API",
+        "ArcGIS Enterprise, Web, Native SDKs",
+        "ArcGIS Pro, Diagnostic Monitor, Performance",
+        "ArcGIS Pro, fundamental, extending, add-ins, online",
+        "Arcade, expressions, fundamentals",
+        "Blue-Green Deployment, Business Continuity, Risk Mitigation",
+        "Custom Widget, ArcGIS Experience Builder developer edition",
+        "Customize, interactive, web apps, multilingual, accessibility, Configurable, Ready to Use, AI",
+        "Dashboards, Data Visualization, Configuration, Road Map",
+        "Data management, data engineering, automation, ETL",
+        "Design, custom theme, web app, calcite component, layout, style, mobile optimization",
+        "ETL, Data Transformation, Interoperability ",
+        "Field Maps, smart forms, Arcade",
+        "Flutter SDK\nArcGIS Online",
+        "GeoAI, pretrained models, deep learning, imagery",
+        "Git, Github, collaboration, application development, open source",
+        "Hosted Feature Layer, Hosted Feature Layer View, Hosted Feature Service, public, data, viral app, survey, crowd-source",
+        "Hosted Feature Service, Hosted Feature Layer, best practice, REST, API, performance, optimize, data, sync, bulk",
+        "Imagery, Image Services, Imagery Layers, Python",
+        "JavaScript, OAuth, API keys, application development, security, secure services",
+        "JavaScript, web components, frameworks, front-end, React, Vite",
+        "JavaScript, web components, user experience, Calcite Design System",
+        "JavaScript, web components, web development",
+        "JavaScript, web development, analysis, editing, visualization, layers, performance, 3D",
+        "JavaScript, web, Survey123",
+        "Maps, Native, .NET, Xamarin, Windows, UWP, WinUI, MAUI, Android, iOS, macOS",
+        "Maps, Native, Offline, Mobile, Cross-platform",
+        "Optimization, Architecture, Load Balancing, Fault Tolerance, Deployment, Integration, Automation, Cloud Infrastructure, API Management, Configuration, Testing, Monitoring, Observability, Governance, Security, High Availability, Disaster Recovery.",
+        "PaaS, Integration, IT, application development, location services, authentication, open source",
+        "PaaS, location services, basemaps, UX, interaction, Visualization, application development",
+        "Python, Anaconda, Conda, Jupyter, notebook",
+        "Python, ArcGIS web maps, automation",
+        "Python, GIS administration, automation",
+        "Python, content management, automation",
+        "Python;Real-Time;Solution;ArcGIS Maps SDK for Javascript; ArcGIS Geoevent Server",
+        "REST, JavaScript API",
+        "REST, JavaScript, API, node",
+        "Runtime, Native, Mobile, Offline, Field, Editing",
+        "SOE, DevOps, .NET, AI",
+        "SOE, SOI, custom data feeds, extending services",
+        "Smart forms, AI assistants",
+        "Survey123, Field Maps, Power Automate, ArcGIS Python API, Make, Field Maps, integration, automation",
+        "Unity, Unreal Engine, Epic, Game Engine, XR, Virtual Reality",
+        "VTSE, vector tiles, style, UX, visualization, JSON",
+        "Vite, Web GIS, workflow, deployment, testing",
+        "WebApp; Template; imagery; hosting",
+        "Well-Architected, Architecture, Systems",
+        "administration, organization, portal",
+        "artificial intelligence, AI, GeoAI, analysis, analytics, data science, embeddings, foundation models",
+        "authentication, user, profile, permission, role, data access",
+        "automating, scripts, web GIS, deep learning, machine learning, AI, strategies, Python",
+        "automation, cloud, workflows, storage, database, cloud data",
+        "automation, customization, extensibility, app-building, introduction, extending services",
+        "automation, notebooks, Python, data science",
+        "best practices, attribute rules, enterprise",
+        "branch versioning, enterprise",
+        "branding, styling, customization, workflows, UI/UX",
+        "cloud-native, deployments, upgrades, scale services",
+        "customizable, 3D views, 3D scene, capabilities ",
+        "data integration, ETL, automation, custom data feeds, strategies",
+        "data management, mapping, visualization, analysis, operations, collaboration, sharing",
+        "data pipeline, feature service, web map, JavaScript",
+        "data sovereignty, AI, location, agents, architecture, resilience ",
+        "data storage, storage options, geodatabases, cloud storage, cloud data warehouse",
+        "datastore, usage, views, updating data, feature layer data profiles",
+        "deep learning, AI, 3D, capabilities, imagery",
+        "deep learning, tree detection, urban green infrastructure, remote sensing, digital twin, climate resilience, sustainable urban development, smart city, AI applications ",
+        "deployment, upgrading",
+        "deployments, security, best practices",
+        "developer, web development, frameworks, tools, build systems, ci/cd",
+        "digital sovereignty, resiliency, architecture",
+        "enterprise GIS, monitoring, performance, system health, system downtime",
+        "feature layers, performance, JavaScript, feature service",
+        "graph database, graph analytics, Python, notebooks, web application",
+        "imagery, Python, Reality Mapping, DSM, orthomosaic, Point Cloud, Mesh, True Ortho, Drone, Aerial, Satellite",
+        "map, viewer, interactive, web app, sharing, security",
+        "mobile, desktop, no code, low code, location services, game engine, strategies",
+        "native, maps, geofence, location, stream, feed, dynamic, real-time",
+        "open source, Leaflet, OpenLayers, Mapbox, API",
+        "real-time, native, JavaScript, desktop, web map, stream service, feed",
+        "real-time; public safety; asset management; data ingestion; AVL; vehicle tracking",
+        "sa module, ia module, Raster object, RCI,  imagery",
+        "script tool, validator, custom tool, parameters",
+        "smart city, municipal GIS, spatial data governance, GIS adoption, strategic plan monitoring, location analytics, ArcGIS Enterprise, urban planning, data-driven decisions, digital transformation",
+        "spatial analytics, spatial data science, GeoAI, statistics, machine learning, predictive analytics",
+        "spatial analytics, spatial data science, Spark, big data, network analysis, geocoding, ArcGIS GeoAnalytics for Fabric",
+        "system integration, solutions",
+        "test, eventbase, close",
+        "utility network, trace, network diagrams",
+        "web apps, configurable apps, 2D, 3D, web components, apps, custom apps, location services, Calcite, design system, web development, strategies",
+        "webhooks, extending services"
+      ]
+    },
+    "Mobile Published": {
+      "sessions": 120,
+      "distinctValues": 1,
+      "values": [
+        "Yes"
+      ]
+    },
+    "Session Level": {
+      "sessions": 120,
+      "distinctValues": 4,
+      "values": [
+        "Advanced",
+        "All Attendees",
+        "Beginner",
+        "Intermediate"
+      ]
+    },
+    "Session Type": {
+      "sessions": 120,
+      "distinctValues": 8,
+      "values": [
+        "Closing Session",
+        "Conference Activity",
+        "Partner Presentation",
+        "Plenary",
+        "Social Activity",
+        "SpeedGeeking",
+        "Technical Session",
+        "User Presentation"
+      ]
+    },
+    "Technologies": {
+      "sessions": 80,
+      "distinctValues": 28,
+      "values": [
+        "AWS",
+        "Android and Kotlin",
+        "Apple iOS and Swift",
+        "Arcade",
+        "AutoCAD",
+        "Calcite Design System",
+        "Cross-Platform",
+        "Docker",
+        "Flutter",
+        "Java",
+        "JavaScript",
+        "Kubernetes",
+        "Linux",
+        "Map Viewer",
+        "Microsoft .NET",
+        "Microsoft Azure",
+        "Microsoft MAUI",
+        "Microsoft SQL Server",
+        "Microsoft Windows",
+        "Oracle",
+        "PostgreSQL",
+        "Python",
+        "Qt",
+        "REST",
+        "SAP HANA",
+        "Scene Viewer",
+        "Unity",
+        "Unreal Engine"
+      ]
+    },
+    "Time": {
+      "sessions": 120,
+      "distinctValues": 22,
+      "values": [
+        "10:00 a.m. Thursday, Oct 22",
+        "10:00 a.m. Wednesday, Oct 21",
+        "11:00 a.m. Thursday, Oct 22",
+        "11:00 a.m. Tuesday, Oct 20",
+        "11:00 a.m. Wednesday, Oct 21",
+        "12:00 p.m. Tuesday, Oct 20",
+        "1:00 p.m. Thursday, Oct 22",
+        "1:00 p.m. Tuesday, Oct 20",
+        "1:00 p.m. Wednesday, Oct 21",
+        "2:00 p.m. Thursday, Oct 22",
+        "2:00 p.m. Tuesday, Oct 20",
+        "2:00 p.m. Wednesday, Oct 21",
+        "3:00 p.m. Thursday, Oct 22",
+        "3:00 p.m. Wednesday, Oct 21",
+        "4:00 p.m. Tuesday, Oct 20",
+        "4:00 p.m. Wednesday, Oct 21",
+        "5:00 p.m. Monday, Oct 19",
+        "5:00 p.m. Tuesday, Oct 20",
+        "5:00 p.m. Wednesday, Oct 21",
+        "9:00 a.m. Thursday, Oct 22",
+        "9:00 a.m. Tuesday, Oct 20",
+        "9:00 a.m. Wednesday, Oct 21"
+      ]
+    },
+    "Topic": {
+      "sessions": 100,
+      "distinctValues": 17,
+      "values": [
+        "3D",
+        "AI",
+        "Analytics and Data Science",
+        "App Builders",
+        "Apps",
+        "ArcGIS Enterprise",
+        "ArcGIS Location Platform",
+        "ArcGIS Online",
+        "Data Management",
+        "Game Engines",
+        "Imagery and Raster",
+        "Implementation Strategies",
+        "Native SDKs",
+        "Python",
+        "Solutions",
+        "System Architecture",
+        "Web"
+      ]
+    }
+  },
+  "optionalSpeakerFields": {
+    "eventBio": 58,
+    "eventOrGlobalBio": 65,
+    "eventJobTitle": 1,
+    "eventOrGlobalJobTitle": 7
+  },
+  "parsedKeywords": {
+    "catalogTerms": 363,
+    "sessionAssignments": 565,
+    "parsingDiagnostics": []
+  },
+  "anomalies": {
+    "sharedCatalogSessions": [
+      {
+        "id": "1784749490908001LwLL",
+        "title": "European Developer & Technology Summit Plenary: Part 1"
+      },
+      {
+        "id": "1786148029832001LuaC",
+        "title": "European Developer & Technology Summit Plenary: Part 2"
+      },
+      {
+        "id": "1786148093148001wgxl",
+        "title": "European Developer & Technology Summit Plenary: Part 3"
+      },
+      {
+        "id": "1786484936330001L4um",
+        "title": "European Partner Conference Networking Social"
+      },
+      {
+        "id": "1786485140918001BqxF",
+        "title": "SpeedGeeking"
+      },
+      {
+        "id": "1786556256906001hfZv",
+        "title": "Hosted Lunch"
+      },
+      {
+        "id": "1786556931513001mgfO",
+        "title": "European Dev & Tech Summit Expo Social"
+      }
+    ],
+    "differentPreferredNames": [
+      {
+        "id": "1683721806507001uz00_1777494026euroepcdev",
+        "name": "Alberto Ordonez",
+        "preferredName": "Alberto Ordoñez Ordonez"
+      },
+      {
+        "id": "1769584358517001mJxS_1777494026euroepcdev",
+        "name": "Jørgen Storlie",
+        "preferredName": "Jørgen Storlie Storlie"
+      }
+    ],
+    "speakerSessionIdsOutsideCatalog": [],
+    "capacityValues": [
+      "0"
+    ],
+    "keywordSamples": [
+      "Flutter SDK\nArcGIS Online",
+      "deep learning, tree detection, urban green infrastructure, remote sensing, digital twin, climate resilience, sustainable urban development, smart city, AI applications ",
+      "Python;Real-Time;Solution;ArcGIS Maps SDK for Javascript; ArcGIS Geoevent Server",
+      "Apache Airflow, BigQuery, Data synchronization, Location analytics, ETL, Big data",
+      "test, eventbase, close"
+    ],
+    "attachmentFields": []
+  },
+  "fieldProfiles": {
+    "sessions": {
+      "abbreviation": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "abstract": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "attendAccess": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "attributevalues": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "code": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "codeParts": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "object"
+        ],
+        "empty": 0
+      },
+      "code_id": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "es_metadata_id": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "eventCode": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "eventId": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "eventName": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "externalID": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "featured_value": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "hasWebinarChatProfile": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "hasWebinarProfile": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "language": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "length": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "meeting": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "modified": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "participants": {
+        "present": 108,
+        "missing": 12,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "publicViewPrivateSchedule": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 120
+      },
+      "published": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "scheduleAccess": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "sessionID": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "status": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "testRecord": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "timeViewAccess": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "times": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "title": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "title_sort": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "type": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "type_displayorder": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "type_displayorder_string": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "useDoubleBooking": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "useWaitingList": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "viewAccess": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "viewAccessPublic": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "viewFileAccess": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 120
+      },
+      "virtualTime": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "waitlistAccess": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 120
+      },
+      "waitlistLimit": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      }
+    },
+    "occurrences": {
+      "attendAccess": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "capacity": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "date": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "dateFormatted": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "day": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "dayDisplayName": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "dayId": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "dayName": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "daySort": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "dayTimeHour": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "dayTimeSort": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "endDate": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "endTime": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "endTimeFormatted": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "endTimeMin": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "hasWebinarChatId": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "hasWebinarId": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "inPersonTime": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "isHidden": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "length": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "longMonth": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "replayable": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "room": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "roomId": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "scheduleAccess": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "sessionID": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "sessionTimeID": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "shortMonth": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "startEndTimeSort": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "startTime": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "startTimeFormatted": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "startTimeMin": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "time": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "utcEndTime": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "utcStartTime": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "viewAccess": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "viewAccessPublic": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "virtualScheduleCapacity": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "virtualTime": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "waitlistLimit": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "webinarRequiresEnrollment": {
+        "present": 120,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      }
+    },
+    "speakers": {
+      "Speaker-Photo-Published": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "attributevalues": {
+        "present": 52,
+        "missing": 22,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "bio": {
+        "present": 58,
+        "missing": 16,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "companyName": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "es_metadata_id": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "eventId": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "firstName": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "fullName": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "globalBio": {
+        "present": 66,
+        "missing": 8,
+        "types": [
+          "string"
+        ],
+        "empty": 1
+      },
+      "globalCompany": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 1
+      },
+      "globalFirstname": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "globalFullName": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "globalJobtitle": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 67
+      },
+      "globalLastname": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "jobTitle": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 73
+      },
+      "language": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "lastName": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "modified": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "photoURL": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "preferredFirstname": {
+        "present": 18,
+        "missing": 56,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "preferredFullName": {
+        "present": 18,
+        "missing": 56,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "published": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "session": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "speakerId": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "testRecord": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "userRef": {
+        "present": 74,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      }
+    },
+    "assignments": {
+      "Speaker-Photo-Published": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "attributevalues": {
+        "present": 169,
+        "missing": 39,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "bio": {
+        "present": 165,
+        "missing": 43,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "companyName": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "displayorder": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "es_metadata_id": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "eventId": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "firstName": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "fullName": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "globalBio": {
+        "present": 196,
+        "missing": 12,
+        "types": [
+          "string"
+        ],
+        "empty": 4
+      },
+      "globalCompany": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 1
+      },
+      "globalFirstname": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "globalFullName": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "globalJobtitle": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 191
+      },
+      "globalLastname": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "jobTitle": {
+        "present": 1,
+        "missing": 207,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "language": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "lastName": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "modified": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "photoURL": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "preferredFirstname": {
+        "present": 37,
+        "missing": 171,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "preferredFullName": {
+        "present": 37,
+        "missing": 171,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "published": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "roles": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "session": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "array"
+        ],
+        "empty": 0
+      },
+      "speakerId": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "testRecord": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "boolean"
+        ],
+        "empty": 0
+      },
+      "userRef": {
+        "present": 208,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      }
+    },
+    "attributes": {
+      "attribute": {
+        "present": 1508,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "attribute_id": {
+        "present": 1508,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "attributevalue_code": {
+        "present": 1029,
+        "missing": 479,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "attributevalue_id": {
+        "present": 1508,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "dataForm": {
+        "present": 1508,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "date": {
+        "present": 120,
+        "missing": 1388,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "displayorder": {
+        "present": 1162,
+        "missing": 346,
+        "types": [
+          "number"
+        ],
+        "empty": 0
+      },
+      "rf_attribute_code": {
+        "present": 239,
+        "missing": 1269,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "rf_attribute_id": {
+        "present": 1508,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "rf_attributevalue_id": {
+        "present": 1388,
+        "missing": 120,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "time": {
+        "present": 120,
+        "missing": 1388,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      },
+      "value": {
+        "present": 1508,
+        "missing": 0,
+        "types": [
+          "string"
+        ],
+        "empty": 0
+      }
+    }
+  }
+}

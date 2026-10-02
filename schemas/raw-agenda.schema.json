@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:esri-devsummit-europe-2026:raw-agenda:1",
+  "title": "Raw RainFocus agenda capture v1",
+  "description": "Strict capture envelope with extensible source records. This schema checks structural prerequisites, not every undocumented RainFocus field. Counts, IDs, relationships, timestamps and digest also need semantic validation.",
+  "type": "object", "additionalProperties": false,
+  "required": ["captureVersion", "source", "counts", "catalogSections", "catalogConfiguration", "attributes", "catalogItems", "sessions", "speakers", "scrapedAt", "contentSha256"],
+  "properties": {
+    "captureVersion": { "const": 1 },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["url", "apiBaseUrl", "organization", "eventCode", "eventId", "timezone", "scope"],
+      "properties": {
+        "url": { "$ref": "#/$defs/url" }, "apiBaseUrl": { "$ref": "#/$defs/url" },
+        "organization": { "$ref": "#/$defs/text" }, "eventCode": { "$ref": "#/$defs/text" },
+        "eventId": { "$ref": "#/$defs/text" }, "timezone": { "$ref": "#/$defs/text" }, "scope": { "$ref": "#/$defs/text" }
+      }
+    },
+    "counts": {
+      "type": "object", "additionalProperties": false, "required": ["catalogEntries", "sessions", "speakers"],
+      "properties": {
+        "catalogEntries": { "type": "integer", "minimum": 1 }, "sessions": { "type": "integer", "minimum": 1 }, "speakers": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "catalogSections": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["sectionId", "title", "total"],
+        "properties": { "sectionId": { "type": ["string", "null"] }, "title": { "type": "string" }, "total": { "type": "integer", "minimum": 0 } }
+      }
+    },
+    "catalogConfiguration": { "type": "array", "items": { "type": "object" } },
+    "attributes": { "type": "array", "items": { "type": "object" } },
+    "catalogItems": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/session" } },
+    "sessions": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/session" } },
+    "speakers": { "type": "array", "items": { "$ref": "#/$defs/speaker" } },
+    "scrapedAt": { "type": "string", "format": "date-time" },
+    "contentSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  },
+  "$defs": {
+    "text": { "type": "string", "minLength": 1, "pattern": "\\S" },
+    "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "sourceTimestamp": { "type": "string", "pattern": "^[0-9]{4}/[0-9]{2}/[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$" },
+    "sourceAttribute": {
+      "type": "object", "additionalProperties": true, "required": ["attribute_id", "attribute", "value"],
+      "properties": { "attribute_id": { "$ref": "#/$defs/text" }, "attribute": { "$ref": "#/$defs/text" }, "value": { "type": "string" } }
+    },
+    "time": {
+      "type": "object", "additionalProperties": true,
+      "required": ["sessionID", "sessionTimeID", "date", "endDate", "startTime", "endTime", "utcStartTime", "utcEndTime", "length"],
+      "properties": {
+        "sessionID": { "$ref": "#/$defs/text" }, "sessionTimeID": { "$ref": "#/$defs/text" },
+        "date": { "type": "string", "format": "date" }, "endDate": { "type": "string", "format": "date" },
+        "startTime": { "type": "string", "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$" },
+        "endTime": { "type": "string", "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$" },
+        "utcStartTime": { "$ref": "#/$defs/sourceTimestamp" }, "utcEndTime": { "$ref": "#/$defs/sourceTimestamp" },
+        "length": { "type": "integer", "minimum": 1 },
+        "roomId": { "type": "string" }, "room": { "type": "string" },
+        "inPersonTime": { "type": "boolean" }, "virtualTime": { "type": "boolean" }
+      }
+    },
+    "participant": {
+      "type": "object", "additionalProperties": true, "required": ["speakerId", "fullName"],
+      "properties": {
+        "speakerId": { "$ref": "#/$defs/text" }, "fullName": { "$ref": "#/$defs/text" },
+        "companyName": { "type": "string" }, "roles": { "type": "string" }, "displayorder": { "type": "number", "minimum": 0 }
+      }
+    },
+    "session": {
+      "type": "object", "additionalProperties": true,
+      "required": ["sessionID", "title", "eventId", "eventName", "attributevalues"],
+      "properties": {
+        "sessionID": { "$ref": "#/$defs/text" }, "title": { "$ref": "#/$defs/text" },
+        "eventId": { "$ref": "#/$defs/text" }, "eventName": { "$ref": "#/$defs/text" },
+        "code": { "type": "string" }, "abstract": { "type": "string" }, "language": { "type": "string" }, "type": { "type": "string" },
+        "modified": { "type": "string", "format": "date-time" },
+        "times": { "type": "array", "items": { "$ref": "#/$defs/time" } },
+        "participants": { "type": "array", "items": { "$ref": "#/$defs/participant" } },
+        "attributevalues": { "type": "array", "items": { "$ref": "#/$defs/sourceAttribute" } }
+      }
+    },
+    "speaker": {
+      "type": "object", "additionalProperties": true, "required": ["speakerId", "fullName", "eventId"],
+      "properties": {
+        "speakerId": { "$ref": "#/$defs/text" }, "fullName": { "$ref": "#/$defs/text" }, "eventId": { "$ref": "#/$defs/text" },
+        "bio": { "type": "string" }, "jobTitle": { "type": "string" }, "companyName": { "type": "string" },
+        "photoURL": { "$ref": "#/$defs/url" }, "modified": { "type": "string", "format": "date-time" },
+        "session": { "type": "array", "items": { "type": "object", "required": ["sessionID"], "properties": { "sessionID": { "$ref": "#/$defs/text" } } } }
+      }
+    }
+  }
+}

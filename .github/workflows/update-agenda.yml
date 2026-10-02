@@ -27,11 +27,17 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Test scraper
-        run: npm test
+      - name: Install validation and test dependencies
+        run: npm ci
 
       - name: Fetch complete public agenda
         run: npm run scrape
+
+      - name: Validate raw capture
+        run: npm run validate
+
+      - name: Test scraper and schemas against updated capture
+        run: npm test
 
       - name: Commit changed source data
         run: |
