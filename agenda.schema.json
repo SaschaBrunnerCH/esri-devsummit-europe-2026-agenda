@@ -1,13 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:esri-devsummit-europe-2026:agenda:2",
-  "title": "Esri European Developer & Technology Summit agenda v2",
+  "$id": "urn:esri-devsummit-europe-2026:agenda:3",
+  "title": "Esri European Developer & Technology Summit agenda v3",
   "description": "Public agenda bundle. IDs are opaque source IDs; classifications are source labels. Cross-record and time consistency require the companion validator.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "source", "event", "sessions"],
   "properties": {
-    "schemaVersion": { "const": "2.0.0" },
+    "schemaVersion": { "const": "3.0.0" },
     "source": {
       "type": "object", "additionalProperties": false,
       "required": ["url", "scrapedAt", "contentSha256", "scope"],
@@ -35,7 +35,6 @@
     "nullableText": { "anyOf": [{ "$ref": "#/$defs/text" }, { "type": "null" }] },
     "httpsUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
     "utcTimestamp": { "type": "string", "format": "date-time", "pattern": "Z$" },
-    "nullableTimestamp": { "anyOf": [{ "$ref": "#/$defs/utcTimestamp" }, { "type": "null" }] },
     "labels": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/text" } },
     "localDateTime": {
       "type": "object", "additionalProperties": false, "required": ["date", "time"],
@@ -45,45 +44,29 @@
       }
     },
     "room": {
-      "type": "object", "additionalProperties": false, "required": ["id", "name"],
-      "properties": { "id": { "$ref": "#/$defs/nullableText" }, "name": { "$ref": "#/$defs/text" } }
+      "type": "object", "additionalProperties": false, "required": ["name"],
+      "properties": { "name": { "$ref": "#/$defs/text" } }
     },
     "occurrence": {
       "type": "object", "additionalProperties": false,
-      "required": ["id", "startsAt", "endsAt", "durationMinutes", "localStart", "localEnd", "room", "inPerson", "virtual"],
+      "required": ["id", "startsAt", "endsAt", "localStart", "localEnd", "room"],
       "properties": {
         "id": { "$ref": "#/$defs/text", "description": "Source sessionTimeID; one ID per scheduled occurrence." },
         "startsAt": { "$ref": "#/$defs/utcTimestamp" },
         "endsAt": { "$ref": "#/$defs/utcTimestamp" },
-        "durationMinutes": { "type": "integer", "minimum": 1 },
         "localStart": { "$ref": "#/$defs/localDateTime" },
         "localEnd": { "$ref": "#/$defs/localDateTime" },
-        "room": { "anyOf": [{ "$ref": "#/$defs/room" }, { "type": "null" }] },
-        "inPerson": { "type": ["boolean", "null"] },
-        "virtual": { "type": ["boolean", "null"] }
-      }
-    },
-    "assignment": {
-      "type": "object", "additionalProperties": false,
-      "required": ["speakerId", "name", "company", "role", "order"],
-      "properties": {
-        "speakerId": { "$ref": "#/$defs/text" },
-        "name": { "$ref": "#/$defs/text", "description": "Source event display name." },
-        "company": { "$ref": "#/$defs/nullableText" },
-        "role": { "$ref": "#/$defs/nullableText", "description": "Role in this specific session, not an aggregate speaker role." },
-        "order": { "type": ["number", "null"], "minimum": 0 }
+        "room": { "anyOf": [{ "$ref": "#/$defs/room" }, { "type": "null" }] }
       }
     },
     "session": {
       "type": "object", "additionalProperties": false,
-      "required": ["id", "code", "title", "description", "url", "language", "sessionType", "level", "topic", "products", "capabilities", "technologies", "keywords", "catalogs", "speakers", "occurrences", "sourceModifiedAt"],
+      "required": ["id", "title", "description", "url", "sessionType", "level", "topic", "products", "capabilities", "technologies", "keywords", "catalogs", "speakers", "occurrences"],
       "properties": {
         "id": { "$ref": "#/$defs/text", "description": "Source sessionID, preserved unchanged." },
-        "code": { "$ref": "#/$defs/nullableText" },
         "title": { "$ref": "#/$defs/text" },
         "description": { "$ref": "#/$defs/nullableText", "description": "Plain text derived from the source abstract, suitable for Markdown and agents." },
         "url": { "$ref": "#/$defs/httpsUrl" },
-        "language": { "$ref": "#/$defs/nullableText", "description": "Source language label; currently en." },
         "sessionType": { "$ref": "#/$defs/nullableText" },
         "level": { "$ref": "#/$defs/nullableText" },
         "topic": { "$ref": "#/$defs/nullableText", "description": "Single official Topic label; null when absent." },
@@ -92,9 +75,8 @@
         "technologies": { "$ref": "#/$defs/labels" },
         "keywords": { "$ref": "#/$defs/labels", "description": "Readable keyword labels after splitting and reviewed alias normalization. Missing keywords become an empty array." },
         "catalogs": { "$ref": "#/$defs/labels", "description": "Source Catalog Display labels, including shared partner activities." },
-        "speakers": { "type": "array", "items": { "$ref": "#/$defs/assignment" } },
-        "occurrences": { "type": "array", "items": { "$ref": "#/$defs/occurrence" }, "description": "May contain zero (unscheduled), one, or multiple occurrences." },
-        "sourceModifiedAt": { "$ref": "#/$defs/nullableTimestamp" }
+        "speakers": { "type": "array", "items": { "$ref": "#/$defs/text" }, "description": "Source speaker display names. Full speaker details and profiles are in Markdown." },
+        "occurrences": { "type": "array", "items": { "$ref": "#/$defs/occurrence" }, "description": "May contain zero (unscheduled), one, or multiple occurrences." }
       }
     }
   }
