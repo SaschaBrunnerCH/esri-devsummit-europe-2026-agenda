@@ -90,3 +90,38 @@ test('Markdown preserves paragraphs and escapes source formatting characters', (
   assert.ok(md.includes('1\\. Source list'));
   assert.ok(md.includes('Use \\*\\*Python\\*\\* and \\[tools\\]'));
 });
+
+test('JSON and Markdown share date, time, title, and ID ordering regardless of source traversal', () => {
+  const snapshot = structuredClone(fixture);
+  const pad = hour => String(hour).padStart(2, '0');
+  const time = (date, hour, id) => ({ ...fixture.sessions[0].times[0], sessionTimeID: id,
+    date, endDate: date, startTime: `${pad(hour)}:00`, endTime: `${pad(hour + 1)}:00`,
+    utcStartTime: `${date.replaceAll('-', '/')} ${pad(hour - 2)}:00:00`,
+    utcEndTime: `${date.replaceAll('-', '/')} ${pad(hour - 1)}:00:00` });
+  const session = (id, title, times = []) => ({ ...structuredClone(fixture.sessions[0]), sessionID: id, title,
+    times: times.map(occurrence => ({ ...occurrence, sessionID: id })) });
+  snapshot.sessions = [
+    session('a-zulu', 'Zulu', [time('2026-10-21', 9, 'zulu-time')]),
+    session('z-alpha', 'Alpha', [time('2026-10-22', 9, 'repeat-time'), time('2026-10-21', 9, 'z-alpha-time')]),
+    session('b-alpha', 'Alpha', [time('2026-10-21', 9, 'b-alpha-time-z'), time('2026-10-21', 9, 'b-alpha-time-a')]),
+    session('later-time', 'A later session', [time('2026-10-21', 11, 'later-time')]),
+    session('next-date', 'A next-day session', [time('2026-10-22', 8, 'next-time')]),
+    session('first-date', 'Zulu on the first day', [time('2026-10-20', 11, 'first-time')]),
+    session('a-unscheduled', 'Zulu unscheduled'), session('z-unscheduled', 'Alpha unscheduled'),
+  ];
+  const original = structuredClone(snapshot);
+  const agenda = buildAgenda(snapshot);
+  assert.deepEqual(validateData(agenda), []);
+  const ids = ['first-date', 'b-alpha', 'z-alpha', 'a-zulu', 'later-time', 'next-date', 'z-unscheduled', 'a-unscheduled'];
+  assert.deepEqual(agenda.sessions.map(entry => entry.id), ids);
+  assert.deepEqual(agenda.sessions[1].occurrences.map(entry => entry.id), ['b-alpha-time-a', 'b-alpha-time-z']);
+  assert.deepEqual(agenda.sessions[2].occurrences.map(entry => entry.id), ['z-alpha-time', 'repeat-time']);
+  const md = renderMarkdown(agenda);
+  assert.deepEqual([...md.matchAll(/^Session ID: (\S+)/gm)].map(match => match[1]), ids);
+  assert.deepEqual(snapshot, original, 'projection must not mutate the raw capture');
+  snapshot.sessions.reverse();
+  for (const entry of snapshot.sessions) entry.times.reverse();
+  const shuffled = buildAgenda(snapshot);
+  assert.equal(JSON.stringify(shuffled), JSON.stringify(agenda));
+  assert.equal(renderMarkdown(shuffled), md);
+});

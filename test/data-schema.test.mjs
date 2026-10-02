@@ -25,8 +25,8 @@ test('public schema preserves every fixture session, occurrence, and speaker', (
   assert.deepEqual(validateData(agenda), []);
   assert.equal(agenda.sessions.length, raw.sessions.length);
   assert.equal(agenda.speakers.length, raw.speakers.length);
-  for (const [index, session] of agenda.sessions.entries()) {
-    const source = raw.sessions[index];
+  for (const session of agenda.sessions) {
+    const source = raw.sessions.find(entry => entry.sessionID === session.id);
     assert.equal(session.occurrences.length, source.times?.length ?? 0);
     assert.equal(session.speakers.length, source.participants?.length ?? 0);
     assert.equal(session.topic, source.attributevalues.find(attribute => attribute.attribute_id === 'Topic')?.value.trim() || null);
@@ -66,10 +66,11 @@ test('accepts source refreshes with missing metadata, unscheduled sessions, and 
   assert.deepEqual(validateData(candidate, { raw: true }), []);
   const agenda = buildAgenda(candidate);
   assert.deepEqual(validateData(agenda), []);
-  assert.equal(agenda.sessions[0].description, null);
-  assert.deepEqual(agenda.sessions[0].occurrences, []);
-  assert.deepEqual(agenda.sessions[0].speakers, []);
-  assert.deepEqual(agenda.sessions[0].keywords, ['Alpha Beta Gamma Delta']);
+  const session = agenda.sessions.find(entry => entry.id === candidate.sessions[0].sessionID);
+  assert.equal(session.description, null);
+  assert.deepEqual(session.occurrences, []);
+  assert.deepEqual(session.speakers, []);
+  assert.deepEqual(session.keywords, ['Alpha Beta Gamma Delta']);
   assert.equal(discoverData(candidate).parsedKeywords.parsingDiagnostics.length, 1);
 });
 

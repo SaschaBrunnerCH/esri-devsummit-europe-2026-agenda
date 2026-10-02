@@ -69,8 +69,8 @@ test('fixture keywords produce valid readable session labels', async () => {
   const proposed = buildAgenda(raw);
   const parsed = buildKeywordCatalog(raw.sessions);
   assert.deepEqual(validateData(proposed), []);
-  for (const [index, entry] of proposed.sessions.entries()) {
-    assert.deepEqual(entry.keywords, parsed.sessionKeywords.get(raw.sessions[index].sessionID));
+  for (const entry of proposed.sessions) {
+    assert.deepEqual(entry.keywords, parsed.sessionKeywords.get(entry.id));
     assert.equal(new Set(entry.keywords).size, entry.keywords.length);
   }
 });

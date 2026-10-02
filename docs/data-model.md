@@ -14,7 +14,7 @@ One JSON bundle, defined by the [public schema](../schemas/agenda.schema.json):
 
 An occurrence is a scheduled presentation of a session: its own ID, UTC start/end, local date/time, duration, room, and attendance mode. Sessions can have zero or multiple occurrences. Speaker assignments carry the person's role in that session.
 
-The [generator](../scripts/generate-agenda.mjs) validates before writing `public/agenda.json` and `public/agenda.md`, alongside the schema and link page. Markdown orders sessions by their first occurrence, shows all repeats, lists unscheduled sessions last, and includes speaker profiles.
+The [generator](../scripts/generate-agenda.mjs) validates before writing `public/agenda.json` and `public/agenda.md`, alongside the schema and link page. Both exports order sessions by their first occurrence's local date, time, then title (English alphabetical order), with session ID breaking ties. Occurrences sort by local date/time, UTC start, then ID. Unscheduled sessions come last, sorted by title and ID. Markdown shows all repeats and includes speaker profiles.
 
 CI stores raw captures as debugging artifacts and commits public exports on `gh-pages`. When source content is unchanged, publication retains its first capture timestamp; the raw artifact records the latest capture. The digest identifies source content, while Git history also records changes to processing and presentation. Local `data/raw/` and `public/` are ignored by Git.
 

@@ -5,6 +5,20 @@ import { buildKeywordCatalog } from './keywords.mjs';
 const text = value => value?.trim() || null;
 const plain = value => value ? text(convert(value, { wordwrap: false, selectors: [{ selector: 'a', options: { ignoreHref: true } }] })) : null;
 
+const compare = (a, b) => a < b ? -1 : a > b ? 1 : 0;
+function orderSessions(sessions) {
+  return sessions.map(session => ({ ...session, occurrences: session.occurrences.toSorted((a, b) =>
+    compare(a.localStart.date, b.localStart.date) || compare(a.localStart.time, b.localStart.time)
+    || Date.parse(a.startsAt) - Date.parse(b.startsAt) || compare(a.id, b.id)),
+  })).sort((a, b) => {
+    const firstA = a.occurrences[0], firstB = b.occurrences[0];
+    return Number(!firstA) - Number(!firstB)
+      || compare(firstA?.localStart.date ?? '', firstB?.localStart.date ?? '')
+      || compare(firstA?.localStart.time ?? '', firstB?.localStart.time ?? '')
+      || a.title.localeCompare(b.title, 'en') || compare(a.id, b.id);
+  });
+}
+
 export function buildAgenda(snapshot) {
   const labels = (session, id) => [...new Set(session.attributevalues.filter(attribute => attribute.attribute_id === id).map(attribute => attribute.value.trim()).filter(Boolean))];
   const topic = session => {
@@ -17,7 +31,7 @@ export function buildAgenda(snapshot) {
     schemaVersion: '1.0.0',
     source: { url: snapshot.source.url, scrapedAt: snapshot.scrapedAt, contentSha256: snapshot.contentSha256, scope: snapshot.source.scope },
     event: { id: snapshot.source.eventId, name: snapshot.sessions[0].eventName, catalogName: 'Esri European Developer & Technology Summit 2026', timezone: snapshot.source.timezone },
-    sessions: snapshot.sessions.map(session => ({
+    sessions: orderSessions(snapshot.sessions.map(session => ({
       id: session.sessionID, code: text(session.code), title: session.title,
       description: plain(session.abstract),
       url: `${snapshot.source.url}/session/${encodeURIComponent(session.sessionID)}`,
@@ -36,7 +50,7 @@ export function buildAgenda(snapshot) {
         inPerson: time.inPersonTime ?? null, virtual: time.virtualTime ?? null,
       })),
       sourceModifiedAt: session.modified ?? null,
-    })),
+    }))),
     speakers: snapshot.speakers.map(speaker => ({
       id: speaker.speakerId, name: speaker.fullName,
       firstName: text(speaker.firstName), lastName: text(speaker.lastName), company: text(speaker.companyName),
@@ -63,14 +77,9 @@ export function renderMarkdown(agenda) {
     `Source SHA-256: ${agenda.source.contentSha256}`, '',
     markdown(agenda.source.scope), '',
   ];
-  const scheduled = agenda.sessions.map(session => ({ session,
-    occurrences: [...session.occurrences].sort((a, b) => a.startsAt.localeCompare(b.startsAt) || a.id.localeCompare(b.id)),
-  })).sort((a, b) => {
-    if (!a.occurrences.length !== !b.occurrences.length) return a.occurrences.length ? -1 : 1;
-    return (a.occurrences[0]?.startsAt ?? '').localeCompare(b.occurrences[0]?.startsAt ?? '') || a.session.id.localeCompare(b.session.id);
-  });
   let day;
-  for (const { session, occurrences } of scheduled) {
+  for (const session of orderSessions(agenda.sessions)) {
+    const { occurrences } = session;
     const date = occurrences[0]?.localStart.date ?? 'Unscheduled';
     if (date !== day) { lines.push(`## ${date}`, ''); day = date; }
     lines.push(`### ${inline(session.title)}`, '',
