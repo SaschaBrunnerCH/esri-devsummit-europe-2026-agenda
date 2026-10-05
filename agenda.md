@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-03T06:52:29.943Z  
+Source captured: 2026-10-05T11:34:15.787Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 74 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: bd0f13530670805b4a1c594e672ec566740e31223aceb6bdd54cee32c02e1bdc
+Source SHA-256: 53ad847f961e7b544e42d6119433ffa97928458d12a39f14c156aae4f4747ea3
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -122,7 +122,7 @@ The plenary concludes with coverage of new products, tools, capabilities, and te
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
 - Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev; Order: 2); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 3); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev; Order: 5); Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 6); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 7); Luis Flores Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 8); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 9); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 10); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev; Order: 11); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev; Order: 12); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 13); Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev; Order: 14)
-- Source modified: 2026-10-02T19:54:45Z
+- Source modified: 2026-10-05T09:43:13Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786148093148001wgxl>)
 
@@ -142,9 +142,9 @@ Explore opportunities to meet with experts, discover solutions, and get the late
 - Type: Conference Activity
 - Level: All Attendees
 - Language: en
-- Catalogues: European Dev & Tech Summit
+- Catalogues: European Dev & Tech Summit, European Partner Conference
 - Speakers: None listed
-- Source modified: 2026-08-12T17:54:35Z
+- Source modified: 2026-10-04T16:59:47Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786556758507001BJFu>)
 
@@ -1239,7 +1239,7 @@ ArcGIS Arcade is a simple but powerful expression language developed by Esri to 
 - Keywords: Arcade, expressions, fundamentals
 - Catalogues: European Dev & Tech Summit
 - Speakers: Lisa Keurentjes (Esri Netherlands; Distributor Esri Speaker; ID: 1752500167043001nk2t\_1777494026euroepcdev; Order: 1); Maartje Holtslag (Esri Netherlands; Distributor Esri Speaker; ID: 1646230356944001AmDt\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-05T07:14:06Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491062415001SeNk>)
 
@@ -1733,7 +1733,7 @@ Hosted feature layer views allow you to create multiple unique windows into your
 - Keywords: Hosted Feature Layer, Hosted Feature Layer View, Hosted Feature Service, crowd-source, data, public, survey, viral app
 - Catalogues: European Dev & Tech Summit
 - Speakers: Isla Evans (Esri UK; Distributor Esri Speaker; ID: 1752656924580001Dj9l\_1777494026euroepcdev; Order: 1); Maartje Holtslag (Esri Netherlands; Distributor Esri Speaker; ID: 1646230356944001AmDt\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-01T17:36:02Z
+- Source modified: 2026-10-05T07:01:56Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488928741001oo5e>)
 
@@ -1939,7 +1939,7 @@ ArcGIS offers a variety of tools to ingest and transform diverse data types as t
 - Keywords: Data Transformation, ETL, Interoperability
 - Catalogues: European Dev & Tech Summit
 - Speakers: Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-05T02:10:06Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491531788001hX13>)
 
@@ -2055,21 +2055,21 @@ Learn how to use powerful developer technologies to extend ArcGIS Enterprise thr
 
 Session ID: 1786557021666001K5jX · Code: 1169
 
-- When: 2026-10-21 17:00–2026-10-21 20:30 (Europe/Berlin; 210 minutes)
-- UTC: 2026-10-21T15:00:00Z–2026-10-21T18:30:00Z
+- When: 2026-10-21 17:00–2026-10-21 20:45 (Europe/Berlin; 225 minutes)
+- UTC: 2026-10-21T15:00:00Z–2026-10-21T18:45:00Z
 - Room: Evening Social | Offsite
 - Occurrence ID: 1786557417057001Pmo5
 - Room ID: 1786046266236001JBQa
 - Attendance: In person: yes; Virtual: no
 
-Join us for the European Dev & Tech Summit Party, where you can socialize and network with your peers over complimentary drinks and delicious food. The party will be held offsite, and transportation will be provided. More details will be shared at a later time.
+Enjoy an evening cruise on the Main River aboard one of two chartered boats departing from Frankfurt/Mainkai at 18:15. Attendees will enjoy dinner, drinks, and entertainment. Round-trip bus service from the Congress Center is scheduled to begin loading at 17:00, with arrival at the dock at 17:45 to board your assigned boat. Boats will depart promptly at 18:15, so be sure to arrive early! For attendees that are walking or have their own mode of transportation, please meet at Mainkai 36 60311 Frankfurt am Main (North side of the Main River by the “Eiserner Steg” bridge). Tickets specifying your boat assignment will be available at the Registration Desk at the Congress Center starting Wednesday, 21 October from 10:00-16:30.
 
 - Type: Social Activity
 - Level: All Attendees
 - Language: en
 - Catalogues: European Dev & Tech Summit
 - Speakers: None listed
-- Source modified: 2026-08-12T17:56:57Z
+- Source modified: 2026-10-04T17:28:17Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786557021666001K5jX>)
 
@@ -2097,7 +2097,7 @@ Join us to learn about no-code data engineering and automation with ArcGIS Data 
 - Keywords: ETL, automation, data engineering, data management
 - Catalogues: European Dev & Tech Summit
 - Speakers: Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev; Order: 1); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-01T19:04:32Z
+- Source modified: 2026-10-05T02:25:14Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490036168001dnx0>)
 
@@ -2864,7 +2864,7 @@ Python is a powerful open source programming language that you can use across th
 - Keywords: Anaconda, Conda, Jupyter, Python, notebooks
 - Catalogues: European Dev & Tech Summit
 - Speakers: Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 1); Francesco Mazzilli (WhereTech; Distributor Esri Speaker; ID: 1759398453296001taQk\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-02T17:26:15Z
+- Source modified: 2026-10-05T02:29:44Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492551934001fcc9>)
 
@@ -2916,7 +2916,7 @@ This technical session will demonstrate how to use the ArcGIS API for Python to 
 - Keywords: ArcGIS web maps, Python, automation
 - Catalogues: European Dev & Tech Summit
 - Speakers: Claire Drean (Esri; Esri Speaker; ID: 1780329648141003zUnj\_1777494026euroepcdev; Order: 1); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-05T02:17:34Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493024826001Salx>)
 
