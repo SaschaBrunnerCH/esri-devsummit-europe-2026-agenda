@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-05T11:34:15.787Z  
+Source captured: 2026-10-06T11:19:45.744Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 74 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: 53ad847f961e7b544e42d6119433ffa97928458d12a39f14c156aae4f4747ea3
+Source SHA-256: 35f386ee897a07d9495cab80d07ee1a26064efcb1c6015bd4e867bdddd7c7231
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -122,7 +122,7 @@ The plenary concludes with coverage of new products, tools, capabilities, and te
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
 - Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev; Order: 2); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 3); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev; Order: 5); Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 6); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 7); Luis Flores Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 8); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 9); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 10); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev; Order: 11); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev; Order: 12); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 13); Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev; Order: 14)
-- Source modified: 2026-10-05T09:43:13Z
+- Source modified: 2026-10-05T14:30:15Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786148093148001wgxl>)
 
@@ -1212,7 +1212,7 @@ Urban trees are critical infrastructure in the fight against climate change, yet
 - Keywords: AI applications, Digital Twin, climate resilience, deep learning, remote sensing, smart city, sustainable urban development, tree detection, urban green infrastructure
 - Catalogues: European Dev & Tech Summit
 - Speakers: Janis Müller (ARC-GREENLAB GmbH; Primary Speaker; ID: 1653974956213001N9ME\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-02T09:32:05Z
+- Source modified: 2026-10-06T10:57:00Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1782801069412001KX4l>)
 
@@ -1293,7 +1293,7 @@ Join us for the third session in our 4-part series on building applications with
 - Keywords: Calcite Design System, JavaScript, user experience, web components
 - Catalogues: European Dev & Tech Summit
 - Speakers: Keith Morrison (Esri UK; Distributor Esri Speaker; ID: 16466472387190010JgW\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-05T15:25:34Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494866247001NFxW>)
 
@@ -1633,7 +1633,7 @@ Join us for the fourth session in our 4-part series on building applications wit
 - Keywords: UI/UX, branding, customization, styling, workflows
 - Catalogues: European Dev & Tech Summit
 - Speakers: Keith Morrison (Esri UK; Distributor Esri Speaker; ID: 16466472387190010JgW\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-05T15:28:51Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495003196001fwKB>)
 
@@ -3124,8 +3124,8 @@ Wrap up your summit experience by reflecting on the insights, best practices, an
 - Language: en
 - Keywords: close, eventbase, test
 - Catalogues: European Dev & Tech Summit
-- Speakers: None listed
-- Source modified: 2026-10-01T17:36:02Z
+- Speakers: David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 1); Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 2)
+- Source modified: 2026-10-05T23:45:20Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1784749492744001Lj6y>)
 
@@ -3504,7 +3504,7 @@ Speaker ID: 1653974956213001N9ME\_1777494026euroepcdev
 - [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1653974956213001N9ME/attprofile/JM_1790933525622001nlPP.jpg>)
 - Source modified: 2026-08-19T19:48:05Z
 
-Janis Müller leads the GIS team at ARC-GREENLAB GmbH, specializing in Esri product consulting. He delivers expert guidance on concept development, proof-of-concepts, installations, and configurations. His core expertise includes WebGIS solutions (ArcGIS Enterprise, ArcGIS Online), mobile applications (ArcGIS Survey123, ArcGIS Field Maps), and specialized tools (ArcGIS Experience Builder, ArcGIS Dashboards, ArcGIS Indoors, ArcGIS GeoBIM). Through customized training and operational support, Janis helps organizations leverage geospatial technology to meet their business goals effectively.
+Janis Müller completed his Bachelor of Arts in Human Geography, specializing in economic geography as well as urban and regional development, at the University of Bremen in 2015. He subsequently obtained a Master of Science degree in Environmental Information and GIS from BHT Berlin in 2019. Immediately thereafter, he joined the GIS team at ARC GREENLAB GmbH as a Project Specialist and has served as Team Leader since 2023. His expertise includes ArcGIS Enterprise architecture, ArcGIS Online, GeoAI, and GIS based Digital Twins, complemented by the wider Esri product ecosystem.
 
 ### Jennifer Merritt
 
