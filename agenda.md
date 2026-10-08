@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-07T11:07:52.230Z  
+Source captured: 2026-10-08T11:25:36.185Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 74 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: e9d489174d20a87520ec2af245a47cf1ad1c4e8947231a1c8c58239000345650
+Source SHA-256: 2ee7789d97c26d4867ff9d564e5b1a13e2c4196ec6784008283d9d53a6491811
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -78,7 +78,7 @@ This second part of the Plenary Session covers how ArcGIS continues to evolve it
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
 - Speakers: Ben Giese (EnBW AG; Speaker; ID: 1786103084337001iZKR\_1777494026euroepcdev; Order: 1); Claire Drean (Esri; Esri Speaker; ID: 1780329648141003zUnj\_1777494026euroepcdev; Order: 1); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 2); Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 3); Karthik Dutt (Esri; Esri Speaker; ID: 1646185844924001M6Ax\_1777494026euroepcdev; Order: 4); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 5); Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev; Order: 6); Rohit Singh (Esri; Esri Speaker; ID: 1646186507739001EQtQ\_1777494026euroepcdev; Order: 7); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev; Order: 8)
-- Source modified: 2026-10-01T20:08:29Z
+- Source modified: 2026-10-08T06:22:55Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786148029832001LuaC>)
 
@@ -359,7 +359,7 @@ ArcGIS Location Platform is a geospatial platform as a service (PaaS) for develo
 - Keywords: IT, PaaS, application development, authentication, integration, location services, open source
 - Catalogues: European Dev & Tech Summit
 - Speakers: Claire Drean (Esri; Esri Speaker; ID: 1780329648141003zUnj\_1777494026euroepcdev; Order: 2); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-07T09:46:45Z
+- Source modified: 2026-10-08T10:44:33Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487845940001dq1g>)
 
@@ -1455,7 +1455,7 @@ ArcGIS is a comprehensive analytics platform for data scientists. It enables you
 - Keywords: GeoAI, machine learning, predictive analytics, spatial analytics, spatial data science, statistics
 - Catalogues: European Dev & Tech Summit
 - Speakers: Jan Tschada (Esri Germany; Distributor Esri Speaker; ID: 1647440426471001nWep\_1777494026euroepcdev; Order: 1); Rohit Singh (Esri; Esri Speaker; ID: 1646186507739001EQtQ\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-01T17:36:02Z
+- Source modified: 2026-10-08T06:22:55Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482839006001nLsT>)
 
@@ -2251,7 +2251,7 @@ Geospatial foundation models offer new ways to learn from large, diverse, and of
 - Keywords: AI, GeoAI, analysis, analytics, data science, embeddings, foundation models
 - Catalogues: European Dev & Tech Summit
 - Speakers: Karthik Dutt (Esri; Esri Speaker; ID: 1646185844924001M6Ax\_1777494026euroepcdev; Order: 2); Rohit Singh (Esri; Esri Speaker; ID: 1646186507739001EQtQ\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-08T06:22:55Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785480969446001f0kE>)
 
@@ -2384,7 +2384,7 @@ If you are looking to quickly transform your maps into interactive, focused web 
 - Keywords: AI, Configurable, Customize, Ready to Use, accessibility, interactive, multilingual, web applications
 - Catalogues: European Dev & Tech Summit
 - Speakers: Adriana Cosse (Esri UK; Distributor Esri Speaker; ID: 1688722175717001RuZC\_1777494026euroepcdev; Order: 1); Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-06T19:17:01Z
+- Source modified: 2026-10-08T10:12:49Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484578943001M00N>)
 
@@ -2519,7 +2519,7 @@ This session offers a deep dive into imagery layer management within ArcGIS Ente
 - Keywords: Image Services, Imagery Layers, Python, imagery
 - Catalogues: European Dev & Tech Summit
 - Speakers: Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev; Order: 2); Rohit Singh (Esri; Esri Speaker; ID: 1646186507739001EQtQ\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-06T18:00:22Z
+- Source modified: 2026-10-08T06:22:55Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490861924001sC71>)
 
@@ -3864,10 +3864,10 @@ Speaker ID: 1646186507739001EQtQ\_1777494026euroepcdev
 - First name: Rohit
 - Last name: Singh
 - Company: Esri
-- [Photo](<https://www.esri.com/content/dam/esrisites/en-us/about/events/common/speaker-globie-headshot.jpg>)
+- [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1646186507739001EQtQ/attprofile/Rohit%20Singh-03_1791440574731001r1MV.jpg>)
 - Source modified: 2026-08-19T19:48:05Z
 
-Rohit Singh is Director of the Esri Research and Development Center in New Delhi, leading the design and development of geospatial AI (GeoAI) capabilities across ArcGIS. He focuses on advancing GeoAI, foundation models, and scalable spatial analytics to power geospatial applications. Rohit has helped build core ArcGIS technologies, such as the ArcGIS API for Python, the ArcGIS Java Engine API, and the platform’s Linux enablement. He has an MS in Computer Science with a specialization in AI from the Georgia Institute of Technology and is an alumnus of India Institute of Technology, Kharagpur.
+Rohit Singh is Director of Esri’s R&D Center in New Delhi, leading the design and development of GeoAI capabilities across the ArcGIS platform. He has played a key role in the development of ArcGIS API for Python, ArcGIS Java Engine API, and the Linux enablement of ArcGIS. An alumnus of IIT Kharagpur, Rohit holds an MS in Computer Science with specialization in AI from Georgia Tech.
 
 ### Sam Libby
 
