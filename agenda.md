@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-10T10:39:41.459Z  
+Source captured: 2026-10-11T10:52:17.044Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 75 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: e319700401fafd34fccdabdf98a3677cb74361698915a415dbb7170aafcc0067
+Source SHA-256: 1e259a344e6710b1785f8ca47f9bc23cd64e98079a08fc13baec01bb358e8181
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -331,7 +331,7 @@ Ready to take your GIS architecture to the next level? This session introduces t
 - Technologies: AWS, Kubernetes, Microsoft Azure
 - Keywords: Systems, Well-Architected, architecture
 - Catalogues: European Dev & Tech Summit
-- Speakers: Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 1); Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1)
+- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1); Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 1)
 - Source modified: 2026-10-01T17:36:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493152511001mz22>)
@@ -463,7 +463,7 @@ The ArcGIS Well-Architected Framework introduces the concepts of system patterns
 - Technologies: AWS, Kubernetes, Microsoft Azure
 - Keywords: Systems, Well-Architected, architecture
 - Catalogues: European Dev & Tech Summit
-- Speakers: Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 1); Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1)
+- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1); Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 1)
 - Source modified: 2026-10-01T17:36:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493271654001i4IX>)
