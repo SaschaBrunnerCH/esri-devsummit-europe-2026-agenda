@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-11T10:52:17.044Z  
+Source captured: 2026-10-12T12:05:23.041Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 75 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: 1e259a344e6710b1785f8ca47f9bc23cd64e98079a08fc13baec01bb358e8181
+Source SHA-256: 2f51963540cb4ea526f9112549842d0c602eb5b8cb7156f3561496b5231cc334
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -331,7 +331,7 @@ Ready to take your GIS architecture to the next level? This session introduces t
 - Technologies: AWS, Kubernetes, Microsoft Azure
 - Keywords: Systems, Well-Architected, architecture
 - Catalogues: European Dev & Tech Summit
-- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1); Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 1)
+- Speakers: Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 1); Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1)
 - Source modified: 2026-10-01T17:36:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493152511001mz22>)
@@ -463,7 +463,7 @@ The ArcGIS Well-Architected Framework introduces the concepts of system patterns
 - Technologies: AWS, Kubernetes, Microsoft Azure
 - Keywords: Systems, Well-Architected, architecture
 - Catalogues: European Dev & Tech Summit
-- Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1); Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 1)
+- Speakers: Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 1); Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1)
 - Source modified: 2026-10-01T17:36:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493271654001i4IX>)
@@ -516,7 +516,7 @@ ArcGIS REST JS is an open-source, compact, and easy-to-use wrapper around the Ar
 - Keywords: APIs, JavaScript, REST, node
 - Catalogues: European Dev & Tech Summit
 - Speakers: Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Álvaro Gutierrez (Esri Spain; Distributor Esri Speaker; ID: 1691495250364001LNdS\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-10T04:39:24Z
+- Source modified: 2026-10-12T07:37:32Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785496248538001cWVi>)
 
@@ -751,7 +751,7 @@ Learn about the new enhancements and capabilities of ArcGIS Basemap services, su
 - Keywords: PaaS, UX, application development, basemaps, interaction, location services, visualization
 - Catalogues: European Dev & Tech Summit
 - Speakers: Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-10T04:39:24Z
+- Source modified: 2026-10-12T10:00:31Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488466631001lUg0>)
 
@@ -1401,7 +1401,7 @@ Two main authentication mechanisms exist for applications built with ArcGIS serv
 - Keywords: authentication, data access, permission, profile, role, user
 - Catalogues: European Dev & Tech Summit
 - Speakers: Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Álvaro Gutierrez (Esri Spain; Distributor Esri Speaker; ID: 1691495250364001LNdS\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-10T04:39:24Z
+- Source modified: 2026-10-12T07:37:15Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493533691001yG2g>)
 
@@ -1733,7 +1733,7 @@ Hosted feature layer views allow you to create multiple unique windows into your
 - Keywords: Hosted Feature Layer, Hosted Feature Layer View, Hosted Feature Service, crowd-source, data, public, survey, viral app
 - Catalogues: European Dev & Tech Summit
 - Speakers: Isla Evans (Esri UK; Distributor Esri Speaker; ID: 1752656924580001Dj9l\_1777494026euroepcdev; Order: 1); Maartje Holtslag (Esri Netherlands; Distributor Esri Speaker; ID: 1646230356944001AmDt\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-05T07:01:56Z
+- Source modified: 2026-10-12T08:43:00Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488928741001oo5e>)
 
@@ -2331,7 +2331,7 @@ Learn how to customize the ArcGIS vector basemaps to showcase your data and meet
 - Keywords: JSON, UX, VTSE, style, vector tiles, visualization
 - Catalogues: European Dev & Tech Summit
 - Speakers: Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-10T04:39:24Z
+- Source modified: 2026-10-12T10:00:01Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488070964001MGwx>)
 
@@ -2546,7 +2546,7 @@ Learn about the different security options available for accessing Esri's secure
 - Keywords: API keys, JavaScript, OAuth, application development, secure services, security
 - Catalogues: European Dev & Tech Summit
 - Speakers: Dave Olsthoorn (Esri Netherlands; Distributor Esri Speaker; ID: 1704900814996001CSLp\_1777494026euroepcdev; Order: 2); Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-10T04:39:24Z
+- Source modified: 2026-10-12T08:22:31Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487648507001JydR>)
 
@@ -2889,7 +2889,7 @@ In this technical session, learn how Esri engineers are using AI to improve code
 - Keywords: AI, AI-assisted development, APIs, SDKs, development, development patterns, documentation, prompt-engineering, security, software engineering, vibe-coding, workflows
 - Catalogues: European Dev & Tech Summit
 - Speakers: Raul Jimenez Ortega (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Sascha Brunner (Esri; Esri Speaker; ID: 1646186555410001UwXr\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-10T04:39:24Z
+- Source modified: 2026-10-12T07:34:59Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785481365243001f1yI>)
 
@@ -3102,7 +3102,7 @@ This session explores the integration of map algebra with Python, highlighting h
 - Keywords: RCI, Raster object, ia module, imagery, sa module
 - Catalogues: European Dev & Tech Summit
 - Speakers: Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev; Order: 2); Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-06T17:56:14Z
+- Source modified: 2026-10-12T06:52:21Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785483113801001cqSp>)
 
@@ -3814,8 +3814,8 @@ Rami Alouta is a Lead Solutions Engineer at Esri, focused on advancing geospatia
 
 Speaker ID: 16461864564160013IwI\_1777494026euroepcdev
 
-- First name: Raul Jimenez
-- Last name: Ortega
+- First name: Raul
+- Last name: Jimenez Ortega
 - Company: Esri
 - [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/16461864564160013IwI/attprofile/raul-jimenez-ortega-social-picture_1788363542809001u9OU.jpg>)
 - Source modified: 2026-08-19T19:48:05Z
