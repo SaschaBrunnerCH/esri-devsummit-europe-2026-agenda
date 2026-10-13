@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-12T12:05:23.041Z  
+Source captured: 2026-10-13T11:52:27.661Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 75 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: 2f51963540cb4ea526f9112549842d0c602eb5b8cb7156f3561496b5231cc334
+Source SHA-256: 9466a144d5351b88b49cabb7431b347009c5a5a3982b190b7ad4bec9b02bf1b4
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -122,7 +122,7 @@ The plenary concludes with coverage of new products, tools, capabilities, and te
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
 - Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev; Order: 2); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 3); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev; Order: 5); Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 6); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 7); Luis Flores Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 8); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 9); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 10); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev; Order: 11); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev; Order: 12); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 13); Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev; Order: 14)
-- Source modified: 2026-10-06T17:31:40Z
+- Source modified: 2026-10-12T16:34:02Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786148093148001wgxl>)
 
@@ -225,7 +225,7 @@ Attend this session to get a tour of the most important advancements in the ArcG
 - Keywords: 3D, JavaScript, analysis, editing, layers, performance, visualization, web development
 - Catalogues: European Dev & Tech Summit
 - Speakers: Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 2); Stefan Eilemann (Esri; Esri Speaker; ID: 1646186572837001UFcv\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-07T07:31:24Z
+- Source modified: 2026-10-12T19:13:09Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494387567001kitV>)
 
@@ -490,7 +490,7 @@ Geospatial AI (GeoAI) is transforming the speed at which people extract meaning 
 - Keywords: GeoAI, deep learning, imagery, pretrained models
 - Catalogues: European Dev & Tech Summit
 - Speakers: Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev; Order: 2); Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-06T17:10:06Z
+- Source modified: 2026-10-12T16:25:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785481230937001TX5V>)
 
@@ -670,7 +670,7 @@ Join us to explore advanced solutions with the developer edition of ArcGIS Exper
 - Keywords: ArcGIS Experience Builder developer edition, Custom Widget
 - Catalogues: European Dev & Tech Summit
 - Speakers: Christine Wiltawsky (Esri Germany; Distributor Esri Speaker; ID: 1657107725325001p5YF\_1777494026euroepcdev; Order: 2); Diego Diaz Doce (Esri UK; Distributor Esri Speaker; ID: 1674225917068001kEAU\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-13T09:08:41Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484275364001zgPm>)
 
@@ -1212,7 +1212,7 @@ Urban trees are critical infrastructure in the fight against climate change, yet
 - Keywords: AI applications, Digital Twin, climate resilience, deep learning, remote sensing, smart city, sustainable urban development, tree detection, urban green infrastructure
 - Catalogues: European Dev & Tech Summit
 - Speakers: Janis Müller (ARC-GREENLAB GmbH; Primary Speaker; ID: 1653974956213001N9ME\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-06T10:57:00Z
+- Source modified: 2026-10-13T10:56:48Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1782801069412001KX4l>)
 
@@ -1939,7 +1939,7 @@ ArcGIS offers a variety of tools to ingest and transform diverse data types as t
 - Keywords: Data Transformation, ETL, Interoperability
 - Catalogues: European Dev & Tech Summit
 - Speakers: Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-06T19:35:09Z
+- Source modified: 2026-10-12T15:52:43Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491531788001hX13>)
 
@@ -2177,7 +2177,7 @@ Learn how to create and update 3D Digital Twins from Reality Mapping, capturing 
 - Keywords: 3D, Digital Twin, Gaussian splat, Reality
 - Catalogues: European Dev & Tech Summit
 - Speakers: Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev; Order: 2); Tobias Hauck (Esri; Esri Speaker; ID: 16461867668570017XQ1\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-06T18:43:54Z
+- Source modified: 2026-10-12T18:23:00Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785479919268001vpFF>)
 
@@ -2304,7 +2304,7 @@ This session will dive into the utility network. We will discuss how the data wo
 - Keywords: network diagrams, trace, utility network
 - Catalogues: European Dev & Tech Summit
 - Speakers: Rich Ruh (Esri; Esri Speaker; ID: 1644920233154001Et3f\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-02T18:23:41Z
+- Source modified: 2026-10-12T17:35:31Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490194801001Mi5z>)
 
@@ -2438,7 +2438,7 @@ Join us in this session to learn the essentials of building and maintaining vira
 - Keywords: datastore, feature layer data profiles, updating data, usage, views
 - Catalogues: European Dev & Tech Summit
 - Speakers: Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev; Order: 1); David McRitchie (Esri UK; Distributor Esri Speaker; ID: 1688977729096001S1Of\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-01T19:47:26Z
+- Source modified: 2026-10-12T17:02:04Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489101482001RTUA>)
 
