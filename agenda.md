@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-17T08:37:23.617Z  
+Source captured: 2026-10-18T08:53:54.804Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 75 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: 64e17a4485f8312b3cd2bb4c7d185008ae11fdfd3c1bab5c71051227f7d830f9
+Source SHA-256: 221ebb98c0c948492431dcfa925edd53c27e774681f1157754728f901acf523d
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -121,8 +121,8 @@ The plenary concludes with coverage of new products, tools, capabilities, and te
 - Level: All Attendees
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
-- Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev; Order: 2); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 3); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev; Order: 5); Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 6); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 7); Luis Florio Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 8); Mike Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 9); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 10); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev; Order: 11); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev; Order: 12); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 13); Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev; Order: 14)
-- Source modified: 2026-10-16T02:16:38Z
+- Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev; Order: 2); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 3); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev; Order: 5); Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 6); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 7); Luis Florio Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 8); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 9); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 10); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev; Order: 11); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev; Order: 12); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 13); Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev; Order: 14)
+- Source modified: 2026-10-17T11:41:21Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786148093148001wgxl>)
 
@@ -852,8 +852,8 @@ Join this session if you are interested in developing specialized mobile and des
 - Technologies: Android and Kotlin, Apple iOS and Swift, Cross-Platform, Linux, Microsoft MAUI, Microsoft .NET, Microsoft Windows, Qt, Unity, Unreal Engine, Flutter
 - Keywords: desktop, game engine, location services, low code, mobile, no code, strategies
 - Catalogues: European Dev & Tech Summit
-- Speakers: Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 1); Mike Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:33:45Z
+- Speakers: Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 1); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 2)
+- Source modified: 2026-10-17T11:41:21Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492284277001WPNe>)
 
@@ -1319,8 +1319,8 @@ ArcGIS Maps SDKs for Game Engines enable you to build next generation immersive 
 - Technologies: Cross-Platform, Unity, Unreal Engine
 - Keywords: Epic, Unity, Unreal Engine, Virtual Reality, XR, game engine
 - Catalogues: European Dev & Tech Summit
-- Speakers: �lvar Alonso Roviro (Esri; Esri Speaker; ID: 1736395245286001Ca3N\_1777494026euroepcdev; Order: 1); Luis Florio Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 3); Mike Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 4)
-- Source modified: 2026-10-16T02:16:38Z
+- Speakers: �lvar Alonso Roviro (Esri; Esri Speaker; ID: 1736395245286001Ca3N\_1777494026euroepcdev; Order: 1); Luis Florio Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 3); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 4)
+- Source modified: 2026-10-17T18:16:45Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490333716001DTRX>)
 
@@ -2410,8 +2410,8 @@ Interested in building a digital twin with ArcGIS and bringing it to life in a g
 - Technologies: Cross-Platform, Unity, Unreal Engine
 - Keywords: Epic, Unity, Unreal Engine, Virtual Reality, XR, game engine
 - Catalogues: European Dev & Tech Summit
-- Speakers: Luis Florio Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 1); �lvar Alonso Roviro (Esri; Esri Speaker; ID: 1736395245286001Ca3N\_1777494026euroepcdev; Order: 2); Mike Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T02:16:38Z
+- Speakers: Luis Florio Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 1); �lvar Alonso Roviro (Esri; Esri Speaker; ID: 1736395245286001Ca3N\_1777494026euroepcdev; Order: 2); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 3)
+- Source modified: 2026-10-17T18:17:21Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490499081001qENE>)
 
@@ -2996,8 +2996,8 @@ In this session we will discuss advanced topics such as building ArcGIS Maps SDK
 - Technologies: Cross-Platform, Microsoft MAUI, Microsoft .NET
 - Keywords: .NET, Android, MAUI, UWP, WinUI, Windows, Xamarin, iOS, macOS, maps, native
 - Catalogues: European Dev & Tech Summit
-- Speakers: Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev; Order: 1); Mike Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T02:16:38Z
+- Speakers: Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev; Order: 1); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 2)
+- Source modified: 2026-10-17T11:42:36Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492028686001iLdL>)
 
@@ -3713,6 +3713,18 @@ Speaker ID: 1654596291857001Ndz5\_1777494026euroepcdev
 
 Martin is a Software Engineer at con terra with more than a decade of experience working with Esri technology, specializing in ArcGIS Enterprise, its customization and extension, and the ArcGIS Maps SDK for JavaScript. As a returning speaker at this conference, he has presented on several topics in automation and AI. In his day-to-day work, he is focussing on access control for geospatial data and also helps other development teams as a Scrum Master and workshop facilitator.
 
+### Michael Branscomb
+
+Speaker ID: 1644920232435001E8I7\_1777494026euroepcdev
+
+- First name: Michael
+- Last name: Branscomb
+- Company: Esri
+- [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1644920232435001E8I7/attprofile/ProfilePhotoUnite2025_1788363978701001ZdF8.JPG>)
+- Source modified: 2026-08-21T01:29:16Z
+
+Mike Branscomb is a Product Manager at Esri working on the Game Engine Maps SDKs and Native Maps SDKs. He has spent many years helping developers build geospatial applications and is passionate about providing the best possible tools for creating 2D, 3D, and immersive experiences. Mike also brings years of Scrum Product Owner experience, helping cross-functional teams turn ideas into high-quality products that solve real user needs.
+
 ### Mika Dinnus
 
 Speaker ID: 1761319069866001rrzx\_1777494026euroepcdev
@@ -3724,18 +3736,6 @@ Speaker ID: 1761319069866001rrzx\_1777494026euroepcdev
 - Source modified: 2026-08-19T19:48:05Z
 
 Mika Dinnus has been a Sales Engineer with Esri Germany since 2025, working in the Sales Engineering Team. With an academic background in Spatial Data Science and Computer Vision, he has developed a deep understanding of complex data structures and how modern Artificial Intelligence systems work. At Esri, he supports organizations in adopting Generative Artificial Intelligence and agentic systems in ways that are both technically sound and strategically meaningful, from architectural decisions to platform considerations.
-
-### Mike Branscomb
-
-Speaker ID: 1644920232435001E8I7\_1777494026euroepcdev
-
-- First name: Mike
-- Last name: Branscomb
-- Company: Esri
-- [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1644920232435001E8I7/attprofile/ProfilePhotoUnite2025_1788363978701001ZdF8.JPG>)
-- Source modified: 2026-08-21T01:29:16Z
-
-Mike Branscomb is a Product Manager at Esri working on the Game Engine Maps SDKs and Native Maps SDKs. He has spent many years helping developers build geospatial applications and is passionate about providing the best possible tools for creating 2D, 3D, and immersive experiences. Mike also brings years of Scrum Product Owner experience, helping cross-functional teams turn ideas into high-quality products that solve real user needs.
 
 ### Mindaugas Rasiukevicius
 
