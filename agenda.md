@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-18T08:53:54.804Z  
+Source captured: 2026-10-19T09:58:54.158Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 75 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: 221ebb98c0c948492431dcfa925edd53c27e774681f1157754728f901acf523d
+Source SHA-256: 5244931dac51af82f8466aaf53c25fbd67e338d40bde44fdae1b743d176c428c
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -55,7 +55,7 @@ The plenary session kicks off by welcoming attendees to the event, followed by a
 - Level: All Attendees
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
-- Speakers: David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 1); Jeroen Van Winden (Esri Netherlands; Distributor Esri Speaker; ID: 1646574099878001D1U7\_1777494026euroepcdev; Order: 1); Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 2); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 3)
+- Speakers: Jeroen Van Winden (Esri Netherlands; Distributor Esri Speaker; ID: 1646574099878001D1U7\_1777494026euroepcdev; Order: 1); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 1); Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 2); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 3)
 - Source modified: 2026-10-06T17:14:29Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1784749490908001LwLL>)
@@ -121,8 +121,8 @@ The plenary concludes with coverage of new products, tools, capabilities, and te
 - Level: All Attendees
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
-- Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev; Order: 2); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 3); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev; Order: 5); Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 6); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 7); Luis Florio Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 8); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 9); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 10); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev; Order: 11); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev; Order: 12); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 13); Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev; Order: 14)
-- Source modified: 2026-10-17T11:41:21Z
+- Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev; Order: 2); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 3); Julia Lubiszewska (Esri; Esri Speaker; ID: 1685647548594001yj7A\_1777494026euroepcdev; Order: 5); Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 6); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 7); Luis Flores Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 8); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 9); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 10); Swagata Biswas (Esri; Esri Speaker; ID: 1646186551104001Uhg3\_1777494026euroepcdev; Order: 11); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev; Order: 12); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 13); Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev; Order: 14)
+- Source modified: 2026-10-18T19:37:36Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786148093148001wgxl>)
 
@@ -515,8 +515,8 @@ ArcGIS REST JS is an open-source, compact, and easy-to-use wrapper around the Ar
 - Capabilities: Open Source, Web App Development
 - Keywords: APIs, JavaScript, REST, node
 - Catalogues: European Dev & Tech Summit
-- Speakers: Ra�l Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Álvaro Gutierrez (Esri Spain; Distributor Esri Speaker; ID: 1691495250364001LNdS\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T02:16:33Z
+- Speakers: Raúl Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Álvaro Gutierrez (Esri Spain; Distributor Esri Speaker; ID: 1691495250364001LNdS\_1777494026euroepcdev; Order: 3)
+- Source modified: 2026-10-18T15:47:56Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785496248538001cWVi>)
 
@@ -559,8 +559,8 @@ This fun, fast paced event gives you the chance to experience multiple, quick de
 - Level: All Attendees
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
-- Speakers: David McRitchie (Esri UK; Distributor Esri Speaker; ID: 1688977729096001S1Of\_1777494026euroepcdev; Order: 1); Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev; Order: 2); Kristian Kaesinger (Esri UK; Distributor Esri Speaker; ID: 1657631752276001DIJ1\_1777494026euroepcdev; Order: 2); Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 3); Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev; Order: 3); Mika Dinnus (Esri Germany; Distributor Esri Speaker; ID: 1761319069866001rrzx\_1777494026euroepcdev; Order: 4); Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev; Order: 4); Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev; Order: 5); Ra�l Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 6); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 7)
-- Source modified: 2026-10-16T03:01:23Z
+- Speakers: David McRitchie (Esri UK; Distributor Esri Speaker; ID: 1688977729096001S1Of\_1777494026euroepcdev; Order: 1); Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev; Order: 2); Kristian Kaesinger (Esri UK; Distributor Esri Speaker; ID: 1657631752276001DIJ1\_1777494026euroepcdev; Order: 2); Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 3); Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev; Order: 3); Mika Dinnus (Esri Germany; Distributor Esri Speaker; ID: 1761319069866001rrzx\_1777494026euroepcdev; Order: 4); Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev; Order: 4); Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev; Order: 5); Raúl Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 6); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 7)
+- Source modified: 2026-10-18T15:47:56Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786485140918001BqxF>)
 
@@ -750,8 +750,8 @@ Learn about the new enhancements and capabilities of ArcGIS Basemap services, su
 - Technologies: JavaScript, REST
 - Keywords: PaaS, UX, application development, basemaps, interaction, location services, visualization
 - Catalogues: European Dev & Tech Summit
-- Speakers: Ra�l Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T02:16:33Z
+- Speakers: Raúl Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev; Order: 3)
+- Source modified: 2026-10-18T15:47:56Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488466631001lUg0>)
 
@@ -1319,8 +1319,8 @@ ArcGIS Maps SDKs for Game Engines enable you to build next generation immersive 
 - Technologies: Cross-Platform, Unity, Unreal Engine
 - Keywords: Epic, Unity, Unreal Engine, Virtual Reality, XR, game engine
 - Catalogues: European Dev & Tech Summit
-- Speakers: �lvar Alonso Roviro (Esri; Esri Speaker; ID: 1736395245286001Ca3N\_1777494026euroepcdev; Order: 1); Luis Florio Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 3); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 4)
-- Source modified: 2026-10-17T18:16:45Z
+- Speakers: Àlvar Alonso Roviro (Esri; Esri Speaker; ID: 1736395245286001Ca3N\_1777494026euroepcdev; Order: 1); Luis Flores Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 3); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 4)
+- Source modified: 2026-10-18T19:37:36Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490333716001DTRX>)
 
@@ -1400,8 +1400,8 @@ Two main authentication mechanisms exist for applications built with ArcGIS serv
 - Technologies: JavaScript
 - Keywords: authentication, data access, permission, profile, role, user
 - Catalogues: European Dev & Tech Summit
-- Speakers: Ra�l Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Álvaro Gutierrez (Esri Spain; Distributor Esri Speaker; ID: 1691495250364001LNdS\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T02:16:33Z
+- Speakers: Raúl Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Álvaro Gutierrez (Esri Spain; Distributor Esri Speaker; ID: 1691495250364001LNdS\_1777494026euroepcdev; Order: 3)
+- Source modified: 2026-10-18T15:47:56Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493533691001yG2g>)
 
@@ -2204,7 +2204,7 @@ Session ID: 1785485000997001sFa2 · Code: APP-1074
 - Keywords: ArcGIS Survey123, JavaScript, web
 - Catalogues: European Dev & Tech Summit
 - Speakers: Issy Amis (Esri UK; Distributor Esri Speaker; ID: 1661355709567001zji6\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-13T18:00:41Z
+- Source modified: 2026-10-18T18:50:53Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485000997001sFa2>)
 
@@ -2330,8 +2330,8 @@ Learn how to customize the ArcGIS vector basemaps to showcase your data and meet
 - Technologies: JavaScript, REST
 - Keywords: JSON, UX, VTSE, style, vector tiles, visualization
 - Catalogues: European Dev & Tech Summit
-- Speakers: Ra�l Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:29:32Z
+- Speakers: Raúl Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Vikram Ponnuswamy (Esri; Esri Speaker; ID: 1749499242504003gMX6\_1777494026euroepcdev; Order: 3)
+- Source modified: 2026-10-18T15:47:56Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488070964001MGwx>)
 
@@ -2410,8 +2410,8 @@ Interested in building a digital twin with ArcGIS and bringing it to life in a g
 - Technologies: Cross-Platform, Unity, Unreal Engine
 - Keywords: Epic, Unity, Unreal Engine, Virtual Reality, XR, game engine
 - Catalogues: European Dev & Tech Summit
-- Speakers: Luis Florio Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 1); �lvar Alonso Roviro (Esri; Esri Speaker; ID: 1736395245286001Ca3N\_1777494026euroepcdev; Order: 2); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-17T18:17:21Z
+- Speakers: Luis Flores Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 1); Àlvar Alonso Roviro (Esri; Esri Speaker; ID: 1736395245286001Ca3N\_1777494026euroepcdev; Order: 2); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 3)
+- Source modified: 2026-10-18T19:37:36Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490499081001qENE>)
 
@@ -2545,8 +2545,8 @@ Learn about the different security options available for accessing Esri's secure
 - Technologies: JavaScript
 - Keywords: API keys, JavaScript, OAuth, application development, secure services, security
 - Catalogues: European Dev & Tech Summit
-- Speakers: Dave Olsthoorn (Esri Netherlands; Distributor Esri Speaker; ID: 1704900814996001CSLp\_1777494026euroepcdev; Order: 2); Ra�l Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T19:55:54Z
+- Speakers: Dave Olsthoorn (Esri Netherlands; Distributor Esri Speaker; ID: 1704900814996001CSLp\_1777494026euroepcdev; Order: 2); Raúl Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 3)
+- Source modified: 2026-10-18T15:47:56Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487648507001JydR>)
 
@@ -2888,8 +2888,8 @@ In this technical session, learn how Esri engineers are using AI to improve code
 - Products: ArcGIS Location Platform
 - Keywords: AI, AI-assisted development, APIs, SDKs, development, development patterns, documentation, prompt-engineering, security, software engineering, vibe-coding, workflows
 - Catalogues: European Dev & Tech Summit
-- Speakers: Ra�l Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Sascha Brunner (Esri; Esri Speaker; ID: 1646186555410001UwXr\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T02:16:33Z
+- Speakers: Raúl Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Sascha Brunner (Esri; Esri Speaker; ID: 1646186555410001UwXr\_1777494026euroepcdev; Order: 3)
+- Source modified: 2026-10-18T15:47:56Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785481365243001f1yI>)
 
@@ -3154,6 +3154,18 @@ Speaker ID: 1683721806507001uz00\_1777494026euroepcdev
 - Source modified: 2026-09-08T19:45:17Z
 
 Alberto Ordoñez has been with Esri for 18 years, building his experience across several areas, including Content and Data Management, Technical Support and Professional Services. He is currently the Business Development Manager for Esri Managed Cloud Services at Esri Spain. Launched in 2018, the Managed Cloud Services area now supports more than 40 clients across different sectors, helping them operate and maintain their geospatial platforms through a managed cloud service.
+
+### Àlvar Alonso Roviro
+
+Speaker ID: 1736395245286001Ca3N\_1777494026euroepcdev
+
+- First name: Àlvar Alonso
+- Last name: Roviro
+- Company: Esri
+- [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1736395245286001Ca3N/attprofile/CV_Cara_1788523808815001PL7J.JPG>)
+- Source modified: 2026-08-19T19:48:05Z
+
+Àlvar Alonso is a software developer at Esri specializing in game engine technology and real-time graphics. Previously, he spent time teaching college students about game engines and developing video games. In his role, he helps enable game engines to use ArcGIS data and functionality, displaying it efficiently through the engine’s renderer. He holds a Bachelor’s degree in Computing Engineering and a Master’s degree in Video Game Development from Pompeu Fabra University.
 
 ### Álvaro Gutierrez
 
@@ -3641,12 +3653,12 @@ Speaker ID: 1752500167043001nk2t\_1777494026euroepcdev
 
 Lisa Keurentjes is an Engineer with the Data and Location Services team at Esri Nederland since 2025. Together with her team, she helps maintain and enhance the Living Atlas. She specializes in automating data workflows through ArcGIS Notebooks and Python toolboxes, enabling more efficient data management, improved data quality, and more frequent updates. Alongside automation, she enjoys creating effective cartography, compelling data visualizations, and engaging Arcade-based user experiences for pop-ups and dashboards.
 
-### Luis Florio Carrubio
+### Luis Flores Carrubio
 
 Speaker ID: 16570356816440012A7R\_1777494026euroepcdev
 
-- First name: Luis Florio
-- Last name: Carrubio
+- First name: Luis
+- Last name: Flores Carrubio
 - Company: Esri
 - [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/16570356816440012A7R/attprofile/Luis%20Carrubio%20Flores_1789984047914001DKX2.jpg>)
 - Source modified: 2026-08-19T19:48:05Z
@@ -3798,11 +3810,11 @@ Speaker ID: 16461864029260013XEX\_1777494026euroepcdev
 
 Rami Alouta is a Lead Solutions Engineer at Esri, focused on advancing geospatial AI solutions. Rami leverages cutting-edge technologies to deliver innovative solutions across multiple sectors ranging between the Public, private and None Profit sectors. His expertise includes designing and deploying automation workflows and building well-architected solutions that drive efficiency and value for clients. Recognized as a Subject Matter Expert (SME), Rami is known for his ability to bridge the gap between AI innovation and practical geospatial applications.
 
-### Ra�l Jimenez
+### Raúl Jimenez
 
 Speaker ID: 16461864564160013IwI\_1777494026euroepcdev
 
-- First name: Ra�l
+- First name: Raúl
 - Last name: Jimenez
 - Company: Esri
 - [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/16461864564160013IwI/attprofile/raul-jimenez-ortega-social-picture_1788363542809001u9OU.jpg>)
@@ -4026,15 +4038,3 @@ Speaker ID: 1749499242504003gMX6\_1777494026euroepcdev
 - Source modified: 2026-08-19T19:48:05Z
 
 Vikram Ponnuswamy is a Product Engineer at Esri Cardiff working on ArcGIS Location Platform services. He focuses on developer experience, product usability, service testing, and quality assurance. Working closely with engineering and product teams, he validates new capabilities, builds technical demonstrations, and tests real-world user workflows to identify pain points. He advocates for developers by recommending product improvements that enhance REST API usability and adoption. His current focus is the ArcGIS Static Maps API and Location Platform MCP server.
-
-### �lvar Alonso Roviro
-
-Speaker ID: 1736395245286001Ca3N\_1777494026euroepcdev
-
-- First name: �lvar Alonso
-- Last name: Roviro
-- Company: Esri
-- [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1736395245286001Ca3N/attprofile/CV_Cara_1788523808815001PL7J.JPG>)
-- Source modified: 2026-08-19T19:48:05Z
-
-Àlvar Alonso is a software developer at Esri specializing in game engine technology and real-time graphics. Previously, he spent time teaching college students about game engines and developing video games. In his role, he helps enable game engines to use ArcGIS data and functionality, displaying it efficiently through the engine’s renderer. He holds a Bachelor’s degree in Computing Engineering and a Master’s degree in Video Game Development from Pompeu Fabra University.
