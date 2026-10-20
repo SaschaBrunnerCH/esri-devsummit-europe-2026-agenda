@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-19T09:58:54.158Z  
+Source captured: 2026-10-20T09:28:58.512Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
-120 sessions · 120 occurrences · 75 speaker profiles.
+120 sessions · 120 occurrences · 73 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: 5244931dac51af82f8466aaf53c25fbd67e338d40bde44fdae1b743d176c428c
+Source SHA-256: 3bf033bdfa38b1c83eeb9f30e4c8b009bf952a929823da4249895834983882f9
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -55,8 +55,8 @@ The plenary session kicks off by welcoming attendees to the event, followed by a
 - Level: All Attendees
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
-- Speakers: Jeroen Van Winden (Esri Netherlands; Distributor Esri Speaker; ID: 1646574099878001D1U7\_1777494026euroepcdev; Order: 1); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 1); Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 2); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-06T17:14:29Z
+- Speakers: David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 1); Jeroen Van Winden (Esri Netherlands; Distributor Esri Speaker; ID: 1646574099878001D1U7\_1777494026euroepcdev; Order: 1); Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 2); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 3)
+- Source modified: 2026-10-19T16:48:00Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1784749490908001LwLL>)
 
@@ -171,7 +171,7 @@ Quickly transform your data into interactive web apps and web pages you envision
 - Keywords: App framework, Building blocks, Data source, Smart widget, deployment pattern, flexible design, mobile optimization
 - Catalogues: European Dev & Tech Summit
 - Speakers: Adriana Cosse (Esri UK; Distributor Esri Speaker; ID: 1688722175717001RuZC\_1777494026euroepcdev; Order: 1); Christine Wiltawsky (Esri Germany; Distributor Esri Speaker; ID: 1657107725325001p5YF\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-19T15:28:33Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484061245001YVpe>)
 
@@ -181,9 +181,9 @@ Session ID: 1785485223708001pE3d · Code: APP-1075
 
 - When: 2026-10-20 14:30–2026-10-20 15:30 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-20T12:30:00Z–2026-10-20T13:30:00Z
-- Room: Fantasie 2—Level C3 | Congress Center
+- Room: Illusion 1—Level C3 | Congress Center
 - Occurrence ID: 1786150654268001jzFv
-- Room ID: 1786046266024001J43b
+- Room ID: 1786046266089001JdGO
 - Attendance: In person: yes; Virtual: no
 
 Super charge your field operations through automation and integration with ArcGIS Field Maps and Survey123! This session will cover how to utilize powerful tools and techniques, like Python scripting and Power Automate, to minimize repetition and manual work, optimize workflows, and leverage the capabilities of GIS across your organization.
@@ -198,7 +198,7 @@ Super charge your field operations through automation and integration with ArcGI
 - Keywords: ArcGIS API for Python, ArcGIS Field Maps, ArcGIS Survey123, Make, Power Automate, automation, integration
 - Catalogues: European Dev & Tech Summit
 - Speakers: Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 1); Claire Drean (Esri; Esri Speaker; ID: 1780329648141003zUnj\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-19T16:00:59Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485223708001pE3d>)
 
@@ -224,8 +224,8 @@ Attend this session to get a tour of the most important advancements in the ArcG
 - Technologies: JavaScript, Calcite Design System
 - Keywords: 3D, JavaScript, analysis, editing, layers, performance, visualization, web development
 - Catalogues: European Dev & Tech Summit
-- Speakers: Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 2); Stefan Eilemann (Esri; Esri Speaker; ID: 1646186572837001UFcv\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:33:45Z
+- Speakers: Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 2)
+- Source modified: 2026-10-19T16:10:58Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494387567001kitV>)
 
@@ -235,9 +235,9 @@ Session ID: 1785489365604001BwBR · Code: AGP-1101
 
 - When: 2026-10-20 14:30–2026-10-20 15:30 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-20T12:30:00Z–2026-10-20T13:30:00Z
-- Room: Conclusio 2—Level C2 | Congress Center
+- Room: Conclusio 1——Level C2 | Congress Center
 - Occurrence ID: 1786149889288001Pjth
-- Room ID: 1786046265983001J042
+- Room ID: 1786046265959001J2IV
 - Attendance: In person: yes; Virtual: no
 
 This beginner-level session will cover fundamental approaches for extending ArcGIS Pro, covering select SDK and Pro API topic areas. We’ll discuss practical considerations for your add-ins and online resources for your work, including support for Visual Studio Code and AI.
@@ -251,7 +251,7 @@ This beginner-level session will cover fundamental approaches for extending ArcG
 - Keywords: ArcGIS Pro, add-ins, extending, fundamental, online
 - Catalogues: European Dev & Tech Summit
 - Speakers: Uma Harano (Esri; Esri Speaker; ID: 1644920236045001EhEc\_1777494026euroepcdev; Order: 2); Rich Ruh (Esri; Esri Speaker; ID: 1644920233154001Et3f\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:29:32Z
+- Source modified: 2026-10-19T15:27:25Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489365604001BwBR>)
 
@@ -261,9 +261,9 @@ Session ID: 1785496078173001oMPR · Code: WEB-1147
 
 - When: 2026-10-20 14:30–2026-10-20 15:30 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-20T12:30:00Z–2026-10-20T13:30:00Z
-- Room: Illusion 1—Level C3 | Congress Center
+- Room: Conclusio 2—Level C2 | Congress Center
 - Occurrence ID: 1786152178293001ASVY
-- Room ID: 1786046266089001JdGO
+- Room ID: 1786046265983001J042
 - Attendance: In person: yes; Virtual: no
 
 Learn the main differences between the most popular open-source mapping APIs such as Leaflet, OpenLayers, and Maplibre GL JS and how to integrate them with ArcGIS services such as basemaps, routing, geocoding and vector tiles with the help of ArcGIS REST JS.
@@ -278,7 +278,7 @@ Learn the main differences between the most popular open-source mapping APIs suc
 - Keywords: APIs, Leaflet, Mapbox, OpenLayers, open source
 - Catalogues: European Dev & Tech Summit
 - Speakers: Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 2); Thorben Westerhuys (Esri; Esri Speaker; ID: 1727798456319001Qm4E\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:33:45Z
+- Source modified: 2026-10-19T16:00:39Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785496078173001oMPR>)
 
@@ -315,9 +315,9 @@ Session ID: 1785493152511001mz22 · Code: SYS-1129
 
 - When: 2026-10-20 14:30–2026-10-20 15:30 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-20T12:30:00Z–2026-10-20T13:30:00Z
-- Room: Conclusio 1——Level C2 | Congress Center
+- Room: Fantasie 2—Level C3 | Congress Center
 - Occurrence ID: 1786149855476001cc3t
-- Room ID: 1786046265959001J2IV
+- Room ID: 1786046266024001J43b
 - Attendance: In person: yes; Virtual: no
 
 Ready to take your GIS architecture to the next level? This session introduces the ArcGIS Well-Architected Framework and Architecture Center to help IT and GIS professionals apply proven strategies for designing, deploying, and optimizing enterprise-class GIS systems. Learn to evaluate your architecture, align with system patterns, and implement best practices for scalability, performance, and resilience. Whether refining an existing deployment or planning new, gain actionable insights for building smarter GIS infrastructure.
@@ -332,7 +332,7 @@ Ready to take your GIS architecture to the next level? This session introduces t
 - Keywords: Systems, Well-Architected, architecture
 - Catalogues: European Dev & Tech Summit
 - Speakers: Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 1); Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-14T12:49:43Z
+- Source modified: 2026-10-19T16:01:19Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493152511001mz22>)
 
@@ -436,8 +436,8 @@ With 3D capabilities, you can uncover deeper spatial insights and transform how 
 - Technologies: Cross-Platform
 - Keywords: 3D scene, 3D views, capabilities, customizable
 - Catalogues: European Dev & Tech Summit
-- Speakers: Stefan Eilemann (Esri; Esri Speaker; ID: 1646186572837001UFcv\_1777494026euroepcdev; Order: 3); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 4)
-- Source modified: 2026-10-07T07:31:24Z
+- Speakers: David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 4)
+- Source modified: 2026-10-19T16:09:36Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785479114708001uTMf>)
 
@@ -464,7 +464,7 @@ The ArcGIS Well-Architected Framework introduces the concepts of system patterns
 - Keywords: Systems, Well-Architected, architecture
 - Catalogues: European Dev & Tech Summit
 - Speakers: Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 1); Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-14T12:49:55Z
+- Source modified: 2026-10-19T15:38:45Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493271654001i4IX>)
 
@@ -474,9 +474,9 @@ Session ID: 1785481230937001TX5V · Code: AI-1057
 
 - When: 2026-10-20 16:00–2026-10-20 17:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-20T14:00:00Z–2026-10-20T15:00:00Z
-- Room: Illusion 1—Level C3 | Congress Center
+- Room: Fantasie 2—Level C3 | Congress Center
 - Occurrence ID: 1786152065104001jR3T
-- Room ID: 1786046266089001JdGO
+- Room ID: 1786046266024001J43b
 - Attendance: In person: yes; Virtual: no
 
 Geospatial AI (GeoAI) is transforming the speed at which people extract meaning from complex datasets, helping them solve Earth's most pressing challenges. ArcGIS provides an easy-to-use solution for applying deep learning models to automate imagery workflows. Speakers cover the use of out-of-the-box tools and pretrained GeoAI models to accomplish advanced imagery workflows such as feature extraction, land-cover classification, and object identification. Learn how you can use GeoAI with ArcGIS Pro and the ArcGIS API for Python to quickly and easily extract key information from your imagery.
@@ -490,7 +490,7 @@ Geospatial AI (GeoAI) is transforming the speed at which people extract meaning 
 - Keywords: GeoAI, deep learning, imagery, pretrained models
 - Catalogues: European Dev & Tech Summit
 - Speakers: Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev; Order: 2); Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T03:03:13Z
+- Source modified: 2026-10-19T16:04:20Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785481230937001TX5V>)
 
@@ -500,9 +500,9 @@ Session ID: 1785496248538001cWVi · Code: WEB-1149
 
 - When: 2026-10-20 16:00–2026-10-20 17:00 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-20T14:00:00Z–2026-10-20T15:00:00Z
-- Room: Fantasie 2—Level C3 | Congress Center
+- Room: Illusion 1—Level C3 | Congress Center
 - Occurrence ID: 1786149055069001cQ7F
-- Room ID: 1786046266024001J43b
+- Room ID: 1786046266089001JdGO
 - Attendance: In person: yes; Virtual: no
 
 ArcGIS REST JS is an open-source, compact, and easy-to-use wrapper around the ArcGIS REST APIs that simplifies working with these services in any TypeScript or JavaScript application. Learn how to integrate ArcGIS services such as routing, geocoding, demographic and feature layers into your Node.js and browser applications. We’ll also show how to use ArcGIS REST JS to manage your organization’s content, users, and groups.
@@ -516,7 +516,7 @@ ArcGIS REST JS is an open-source, compact, and easy-to-use wrapper around the Ar
 - Keywords: APIs, JavaScript, REST, node
 - Catalogues: European Dev & Tech Summit
 - Speakers: Raúl Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 2); Álvaro Gutierrez (Esri Spain; Distributor Esri Speaker; ID: 1691495250364001LNdS\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-18T15:47:56Z
+- Source modified: 2026-10-19T16:04:31Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785496248538001cWVi>)
 
@@ -560,7 +560,7 @@ This fun, fast paced event gives you the chance to experience multiple, quick de
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
 - Speakers: David McRitchie (Esri UK; Distributor Esri Speaker; ID: 1688977729096001S1Of\_1777494026euroepcdev; Order: 1); Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 1); Guenter Doerffel (Esri; Esri Speaker; ID: 164618762872500125NC\_1777494026euroepcdev; Order: 2); Kristian Kaesinger (Esri UK; Distributor Esri Speaker; ID: 1657631752276001DIJ1\_1777494026euroepcdev; Order: 2); Maciej Żuber (Esri Polska; Distributor Esri Speaker; ID: 1683881494321001ClNQ\_1777494026euroepcdev; Order: 3); Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev; Order: 3); Mika Dinnus (Esri Germany; Distributor Esri Speaker; ID: 1761319069866001rrzx\_1777494026euroepcdev; Order: 4); Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev; Order: 4); Rami Alouta (Esri; Esri Speaker; ID: 16461864029260013XEX\_1777494026euroepcdev; Order: 5); Raúl Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 6); Trevor Draeseke (Esri; Esri Speaker; ID: 1644920233054001Egsu\_1777494026euroepcdev; Order: 7)
-- Source modified: 2026-10-18T15:47:56Z
+- Source modified: 2026-10-20T06:30:39Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1786485140918001BqxF>)
 
@@ -643,7 +643,7 @@ ArcGIS Enterprise is always evolving and advancing to support data management, m
 - Keywords: analysis, collaboration, data management, mapping, operations, sharing, visualization
 - Catalogues: European Dev & Tech Summit
 - Speakers: Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev; Order: 1); Israel Ketema (Esri Belux; Distributor Esri Speaker; ID: 1789507123393001ZoRA\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-20T06:53:19Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485792828001LNND>)
 
@@ -670,7 +670,7 @@ Join us to explore advanced solutions with the developer edition of ArcGIS Exper
 - Keywords: ArcGIS Experience Builder developer edition, Custom Widget
 - Catalogues: European Dev & Tech Summit
 - Speakers: Christine Wiltawsky (Esri Germany; Distributor Esri Speaker; ID: 1657107725325001p5YF\_1777494026euroepcdev; Order: 2); Diego Diaz Doce (Esri UK; Distributor Esri Speaker; ID: 1674225917068001kEAU\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-19T15:28:33Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484275364001zgPm>)
 
@@ -696,8 +696,8 @@ This is the first session in a 4-part series and is critical for anyone building
 - Technologies: JavaScript
 - Keywords: JavaScript, web components, web development
 - Catalogues: European Dev & Tech Summit
-- Speakers: Stefan Schläfli (Esri Switzerland; Distributor Esri Speaker; ID: 1757394953687001PoIg\_1777494026euroepcdev; Order: 1); Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:33:45Z
+- Speakers: Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 2)
+- Source modified: 2026-10-19T16:14:22Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494574001001ahF2>)
 
@@ -778,7 +778,7 @@ GitHub is a great collaboration tool and this technical session covers the basic
 - Keywords: Git, GitHub, application development, collaboration, open source
 - Catalogues: European Dev & Tech Summit
 - Speakers: Dave Olsthoorn (Esri Netherlands; Distributor Esri Speaker; ID: 1704900814996001CSLp\_1777494026euroepcdev; Order: 1); Anita Kemp (Esri; Esri Speaker; ID: 1644920245031001Ew0B\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:29:32Z
+- Source modified: 2026-10-19T15:22:29Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488298088001RAmI>)
 
@@ -826,7 +826,7 @@ Apps that leverage real-time feeds enable a more engaging and dynamic experience
 - Keywords: JavaScript, desktop, feed, native, real-time, stream service, web map
 - Catalogues: European Dev & Tech Summit
 - Speakers: Mindaugas Rasiukevicius (HNIT-BALTIC; Distributor Esri Speaker; ID: 1646767858145001Mjle\_1777494026euroepcdev; Order: 1); Mantas Bukauskas (HNIT-BALTIC; Distributor Esri Speaker; ID: 165666508805000103kW\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-20T07:01:21Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482671472001dO7w>)
 
@@ -877,7 +877,7 @@ The ArcGIS Enterprise MCP-Server (Beta) lets an AI assistant (Claude, ChatGPT, e
 - Keywords: ArcGIS Enterprise, GeoAI, LLM, MCP Server, automation
 - Catalogues: European Dev & Tech Summit
 - Speakers: Emil Erlenkötter (con terra; Speaker; ID: 1785422840705001tuo1\_1777494026euroepcdev; Order: 1); Omer Kantarcioglu (con terra; Primary Speaker; ID: 1737465912687001QsxS\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:36:47Z
+- Source modified: 2026-10-20T06:40:55Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785422699134001ptVx>)
 
@@ -929,8 +929,8 @@ Join us for the second session in our 4-part series on building applications wit
 - Technologies: JavaScript
 - Keywords: JavaScript, React, Vite, frameworks, front-end, web components
 - Catalogues: European Dev & Tech Summit
-- Speakers: Sascha Brunner (Esri; Esri Speaker; ID: 1646186555410001UwXr\_1777494026euroepcdev; Order: 1); Stefan Schläfli (Esri Switzerland; Distributor Esri Speaker; ID: 1757394953687001PoIg\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-01T17:36:03Z
+- Speakers: Sascha Brunner (Esri; Esri Speaker; ID: 1646186555410001UwXr\_1777494026euroepcdev; Order: 1)
+- Source modified: 2026-10-19T16:15:25Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494727635001W1Oa>)
 
@@ -984,7 +984,7 @@ ArcGIS Notebooks in ArcGIS Online and ArcGIS Enterprise provide various orchestr
 - Keywords: Python, automation, data science, notebooks
 - Catalogues: European Dev & Tech Summit
 - Speakers: Karthik Dutt (Esri; Esri Speaker; ID: 1646185844924001M6Ax\_1777494026euroepcdev; Order: 2); Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-15T04:00:40Z
+- Source modified: 2026-10-20T06:14:14Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785482952493001LNiy>)
 
@@ -1038,7 +1038,7 @@ Feature layers are the best way to work with feature data on the web. In this se
 - Keywords: JavaScript, feature layers, feature service, performance
 - Catalogues: European Dev & Tech Summit
 - Speakers: Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 1); David McRitchie (Esri UK; Distributor Esri Speaker; ID: 1688977729096001S1Of\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T19:15:12Z
+- Source modified: 2026-10-20T06:30:39Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495907455001Yn0k>)
 
@@ -1142,7 +1142,7 @@ In the City of Baden-Baden firefighters work with a digital incident file. As so
 - Keywords: ArcGIS GeoEvent Server, ArcGIS Maps SDK for Javascript, Python, Solution, real-time
 - Catalogues: European Dev & Tech Summit
 - Speakers: Christian Stern (Stadt Baden-Baden; Primary Speaker; ID: 1688390643466001Eofv\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-01T17:36:02Z
+- Source modified: 2026-10-20T06:47:06Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1783674210845001PV05>)
 
@@ -1166,7 +1166,7 @@ Network planning often involves complex workflows, multiple systems, and manual 
 - Keywords: ArcGIS Enterprise, Native SDKs, web
 - Catalogues: European Dev & Tech Summit
 - Speakers: Simon Schuster (Baral Geohaus-Consulting AG; Primary Speaker; ID: 1732029130124001YMfP\_1777494026euroepcdev; Order: 0)
-- Source modified: 2026-10-01T17:36:02Z
+- Source modified: 2026-10-20T06:53:19Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1788250442445001vlrN>)
 
@@ -1212,7 +1212,7 @@ Urban trees are critical infrastructure in the fight against climate change, yet
 - Keywords: AI applications, Digital Twin, climate resilience, deep learning, remote sensing, smart city, sustainable urban development, tree detection, urban green infrastructure
 - Catalogues: European Dev & Tech Summit
 - Speakers: Janis Müller (ARC-GREENLAB GmbH; Primary Speaker; ID: 1653974956213001N9ME\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:36:47Z
+- Source modified: 2026-10-20T06:30:39Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1782801069412001KX4l>)
 
@@ -1239,7 +1239,7 @@ ArcGIS Arcade is a simple but powerful expression language developed by Esri to 
 - Keywords: Arcade, expressions, fundamentals
 - Catalogues: European Dev & Tech Summit
 - Speakers: Lisa Keurentjes (Esri Netherlands; Distributor Esri Speaker; ID: 1752500167043001nk2t\_1777494026euroepcdev; Order: 1); Maartje Holtslag (Esri Netherlands; Distributor Esri Speaker; ID: 1646230356944001AmDt\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:33:45Z
+- Source modified: 2026-10-19T15:22:29Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491062415001SeNk>)
 
@@ -1293,7 +1293,7 @@ Join us for the third session in our 4-part series on building applications with
 - Keywords: Calcite Design System, JavaScript, user experience, web components
 - Catalogues: European Dev & Tech Summit
 - Speakers: Keith Morrison (Esri UK; Distributor Esri Speaker; ID: 16466472387190010JgW\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:33:45Z
+- Source modified: 2026-10-20T06:30:39Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494866247001NFxW>)
 
@@ -1320,7 +1320,7 @@ ArcGIS Maps SDKs for Game Engines enable you to build next generation immersive 
 - Keywords: Epic, Unity, Unreal Engine, Virtual Reality, XR, game engine
 - Catalogues: European Dev & Tech Summit
 - Speakers: Àlvar Alonso Roviro (Esri; Esri Speaker; ID: 1736395245286001Ca3N\_1777494026euroepcdev; Order: 1); Luis Flores Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 3); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 4)
-- Source modified: 2026-10-18T19:37:36Z
+- Source modified: 2026-10-19T18:48:15Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490333716001DTRX>)
 
@@ -1529,8 +1529,8 @@ Join us for a practical session on the "3D Object Scene Layer," a new ArcGIS lay
 - Technologies: Cross-Platform, JavaScript, Scene Viewer
 - Keywords: 3D, BIM, data management, scene, system of record, urban planning
 - Catalogues: European Dev & Tech Summit
-- Speakers: Sascha Brunner (Esri; Esri Speaker; ID: 1646186555410001UwXr\_1777494026euroepcdev; Order: 2); Stefan Eilemann (Esri; Esri Speaker; ID: 1646186572837001UFcv\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-07T07:31:24Z
+- Speakers: Sascha Brunner (Esri; Esri Speaker; ID: 1646186555410001UwXr\_1777494026euroepcdev; Order: 2)
+- Source modified: 2026-10-19T16:09:16Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785479769542001G7FA>)
 
@@ -1583,7 +1583,7 @@ This session will share best practices for securing your ArcGIS Enterprise deplo
 - Keywords: best practices, deployments, security
 - Catalogues: European Dev & Tech Summit
 - Speakers: Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev; Order: 1); Karsten Löding (Esri Germany; Distributor Esri Speaker; ID: 1785486524127001qylh\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-20T06:40:55Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486451299001kT94>)
 
@@ -1607,7 +1607,7 @@ In Europe, digital sovereignty is becoming increasingly important. What choices 
 - Keywords: architecture, digital sovereignty, resiliency
 - Catalogues: European Dev & Tech Summit
 - Speakers: Jeroen Van Winden (Esri Netherlands; Distributor Esri Speaker; ID: 1646574099878001D1U7\_1777494026euroepcdev; Order: 1); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-15T19:56:38Z
+- Source modified: 2026-10-19T16:48:00Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493789000001BHsA>)
 
@@ -1633,7 +1633,7 @@ Join us for the fourth session in our 4-part series on building applications wit
 - Keywords: UI/UX, branding, customization, styling, workflows
 - Catalogues: European Dev & Tech Summit
 - Speakers: Keith Morrison (Esri UK; Distributor Esri Speaker; ID: 16466472387190010JgW\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:33:45Z
+- Source modified: 2026-10-20T06:30:39Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495003196001fwKB>)
 
@@ -1706,7 +1706,7 @@ As AI technologies evolve, new protocols are emerging to support intelligent sys
 - Keywords: Agentic Automation, Context-Aware Workflows, Intelligent Orchestration, MCP Server
 - Catalogues: European Dev & Tech Summit
 - Speakers: Mika Dinnus (Esri Germany; Distributor Esri Speaker; ID: 1761319069866001rrzx\_1777494026euroepcdev; Order: 2); Francesco Mazzilli (WhereTech; Distributor Esri Speaker; ID: 1759398453296001taQk\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T10:54:46Z
+- Source modified: 2026-10-20T06:53:19Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491630111001RFvk>)
 
@@ -1733,7 +1733,7 @@ Hosted feature layer views allow you to create multiple unique windows into your
 - Keywords: Hosted Feature Layer, Hosted Feature Layer View, Hosted Feature Service, crowd-source, data, public, survey, viral app
 - Catalogues: European Dev & Tech Summit
 - Speakers: Isla Evans (Esri UK; Distributor Esri Speaker; ID: 1752656924580001Dj9l\_1777494026euroepcdev; Order: 1); Maartje Holtslag (Esri Netherlands; Distributor Esri Speaker; ID: 1646230356944001AmDt\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:29:32Z
+- Source modified: 2026-10-20T06:30:39Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785488928741001oo5e>)
 
@@ -1781,7 +1781,7 @@ ArcGIS Enterprise 11 retires the ArcMap runtime and legacy .NET Framework 4 serv
 - Keywords: .NET, AI, DevOps, SOE
 - Catalogues: European Dev & Tech Summit
 - Speakers: Antonín Procházka (CETIN a.s.; Primary Speaker; ID: 1758894896692001LPgp\_1777494026euroepcdev; Order: 0)
-- Source modified: 2026-10-13T20:43:20Z
+- Source modified: 2026-10-19T17:06:16Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1788273633838001XpDj>)
 
@@ -1806,7 +1806,7 @@ Learn how you can build an AI assistant for a web application using the framewor
 - Keywords: AI assistants, workflows
 - Catalogues: European Dev & Tech Summit
 - Speakers: Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 1); Mika Dinnus (Esri Germany; Distributor Esri Speaker; ID: 1761319069866001rrzx\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-20T06:14:14Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495094887001f0XA>)
 
@@ -1912,7 +1912,7 @@ In this technical session, learn how to process and create reality mapping produ
 - Keywords: Aerial, DSM, Drone, Mesh, Point Cloud, Python, Reality Mapping, Satellite, True Ortho, imagery, orthomosaic
 - Catalogues: European Dev & Tech Summit
 - Speakers: Tobias Hauck (Esri; Esri Speaker; ID: 16461867668570017XQ1\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-16T19:14:18Z
+- Source modified: 2026-10-19T18:52:24Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490979762001RveD>)
 
@@ -2097,7 +2097,7 @@ Join us to learn about no-code data engineering and automation with ArcGIS Data 
 - Keywords: ETL, automation, data engineering, data management
 - Catalogues: European Dev & Tech Summit
 - Speakers: Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev; Order: 1); Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-16T20:29:32Z
+- Source modified: 2026-10-20T06:14:14Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490036168001dnx0>)
 
@@ -2124,7 +2124,7 @@ ArcGIS Notebooks provides a range of options for automating workflows, allowing 
 - Keywords: APIs, ArcGIS Enterprise, ArcGIS Notebook Server, Python, automation, notebooks, scheduling, web tool, webhook
 - Catalogues: European Dev & Tech Summit
 - Speakers: Edwin van Meijeren (Esri Netherlands; Distributor Esri Speaker; ID: 1688108508099001iZyO\_1777494026euroepcdev; Order: 1); Lisa Keurentjes (Esri Netherlands; Distributor Esri Speaker; ID: 1752500167043001nk2t\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-19T15:22:29Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485972033001CCuC>)
 
@@ -2151,7 +2151,7 @@ Discover how to upgrade ArcGIS Enterprise with minimal disruption using a blue-g
 - Keywords: Blue-Green Deployment, Business Continuity, Risk Mitigation
 - Catalogues: European Dev & Tech Summit
 - Speakers: Jakub Šilhavý (Arcdata Praha; Distributor Esri Speaker; ID: 1644976526395001WK5N\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-16T20:33:45Z
+- Source modified: 2026-10-19T15:06:06Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785491397743001mAwB>)
 
@@ -2204,7 +2204,7 @@ Session ID: 1785485000997001sFa2 · Code: APP-1074
 - Keywords: ArcGIS Survey123, JavaScript, web
 - Catalogues: European Dev & Tech Summit
 - Speakers: Issy Amis (Esri UK; Distributor Esri Speaker; ID: 1661355709567001zji6\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-18T18:50:53Z
+- Source modified: 2026-10-20T06:32:42Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485000997001sFa2>)
 
@@ -2358,7 +2358,7 @@ ArcGIS GeoAnalytics Engine is a developer solution for analyzing large spatial d
 - Keywords: ArcGIS GeoAnalytics for Fabric, Spark, big data, geocoding, network analysis, spatial analytics, spatial data science
 - Catalogues: European Dev & Tech Summit
 - Speakers: Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev; Order: 1); Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-16T04:02:38Z
+- Source modified: 2026-10-20T06:14:14Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785483613452001PuZq>)
 
@@ -2411,7 +2411,7 @@ Interested in building a digital twin with ArcGIS and bringing it to life in a g
 - Keywords: Epic, Unity, Unreal Engine, Virtual Reality, XR, game engine
 - Catalogues: European Dev & Tech Summit
 - Speakers: Luis Flores Carrubio (Esri; Esri Speaker; ID: 16570356816440012A7R\_1777494026euroepcdev; Order: 1); Àlvar Alonso Roviro (Esri; Esri Speaker; ID: 1736395245286001Ca3N\_1777494026euroepcdev; Order: 2); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-18T19:37:36Z
+- Source modified: 2026-10-19T18:51:37Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785490499081001qENE>)
 
@@ -2438,7 +2438,7 @@ Join us in this session to learn the essentials of building and maintaining vira
 - Keywords: datastore, feature layer data profiles, updating data, usage, views
 - Catalogues: European Dev & Tech Summit
 - Speakers: Robin Renggli (Esri; Esri Speaker; ID: 1730491243402003pvAB\_1777494026euroepcdev; Order: 1); David McRitchie (Esri UK; Distributor Esri Speaker; ID: 1688977729096001S1Of\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T19:11:35Z
+- Source modified: 2026-10-20T06:30:39Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489101482001RTUA>)
 
@@ -2546,7 +2546,7 @@ Learn about the different security options available for accessing Esri's secure
 - Keywords: API keys, JavaScript, OAuth, application development, secure services, security
 - Catalogues: European Dev & Tech Summit
 - Speakers: Dave Olsthoorn (Esri Netherlands; Distributor Esri Speaker; ID: 1704900814996001CSLp\_1777494026euroepcdev; Order: 2); Raúl Jimenez (Esri; Esri Speaker; ID: 16461864564160013IwI\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-18T15:47:56Z
+- Source modified: 2026-10-19T15:22:29Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487648507001JydR>)
 
@@ -2599,7 +2599,7 @@ Planning ahead when upgrading to a new release of ArcGIS Enterprise allows you t
 - Keywords: deployment, upgrading
 - Catalogues: European Dev & Tech Summit
 - Speakers: Sam Libby (Esri; Esri Speaker; ID: 1646186624672001hIQd\_1777494026euroepcdev; Order: 1); Christian Grass (Esri Switzerland; Distributor Esri Speaker; ID: 1688971316092001Z7Bd\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-19T14:23:34Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785487230377001mEju>)
 
@@ -2675,7 +2675,7 @@ Arcade expressions allow you to break free of your data model and derive new inf
 - Keywords: ArcGIS Field Maps, Arcade, smart forms
 - Catalogues: European Dev & Tech Summit
 - Speakers: Christian Grass (Esri Switzerland; Distributor Esri Speaker; ID: 1688971316092001Z7Bd\_1777494026euroepcdev; Order: 2); Olivia Mitchell (Esri UK; Distributor Esri Speaker; ID: 1688984653847001LV4O\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-19T14:23:34Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484717497001i0tK>)
 
@@ -2729,7 +2729,7 @@ Effectively managing and operating systems requires that staff and responsible t
 - Keywords: enterprise GIS, monitoring, performance, system downtime, system health
 - Catalogues: European Dev & Tech Summit
 - Speakers: Alberto Ordonez (Esri Spain; Distributor Esri Speaker; ID: 1683721806507001uz00\_1777494026euroepcdev; Order: 1); Andrés Paredes (Esri Spain; Distributor Esri Speaker; ID: 1751270724382001REeN\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-20T06:40:55Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486877948001udxW>)
 
@@ -2756,7 +2756,7 @@ Discover how AI can be integrated into ArcGIS Survey123 to streamline workflows,
 - Keywords: AI assistants, smart forms
 - Catalogues: European Dev & Tech Summit
 - Speakers: Filip Ciółkowski (Esri Polska; Distributor Esri Speaker; ID: 1761561730987001zBFj\_1777494026euroepcdev; Order: 1); Priyanka Tuteja (Esri; Esri Speaker; ID: 1646186385318001gngB\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T03:01:23Z
+- Source modified: 2026-10-20T06:16:18Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785485538445001FfUd>)
 
@@ -2837,7 +2837,7 @@ Learn how to use powerful developer technologies to integrate data with ArcGIS E
 - Keywords: SOE, SOI, custom data feeds, extending services
 - Catalogues: European Dev & Tech Summit
 - Speakers: Karsten Löding (Esri Germany; Distributor Esri Speaker; ID: 1785486524127001qylh\_1777494026euroepcdev; Order: 1); Thomas Paschke (Esri Germany; Distributor Esri Speaker; ID: 1646668465145001ElR0\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T20:22:16Z
+- Source modified: 2026-10-20T06:40:55Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486678088001UO2a>)
 
@@ -2864,7 +2864,7 @@ Python is a powerful open source programming language that you can use across th
 - Keywords: Anaconda, Conda, Jupyter, Python, notebooks
 - Catalogues: European Dev & Tech Summit
 - Speakers: Suzanne Foss (Esri; Esri Speaker; ID: 1644920241294001EBEB\_1777494026euroepcdev; Order: 1); Francesco Mazzilli (WhereTech; Distributor Esri Speaker; ID: 1759398453296001taQk\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-16T20:33:45Z
+- Source modified: 2026-10-20T06:53:19Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492551934001fcc9>)
 
@@ -2997,7 +2997,7 @@ In this session we will discuss advanced topics such as building ArcGIS Maps SDK
 - Keywords: .NET, Android, MAUI, UWP, WinUI, Windows, Xamarin, iOS, macOS, maps, native
 - Catalogues: European Dev & Tech Summit
 - Speakers: Jennifer Merritt (Esri; Esri Speaker; ID: 1646185721750001ennW\_1777494026euroepcdev; Order: 1); Michael Branscomb (Esri; Esri Speaker; ID: 1644920232435001E8I7\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-17T11:42:36Z
+- Source modified: 2026-10-19T18:52:35Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492028686001iLdL>)
 
@@ -3023,8 +3023,8 @@ Learn the basics of how to turn your raw data into information that tells a stor
 - Technologies: JavaScript, Arcade, Map Viewer, Calcite Design System
 - Keywords: 2D, JavaScript, visualization
 - Catalogues: European Dev & Tech Summit
-- Speakers: Stefan Eilemann (Esri; Esri Speaker; ID: 1646186572837001UFcv\_1777494026euroepcdev; Order: 2); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-07T07:31:24Z
+- Speakers: Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 3)
+- Source modified: 2026-10-19T16:11:59Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785495505595001u7S6>)
 
@@ -3075,7 +3075,7 @@ ArcGIS Pro has provided the Diagnostic Monitor for quite some time. Now that the
 - Keywords: ArcGIS Pro, Diagnostic Monitor, performance
 - Catalogues: European Dev & Tech Summit
 - Speakers: Filip Ciółkowski (Esri Polska; Distributor Esri Speaker; ID: 1761561730987001zBFj\_1777494026euroepcdev; Order: 1); Gerhard "Luigi" Trichtl (SynerGIS Informationsysteme GmbH; Distributor Esri Speaker; ID: 1644976466640001sbi5\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-16T19:55:27Z
+- Source modified: 2026-10-20T06:16:18Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785489191804001FZif>)
 
@@ -3917,30 +3917,6 @@ Speaker ID: 1732029130124001YMfP\_1777494026euroepcdev
 - Source modified: 2026-09-01T08:17:55Z
 
 Biography not provided.
-
-### Stefan Eilemann
-
-Speaker ID: 1646186572837001UFcv\_1777494026euroepcdev
-
-- First name: Stefan
-- Last name: Eilemann
-- Company: Esri
-- [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1646186572837001UFcv/attprofile/me2_1791358284520001KZKi.jpeg>)
-- Source modified: 2026-08-19T19:48:05Z
-
-Stefan Eilemann works as a senior 3D software engineer in the ArcGIS Maps SDK for Javascript. Previously he was the technical manager of the Visualization Team in the Blue Brain Project, is the CEO and founder of Eyescale, and the lead developer of the Equalizer parallel rendering framework. He received his PhD in Computer Science at the Visualization and MultiMedia Lab at the University of Zurich in 2019, and his masters degree in Computer Science from EPFL in 2015.
-
-### Stefan Schläfli
-
-Speaker ID: 1757394953687001PoIg\_1777494026euroepcdev
-
-- First name: Stefan
-- Last name: Schläfli
-- Company: Esri Switzerland
-- [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1757394953687001PoIg/attprofile/ESRI%20Z%C3%BCrich%203_1790148191358001FZq8.jpg>)
-- Source modified: 2026-08-27T20:25:26Z
-
-Stefan is a software engineer working for Esri Switzerland in Zürich. He is customizing Esri products and developing software for Swiss customers.
 
 ### Suzanne Foss
 
