@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-20T09:28:58.512Z  
+Source captured: 2026-10-21T09:24:50.768Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 73 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: 3bf033bdfa38b1c83eeb9f30e4c8b009bf952a929823da4249895834983882f9
+Source SHA-256: c0247e8d7f3664da35afcdf0c2c006723a2dde8e3a03c4516f635b0e679f68ce
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -208,9 +208,9 @@ Session ID: 1785494387567001kitV · Code: WEB-1136
 
 - When: 2026-10-20 14:30–2026-10-20 15:30 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-20T12:30:00Z–2026-10-20T13:30:00Z
-- Room: Spektrum 2—Level C2 | Congress Center
+- Room: Spektrum 1—Level C2 | Congress Center
 - Occurrence ID: 1787337562770001vupb
-- Room ID: 1786046266181001JATn
+- Room ID: 1786046266158001J1Lr
 - Attendance: In person: yes; Virtual: no
 
 Attend this session to get a tour of the most important advancements in the ArcGIS Maps SDK for JavaScript that were introduced over the last year, and get inspired with new ideas for your web apps. You'll also get a taste for what other sessions will cover, which will help you plan your week at the conference.
@@ -225,7 +225,7 @@ Attend this session to get a tour of the most important advancements in the ArcG
 - Keywords: 3D, JavaScript, analysis, editing, layers, performance, visualization, web development
 - Catalogues: European Dev & Tech Summit
 - Speakers: Julie Powell (Esri; Esri Speaker; ID: 1644920238602001EAxm\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-19T16:10:58Z
+- Source modified: 2026-10-20T11:48:46Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785494387567001kitV>)
 
@@ -288,9 +288,9 @@ Session ID: 1785492427169001yOxW · Code: PY-1123
 
 - When: 2026-10-20 14:30–2026-10-20 15:30 (Europe/Berlin; 60 minutes)
 - UTC: 2026-10-20T12:30:00Z–2026-10-20T13:30:00Z
-- Room: Spektrum 1—Level C2 | Congress Center
+- Room: Spektrum 2—Level C2 | Congress Center
 - Occurrence ID: 1786152078134001MWzd
-- Room ID: 1786046266158001J1Lr
+- Room ID: 1786046266181001JATn
 - Attendance: In person: yes; Virtual: no
 
 Python is the language of ArcGIS, used for creating tools and automating processes and models for performing analysis and managing data, through the ArcGIS Pro interface, in Notebooks, and as standalone scripts, on desktops, on your servers, or on ArcGIS Online. Python is quite flexible in its ability to combine ArcPy and the ArcGIS API for Python with thousands of other packages, available in the Anaconda repository and elsewhere. Also covered will be the full set of resources available to developers for success: samples, open source projects, training, videos, and community forums.
@@ -305,7 +305,7 @@ Python is the language of ArcGIS, used for creating tools and automating process
 - Keywords: AI, Python, automating, deep learning, machine learning, scripts, strategies, web GIS
 - Catalogues: European Dev & Tech Summit
 - Speakers: Danny Hatcher (Esri; Esri Speaker; ID: 1646187451713001AsOL\_1777494026euroepcdev; Order: 1)
-- Source modified: 2026-10-01T17:36:03Z
+- Source modified: 2026-10-20T11:49:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785492427169001yOxW>)
 
@@ -2729,7 +2729,7 @@ Effectively managing and operating systems requires that staff and responsible t
 - Keywords: enterprise GIS, monitoring, performance, system downtime, system health
 - Catalogues: European Dev & Tech Summit
 - Speakers: Alberto Ordonez (Esri Spain; Distributor Esri Speaker; ID: 1683721806507001uz00\_1777494026euroepcdev; Order: 1); Andrés Paredes (Esri Spain; Distributor Esri Speaker; ID: 1751270724382001REeN\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-20T06:40:55Z
+- Source modified: 2026-10-20T15:46:06Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785486877948001udxW>)
 
@@ -2969,7 +2969,7 @@ Join us for an action-packed session to discover the hidden gems of ArcGIS Exper
 - Technologies: JavaScript
 - Keywords: Design, calcite component, custom theme, layout, mobile optimization, style, web applications
 - Catalogues: European Dev & Tech Summit
-- Speakers: Robert van Gilst (GeoInfo; Distributor Esri Speaker; ID: 1705406753000001QVwK\_1777494026euroepcdev; Order: 3)
+- Speakers: Robert van Gilst (GeoInfo; Distributor Esri Speaker; ID: 1705406753000001QVwK\_1777494026euroepcdev; Order: 1)
 - Source modified: 2026-10-01T17:36:03Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785484407097001or0h>)
@@ -3854,7 +3854,7 @@ Speaker ID: 1705406753000001QVwK\_1777494026euroepcdev
 - Last name: van Gilst
 - Company: GeoInfo
 - [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1705406753000001QVwK/attprofile/_54A9986_1789109654056001D5E1.JPG>)
-- Source modified: 2026-08-21T17:45:24Z
+- Source modified: 2026-10-21T06:21:58Z
 
 Robert van Gilst has been with Geoinfo, the Danish esri distributor, as a Senior GIS Developer since 2019. Roberts journey as a GIS Developer started in 2008 and has never looked back since. Robert creates solutions on all levels of ArcGIS Enterprise: frontend, backend and integrations.
 
