@@ -2,8 +2,8 @@
   "schemaVersion": "3.0.0",
   "source": {
     "url": "https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda",
-    "scrapedAt": "2026-10-21T09:24:50.768Z",
-    "contentSha256": "c0247e8d7f3664da35afcdf0c2c006723a2dde8e3a03c4516f635b0e679f68ce",
+    "scrapedAt": "2026-10-22T09:27:33.947Z",
+    "contentSha256": "7e8a13fbd249d3ece378ce8f7007d3246f47656c891c4dc10575b3cfb5c874da",
     "scope": "All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities."
   },
   "event": {

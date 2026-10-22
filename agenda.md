@@ -1,14 +1,14 @@
 # Esri European Developer & Technology Summit 2026
 
 Timezone: Europe/Berlin  
-Source captured: 2026-10-21T09:24:50.768Z  
+Source captured: 2026-10-22T09:27:33.947Z  
 [Official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda>) · [JSON agenda](agenda.json)
 
 120 sessions · 120 occurrences · 73 speaker profiles.
 
 Registration event: 2026 Esri European Partner Conference and Developer & Technology Summit  
 Event ID: 1777494026euroepcdev  
-Source SHA-256: c0247e8d7f3664da35afcdf0c2c006723a2dde8e3a03c4516f635b0e679f68ce
+Source SHA-256: 7e8a13fbd249d3ece378ce8f7007d3246f47656c891c4dc10575b3cfb5c874da
 
 All public entries exposed by the detailed agenda catalogue, including shared partner-conference activities.
 
@@ -56,7 +56,7 @@ The plenary session kicks off by welcoming attendees to the event, followed by a
 - Language: en
 - Catalogues: European Dev & Tech Summit, European Partner Conference
 - Speakers: David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 1); Jeroen Van Winden (Esri Netherlands; Distributor Esri Speaker; ID: 1646574099878001D1U7\_1777494026euroepcdev; Order: 1); Euan Cameron (Esri; Esri Speaker; ID: 1644920245288001E1ZD\_1777494026euroepcdev; Order: 2); Kristian Ekenes (Esri; Esri Speaker; ID: 1644920237792001E11J\_1777494026euroepcdev; Order: 3)
-- Source modified: 2026-10-19T16:48:00Z
+- Source modified: 2026-10-21T13:43:34Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1784749490908001LwLL>)
 
@@ -1607,7 +1607,7 @@ In Europe, digital sovereignty is becoming increasingly important. What choices 
 - Keywords: architecture, digital sovereignty, resiliency
 - Catalogues: European Dev & Tech Summit
 - Speakers: Jeroen Van Winden (Esri Netherlands; Distributor Esri Speaker; ID: 1646574099878001D1U7\_1777494026euroepcdev; Order: 1); David Cardella (Esri; Esri Speaker; ID: 1644920245340001EIi0\_1777494026euroepcdev; Order: 2)
-- Source modified: 2026-10-19T16:48:00Z
+- Source modified: 2026-10-21T13:43:34Z
 
 [Session on the official agenda](<https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda/session/1785493789000001BHsA>)
 
@@ -3538,7 +3538,7 @@ Speaker ID: 1646574099878001D1U7\_1777494026euroepcdev
 - First name: Jeroen
 - Last name: Van Winden
 - Company: Esri Netherlands
-- Job title: CTO
+- Job title: CTO Esri Netherlands
 - [Photo](<https://static.rainfocus.com/esri/26euroepcdev/att/1646574099878001D1U7/attprofile/JVW_1790925876157001rnvn.JPG>)
 - Source modified: 2026-08-21T16:16:43Z
 
