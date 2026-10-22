@@ -1,6 +1,6 @@
 # Esri European Developer & Technology Summit 2026 agenda
 
-Session data from [Esri's detailed agenda](https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda), refreshed daily.
+Archived session data from [Esri's detailed agenda](https://registration.esri.com/flow/esri/26euroepcdev/deveventportal/page/detailed-agenda). Automatic updates are disabled now that the event has ended.
 
 [Agenda data page](https://saschabrunnerch.github.io/esri-devsummit-europe-2026-agenda/) · [JSON endpoint](https://SaschaBrunnerCH.github.io/esri-devsummit-europe-2026-agenda/agenda.json) · [Markdown endpoint](https://SaschaBrunnerCH.github.io/esri-devsummit-europe-2026-agenda/agenda.md) · [Schema endpoint](https://SaschaBrunnerCH.github.io/esri-devsummit-europe-2026-agenda/agenda.schema.json)
 
@@ -29,7 +29,9 @@ Raw capture: `data/raw/agenda.json`. Generated site: `public/`, including JSON, 
 | CI artifact | Raw capture for debugging, retained for 30 days |
 | `gh-pages` | Public JSON, Markdown, schema, and agenda data page with change history |
 
-The [workflow](.github/workflows/update-agenda.yml) runs at **04:17 UTC**, on pushes to `main`, or manually. It tests, scrapes, validates, records changed exports on `gh-pages`, then deploys the same files through GitHub Pages Actions. Enable **Settings → Pages → Source → GitHub Actions** once; private repositories need a plan supporting Pages.
+The [workflow](.github/workflows/update-agenda.yml.disabled) is disabled now that the event has ended. The last published site and exports remain available. To re-enable automatic updates and deployment, rename it to `update-agenda.yml`.
+
+When enabled, the workflow runs at **04:17 UTC**, on pushes to `main`, or manually. It tests, scrapes, validates, records changed exports on `gh-pages`, then deploys the same files through GitHub Pages Actions. Enable **Settings → Pages → Source → GitHub Actions** once; private repositories need a plan supporting Pages.
 
 Unchanged source content keeps its first capture timestamp, avoiding daily history commits caused only by the clock. The raw artifact retains the current run's capture time. Publication failures leave the previous live site available.
 

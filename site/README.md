@@ -12,4 +12,4 @@ Plain HTML and CSS; JavaScript copies the JSON link and prompt, and shows the so
 
 Six role tabs, including AI, illustrate the output with the shared plenary, closing session, and reviewed technical sessions for all three days. Session titles link to the official pages; IDs and non-session activities are omitted. Titles, times, and rooms come from the local JSON. These are examples of a possible answer, not live agent-generated results.
 
-Generation and publication include the page, CSS, JavaScript modules, and WebP banner. Pushing to `main` deploys them through the agenda workflow, which also runs daily.
+Generation and publication include the page, CSS, JavaScript modules, and WebP banner. Automatic updates and deployment are disabled now that the event has ended; the last published site remains available. See the [publication instructions](../README.md#publication) to re-enable the agenda workflow.

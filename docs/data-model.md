@@ -15,7 +15,7 @@ An occurrence is a scheduled presentation of a session: its own ID, UTC start/en
 
 The [generator](../scripts/generate-agenda.mjs) validates before writing `public/agenda.json` and `public/agenda.md`, alongside the schema and link page. Both exports order sessions by their first occurrence's local date, time, then title (English alphabetical order), with session ID breaking ties. Occurrences sort by local date/time, UTC start, then ID. Unscheduled sessions come last, sorted by title and ID. JSON keeps each session on one compact line for smaller downloads and readable Git diffs; metadata remains indented. Markdown is generated from the full capture and includes all repeats, session speaker details, and a speaker-profile section.
 
-CI stores raw captures as debugging artifacts and commits public exports on `gh-pages`. When source content is unchanged, publication retains its first capture timestamp; the raw artifact records the latest capture. The digest identifies source content, while Git history also records changes to processing and presentation. Local `data/raw/` and `public/` are ignored by Git.
+Automatic updates and deployment are disabled now that the event has ended. When enabled, CI stores raw captures as debugging artifacts and commits public exports on `gh-pages`. When source content is unchanged, publication retains its first capture timestamp; the raw artifact records the latest capture. The digest identifies source content, while Git history also records changes to processing and presentation. Local `data/raw/` and `public/` are ignored by Git.
 
 ## Source handling
 
@@ -46,4 +46,4 @@ The separate [discovery catalogue](keyword-catalog.json) lists labels, aliases, 
 
 The [raw schema](../schemas/raw-agenda.schema.json) permits additional source fields; the public schema rejects extra properties. The [validator](../scripts/validate-data.mjs) also checks IDs and UTC/local times, plus raw durations, speaker references and counts, and the source digest. Before publishing, both exports must match the same raw capture; this check requires the raw file (`--input`, default `data/raw/agenda.json`). Agenda overlaps are valid; personal schedules will resolve conflicts later.
 
-Use the [README](../README.md) for commands, endpoints, and the publication layout. The same workflow records history and deploys the Pages artifact directly; it does not depend on the `gh-pages` push triggering another build.
+Use the [README](../README.md) for commands, endpoints, the publication layout, and instructions to re-enable the workflow. When enabled, the same workflow records history and deploys the Pages artifact directly; it does not depend on the `gh-pages` push triggering another build.
